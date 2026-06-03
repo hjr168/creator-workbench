@@ -1,6 +1,70 @@
 {
   "topics": [
     {
+      "id": "topic-1780477088778",
+      "title": "Satya Nadella 谈微软 Build 大会主旨演讲",
+      "direction": "产品思考",
+      "platforms": [
+        "公众号"
+      ],
+      "contentType": "长文",
+      "status": "待创作",
+      "tags": [
+        "行业动态"
+      ],
+      "note": "与我们共同构建前沿智能生态系统。\n\n今早我在 Microsoft Build 上的主旨演讲亮点。\n来源：X：Satya Nadella (@satyanadella)\nhttps://x.com/satyanadella/status/2062022060176801826\naihot:cmpxjje1j04kwslckd0qcw0s7",
+      "createdAt": "2026-06-03T08:58:08.778Z",
+      "updatedAt": "2026-06-03T08:58:08.778Z"
+    },
+    {
+      "id": "topic-1780476884381",
+      "title": "消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投",
+      "direction": "产品思考",
+      "platforms": [
+        "公众号"
+      ],
+      "contentType": "长文",
+      "status": "待创作",
+      "tags": [
+        "行业动态"
+      ],
+      "note": "DeepSeek 计划在首轮融资中从腾讯、宁德时代等投资方处筹集约 500 亿元人民币。融资落地后，其投后估值预计在 3500 亿至 4000 亿元。创始人梁文峰将出资 200 亿元，腾讯和宁德时代分别拟投资 100 亿元和 50 亿元，成为最大外部投资者。DeepSeek 去年凭借 V3 大模型与 R1 推理模型获得广泛认可。此次融资凸显了中国正打造从大模型到算力能源基建的全链条 AI 产业。\n来源：IT之家（RSS）\nhttps://www.ithome.com/0/959/249.htm\naihot:cmpxlx0y5058eslckymzyv282",
+      "createdAt": "2026-06-03T08:54:44.381Z",
+      "updatedAt": "2026-06-03T08:54:44.381Z"
+    },
+    {
+      "id": "topic-1780475819954",
+      "title": "NousResearch 发布 Hermes Agent 桌面应用公测版",
+      "direction": "AI工具",
+      "platforms": [
+        "公众号"
+      ],
+      "contentType": "长文",
+      "status": "待创作",
+      "tags": [
+        "AI产品"
+      ],
+      "note": "官方 Hermes Agent 桌面应用现已推出！\n来源：X：硅基流动 SiliconFlow (@SiliconFlowAI)\nhttps://x.com/SiliconFlowAI/status/2062042813852995899\naihot:cmpxnygnz05rnslckz87nvi12",
+      "createdAt": "2026-06-03T08:36:59.954Z",
+      "updatedAt": "2026-06-03T08:36:59.954Z"
+    },
+    {
+      "id": "topic-1780474640759",
+      "title": "Karpathy 的 llm-wiki 项目获超五千星",
+      "direction": "AI工具",
+      "platforms": [
+        "公众号"
+      ],
+      "contentType": "长文",
+      "status": "待创作",
+      "tags": [
+        "AI技巧"
+      ],
+      "note": "@karpathy 的 llm-wiki 在几周内获得了 5，000+ 颗星。\n\n其理念是：停止在每个会话中重新发现知识。让一个大语言模型构建并维护一个维基，每次使用时它都会变得更智能。\n\n以下是如何使用 @opencode + @justsisyphus OMO + SiliconFlow 构建你自己的版本 🧵\n来源：X：硅基流动 SiliconFlow (@SiliconFlowAI)\nhttps://x.com/SiliconFlowAI/status/2062054848762450324\naihot:cmpxp1npl061rslckexyk9lam",
+      "createdAt": "2026-06-03T08:17:20.758Z",
+      "updatedAt": "2026-06-03T08:17:20.758Z"
+    },
+    {
       "id": "topic-001",
       "title": "为什么产品经理需要把 AI 工具变成工作流，而不是收藏夹",
       "direction": "AI工具",
@@ -27,14 +91,14 @@
         "公众号"
       ],
       "contentType": "长文",
-      "status": "灵感",
+      "status": "待创作",
       "tags": [
         "个人IP",
         "内容系统",
         "复盘"
       ],
       "createdAt": "2026-06-03T11:00:00+08:00",
-      "updatedAt": "2026-06-03T11:00:00+08:00"
+      "updatedAt": "2026-06-03T07:41:57.945Z"
     },
     {
       "id": "topic-003",
@@ -56,6 +120,409 @@
     }
   ],
   "creationSessions": [
+    {
+      "id": "session-1780477088779",
+      "topicId": "topic-1780477088778",
+      "topicSnapshot": {
+        "id": "topic-1780477088778",
+        "title": "Satya Nadella 谈微软 Build 大会主旨演讲",
+        "direction": "产品思考",
+        "platforms": [
+          "公众号"
+        ],
+        "contentType": "长文",
+        "status": "待创作",
+        "tags": [
+          "行业动态"
+        ],
+        "note": "与我们共同构建前沿智能生态系统。\n\n今早我在 Microsoft Build 上的主旨演讲亮点。\n来源：X：Satya Nadella (@satyanadella)\nhttps://x.com/satyanadella/status/2062022060176801826\naihot:cmpxjje1j04kwslckd0qcw0s7",
+        "createdAt": "2026-06-03T08:58:08.778Z",
+        "updatedAt": "2026-06-03T08:58:08.778Z"
+      },
+      "currentStep": "内容生成",
+      "status": "进行中",
+      "targetPlatform": "公众号",
+      "targetContentType": "长文",
+      "decisions": [
+        {
+          "id": "decision-topic-1780477088779",
+          "step": "选题确认",
+          "status": "已确认",
+          "question": "是否把「Satya Nadella 谈微软 Build 大会主旨演讲」作为当前要推进的选题？",
+          "createdAt": "2026-06-03T08:58:08.778Z",
+          "updatedAt": "2026-06-03T08:58:12.300Z",
+          "answer": "已确认作为当前推进选题。"
+        },
+        {
+          "id": "decision-angle-1780477092301",
+          "step": "角度确认",
+          "status": "已确认",
+          "question": "这个选题先按哪个角度推进？",
+          "options": [
+            "观点",
+            "案例",
+            "工具评测",
+            "方法论",
+            "项目复盘",
+            "个人实验",
+            "趋势观察"
+          ],
+          "confirmedValue": "趋势观察",
+          "createdAt": "2026-06-03T08:58:12.300Z",
+          "updatedAt": "2026-06-03T08:58:37.630Z",
+          "answer": "按「趋势观察」推进，后续可在大纲里继续调整。"
+        },
+        {
+          "id": "decision-title-1780477092301",
+          "step": "标题确认",
+          "status": "已确认",
+          "question": "选择一个标题候选，或输入自定义标题。",
+          "options": [
+            "Satya Nadella 谈微软 Build 大会主旨演讲",
+            "我是如何理解：Satya Nadella 谈微软 Build 大会主旨演讲",
+            "Satya Nadella 谈微软 Build 大会主旨演讲：从想法到稳定流程"
+          ],
+          "createdAt": "2026-06-03T08:58:12.300Z",
+          "updatedAt": "2026-06-03T08:58:51.116Z",
+          "answer": "选择「Satya Nadella 谈微软 Build 大会主旨演讲：从想法到稳定流程」作为标题。",
+          "confirmedValue": "Satya Nadella 谈微软 Build 大会主旨演讲：从想法到稳定流程"
+        },
+        {
+          "id": "decision-outline-1780477131119",
+          "step": "大纲确认",
+          "status": "已确认",
+          "question": "是否确认当前大纲并准备生成公众号草稿？",
+          "createdAt": "2026-06-03T08:58:51.116Z",
+          "updatedAt": "2026-06-03T08:59:03.491Z",
+          "answer": "已确认当前大纲，可以进入工具调用准备。"
+        },
+        {
+          "id": "decision-tool-call-001",
+          "step": "工具调用确认",
+          "status": "已确认",
+          "question": "是否将已确认标题和大纲整理为公众号推文生成输入？",
+          "createdAt": "2026-06-03T08:59:03.491Z",
+          "updatedAt": "2026-06-03T08:59:08.396Z",
+          "answer": "已确认工具调用输入。"
+        }
+      ],
+      "createdAt": "2026-06-03T08:58:08.778Z",
+      "updatedAt": "2026-06-03T08:59:08.396Z",
+      "confirmedAngle": "趋势观察",
+      "confirmedTitleId": "title-1780477092301-3",
+      "confirmedOutlineId": "outline-1780477092301-session-1780477088779"
+    },
+    {
+      "id": "session-1780476884381",
+      "topicId": "topic-1780476884381",
+      "topicSnapshot": {
+        "id": "topic-1780476884381",
+        "title": "消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投",
+        "direction": "产品思考",
+        "platforms": [
+          "公众号"
+        ],
+        "contentType": "长文",
+        "status": "待创作",
+        "tags": [
+          "行业动态"
+        ],
+        "note": "DeepSeek 计划在首轮融资中从腾讯、宁德时代等投资方处筹集约 500 亿元人民币。融资落地后，其投后估值预计在 3500 亿至 4000 亿元。创始人梁文峰将出资 200 亿元，腾讯和宁德时代分别拟投资 100 亿元和 50 亿元，成为最大外部投资者。DeepSeek 去年凭借 V3 大模型与 R1 推理模型获得广泛认可。此次融资凸显了中国正打造从大模型到算力能源基建的全链条 AI 产业。\n来源：IT之家（RSS）\nhttps://www.ithome.com/0/959/249.htm\naihot:cmpxlx0y5058eslckymzyv282",
+        "createdAt": "2026-06-03T08:54:44.381Z",
+        "updatedAt": "2026-06-03T08:54:44.381Z"
+      },
+      "currentStep": "角度确认",
+      "status": "已暂停",
+      "targetPlatform": "公众号",
+      "targetContentType": "长文",
+      "decisions": [
+        {
+          "id": "decision-topic-1780476884381",
+          "step": "选题确认",
+          "status": "已确认",
+          "question": "是否把「消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投」作为当前要推进的选题？",
+          "createdAt": "2026-06-03T08:54:44.381Z",
+          "updatedAt": "2026-06-03T08:54:46.953Z",
+          "answer": "已确认作为当前推进选题。"
+        },
+        {
+          "id": "decision-angle-1780476886954",
+          "step": "角度确认",
+          "status": "待确认",
+          "question": "这个选题先按哪个角度推进？",
+          "options": [
+            "观点",
+            "案例",
+            "工具评测",
+            "方法论",
+            "项目复盘",
+            "个人实验",
+            "趋势观察"
+          ],
+          "confirmedValue": "观点",
+          "createdAt": "2026-06-03T08:54:46.953Z",
+          "updatedAt": "2026-06-03T08:54:46.953Z"
+        },
+        {
+          "id": "decision-title-1780476886954",
+          "step": "标题确认",
+          "status": "待确认",
+          "question": "选择一个标题候选，或输入自定义标题。",
+          "options": [
+            "消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投",
+            "我是如何理解：消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投",
+            "消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投：从想法到稳定流程"
+          ],
+          "createdAt": "2026-06-03T08:54:46.953Z",
+          "updatedAt": "2026-06-03T08:54:46.953Z"
+        },
+        {
+          "id": "decision-outline-1780476886954",
+          "step": "大纲确认",
+          "status": "待确认",
+          "question": "是否确认当前大纲并准备生成公众号草稿？",
+          "createdAt": "2026-06-03T08:54:46.953Z",
+          "updatedAt": "2026-06-03T08:54:46.953Z"
+        }
+      ],
+      "createdAt": "2026-06-03T08:54:44.381Z",
+      "updatedAt": "2026-06-03T08:55:55.764Z"
+    },
+    {
+      "id": "session-1780475819955",
+      "topicId": "topic-1780475819954",
+      "topicSnapshot": {
+        "id": "topic-1780475819954",
+        "title": "NousResearch 发布 Hermes Agent 桌面应用公测版",
+        "direction": "AI工具",
+        "platforms": [
+          "公众号"
+        ],
+        "contentType": "长文",
+        "status": "待创作",
+        "tags": [
+          "AI产品"
+        ],
+        "note": "官方 Hermes Agent 桌面应用现已推出！\n来源：X：硅基流动 SiliconFlow (@SiliconFlowAI)\nhttps://x.com/SiliconFlowAI/status/2062042813852995899\naihot:cmpxnygnz05rnslckz87nvi12",
+        "createdAt": "2026-06-03T08:36:59.954Z",
+        "updatedAt": "2026-06-03T08:36:59.954Z"
+      },
+      "currentStep": "内容生成",
+      "status": "已暂停",
+      "targetPlatform": "公众号",
+      "targetContentType": "长文",
+      "decisions": [
+        {
+          "id": "decision-topic-1780475819955",
+          "step": "选题确认",
+          "status": "已确认",
+          "question": "是否把「NousResearch 发布 Hermes Agent 桌面应用公测版」作为当前要推进的选题？",
+          "createdAt": "2026-06-03T08:36:59.954Z",
+          "updatedAt": "2026-06-03T08:37:12.338Z",
+          "answer": "已确认作为当前推进选题。"
+        },
+        {
+          "id": "decision-angle-1780475832338",
+          "step": "角度确认",
+          "status": "已确认",
+          "question": "这个选题先按哪个角度推进？",
+          "answer": "按「方法论」推进，后续可在大纲里继续调整。",
+          "confirmedValue": "方法论",
+          "createdAt": "2026-06-03T08:37:12.338Z",
+          "updatedAt": "2026-06-03T08:37:12.338Z"
+        },
+        {
+          "id": "decision-title-1780475832338",
+          "step": "标题确认",
+          "status": "已确认",
+          "question": "是否先采用当前标题候选？",
+          "answer": "先采用「NousResearch 发布 Hermes Agent 桌面应用公测版」。",
+          "confirmedValue": "NousResearch 发布 Hermes Agent 桌面应用公测版",
+          "createdAt": "2026-06-03T08:37:12.338Z",
+          "updatedAt": "2026-06-03T08:37:12.338Z"
+        },
+        {
+          "id": "decision-outline-1780475832338",
+          "step": "大纲确认",
+          "status": "已确认",
+          "question": "是否确认当前大纲并准备生成公众号草稿？",
+          "createdAt": "2026-06-03T08:37:12.338Z",
+          "updatedAt": "2026-06-03T08:52:47.488Z",
+          "answer": "已确认当前大纲，可以进入工具调用准备。"
+        },
+        {
+          "id": "decision-tool-call-001",
+          "step": "工具调用确认",
+          "status": "已确认",
+          "question": "是否将已确认标题和大纲整理为公众号推文生成输入？",
+          "createdAt": "2026-06-03T08:52:47.488Z",
+          "updatedAt": "2026-06-03T08:52:50.400Z",
+          "answer": "已确认工具调用输入。"
+        }
+      ],
+      "createdAt": "2026-06-03T08:36:59.954Z",
+      "updatedAt": "2026-06-03T08:58:08.778Z",
+      "confirmedAngle": "方法论",
+      "confirmedTitleId": "title-1780475832338-1",
+      "confirmedOutlineId": "outline-1780475832338-session-1780475819955"
+    },
+    {
+      "id": "session-1780474640759",
+      "topicId": "topic-1780474640759",
+      "topicSnapshot": {
+        "id": "topic-1780474640759",
+        "title": "Karpathy 的 llm-wiki 项目获超五千星",
+        "direction": "AI工具",
+        "platforms": [
+          "公众号"
+        ],
+        "contentType": "长文",
+        "status": "待创作",
+        "tags": [
+          "AI技巧"
+        ],
+        "note": "@karpathy 的 llm-wiki 在几周内获得了 5，000+ 颗星。\n\n其理念是：停止在每个会话中重新发现知识。让一个大语言模型构建并维护一个维基，每次使用时它都会变得更智能。\n\n以下是如何使用 @opencode + @justsisyphus OMO + SiliconFlow 构建你自己的版本 🧵\n来源：X：硅基流动 SiliconFlow (@SiliconFlowAI)\nhttps://x.com/SiliconFlowAI/status/2062054848762450324\naihot:cmpxp1npl061rslckexyk9lam",
+        "createdAt": "2026-06-03T08:17:20.758Z",
+        "updatedAt": "2026-06-03T08:17:20.758Z"
+      },
+      "currentStep": "内容生成",
+      "status": "已暂停",
+      "targetPlatform": "公众号",
+      "targetContentType": "长文",
+      "decisions": [
+        {
+          "id": "decision-topic-1780474640759",
+          "step": "选题确认",
+          "status": "已确认",
+          "question": "是否把「Karpathy 的 llm-wiki 项目获超五千星」作为当前要推进的选题？",
+          "createdAt": "2026-06-03T08:17:20.758Z",
+          "updatedAt": "2026-06-03T08:17:30.342Z",
+          "answer": "已确认作为当前推进选题。"
+        },
+        {
+          "id": "decision-angle-1780474650343",
+          "step": "角度确认",
+          "status": "已确认",
+          "question": "这个选题先按哪个角度推进？",
+          "answer": "按「方法论」推进，后续可在大纲里继续调整。",
+          "confirmedValue": "方法论",
+          "createdAt": "2026-06-03T08:17:30.342Z",
+          "updatedAt": "2026-06-03T08:17:30.342Z"
+        },
+        {
+          "id": "decision-title-1780474650343",
+          "step": "标题确认",
+          "status": "已确认",
+          "question": "是否先采用当前标题候选？",
+          "answer": "先采用「Karpathy 的 llm-wiki 项目获超五千星」。",
+          "confirmedValue": "Karpathy 的 llm-wiki 项目获超五千星",
+          "createdAt": "2026-06-03T08:17:30.342Z",
+          "updatedAt": "2026-06-03T08:17:30.342Z"
+        },
+        {
+          "id": "decision-outline-1780474650343",
+          "step": "大纲确认",
+          "status": "已确认",
+          "question": "是否确认当前大纲并准备生成公众号草稿？",
+          "createdAt": "2026-06-03T08:17:30.342Z",
+          "updatedAt": "2026-06-03T08:17:39.654Z",
+          "answer": "已确认当前大纲，可以进入工具调用准备。"
+        },
+        {
+          "id": "decision-tool-call-001",
+          "step": "工具调用确认",
+          "status": "已确认",
+          "question": "是否将已确认标题和大纲整理为公众号推文生成输入？",
+          "createdAt": "2026-06-03T08:17:39.654Z",
+          "updatedAt": "2026-06-03T08:17:41.524Z",
+          "answer": "已确认工具调用输入。"
+        }
+      ],
+      "createdAt": "2026-06-03T08:17:20.758Z",
+      "updatedAt": "2026-06-03T08:36:59.954Z",
+      "confirmedAngle": "方法论",
+      "confirmedTitleId": "title-1780474650343-1",
+      "confirmedOutlineId": "outline-1780474650343-session-1780474640759"
+    },
+    {
+      "id": "session-1780472517945",
+      "topicId": "topic-002",
+      "topicSnapshot": {
+        "id": "topic-002",
+        "title": "我如何用一个本地工作台替代自动日报",
+        "direction": "自媒体实验",
+        "platforms": [
+          "公众号"
+        ],
+        "contentType": "长文",
+        "status": "待创作",
+        "tags": [
+          "个人IP",
+          "内容系统",
+          "复盘"
+        ],
+        "createdAt": "2026-06-03T11:00:00+08:00",
+        "updatedAt": "2026-06-03T07:41:57.945Z"
+      },
+      "currentStep": "内容生成",
+      "status": "已暂停",
+      "targetPlatform": "公众号",
+      "targetContentType": "长文",
+      "decisions": [
+        {
+          "id": "decision-topic-1780472517945",
+          "step": "选题确认",
+          "status": "已确认",
+          "question": "是否把「我如何用一个本地工作台替代自动日报」作为当前要推进的选题？",
+          "createdAt": "2026-06-03T07:41:57.945Z",
+          "updatedAt": "2026-06-03T07:43:33.609Z",
+          "answer": "已确认作为当前推进选题。"
+        },
+        {
+          "id": "decision-angle-1780472613610",
+          "step": "角度确认",
+          "status": "已确认",
+          "question": "这个选题先按哪个角度推进？",
+          "answer": "按「个人实验」推进，后续可在大纲里继续调整。",
+          "confirmedValue": "个人实验",
+          "createdAt": "2026-06-03T07:43:33.609Z",
+          "updatedAt": "2026-06-03T07:43:33.609Z"
+        },
+        {
+          "id": "decision-title-1780472613610",
+          "step": "标题确认",
+          "status": "已确认",
+          "question": "是否先采用当前标题候选？",
+          "answer": "先采用「我如何用一个本地工作台替代自动日报」。",
+          "confirmedValue": "我如何用一个本地工作台替代自动日报",
+          "createdAt": "2026-06-03T07:43:33.609Z",
+          "updatedAt": "2026-06-03T07:43:33.609Z"
+        },
+        {
+          "id": "decision-outline-1780472613610",
+          "step": "大纲确认",
+          "status": "已确认",
+          "question": "是否确认当前大纲并准备生成公众号草稿？",
+          "createdAt": "2026-06-03T07:43:33.609Z",
+          "updatedAt": "2026-06-03T07:43:41.986Z",
+          "answer": "已确认当前大纲，可以进入工具调用准备。"
+        },
+        {
+          "id": "decision-tool-call-001",
+          "step": "工具调用确认",
+          "status": "已确认",
+          "question": "是否将已确认标题和大纲整理为公众号推文生成输入？",
+          "createdAt": "2026-06-03T07:43:41.986Z",
+          "updatedAt": "2026-06-03T07:43:50.224Z",
+          "answer": "已确认工具调用输入。"
+        }
+      ],
+      "createdAt": "2026-06-03T07:41:57.945Z",
+      "updatedAt": "2026-06-03T08:17:20.758Z",
+      "confirmedAngle": "个人实验",
+      "confirmedTitleId": "title-1780472613609-1",
+      "confirmedOutlineId": "outline-1780472613610-session-1780472517945"
+    },
     {
       "id": "session-001",
       "topicId": "topic-001",
@@ -79,7 +546,7 @@
         "updatedAt": "2026-06-03T10:20:00+08:00"
       },
       "currentStep": "发布记录",
-      "status": "进行中",
+      "status": "已暂停",
       "targetPlatform": "公众号",
       "targetContentType": "长文",
       "confirmedAngle": "方法论",
@@ -125,7 +592,7 @@
         }
       ],
       "createdAt": "2026-06-03T10:18:00+08:00",
-      "updatedAt": "2026-06-03T07:11:17.216Z",
+      "updatedAt": "2026-06-03T08:12:16.712Z",
       "confirmedOutlineId": "outline-001"
     }
   ],
@@ -159,6 +626,156 @@
       "reason": "表达更稳，适合系列文章或方法论沉淀。",
       "isSelected": false,
       "createdAt": "2026-06-03T10:33:00+08:00"
+    },
+    {
+      "id": "title-1780472613609-1",
+      "topicId": "topic-002",
+      "platform": "公众号",
+      "title": "我如何用一个本地工作台替代自动日报",
+      "strategy": "原题推进",
+      "reason": "保留选题原始判断，适合先进入大纲确认。",
+      "isSelected": true,
+      "createdAt": "2026-06-03T07:43:33.609Z"
+    },
+    {
+      "id": "title-1780472613610-2",
+      "topicId": "topic-002",
+      "platform": "公众号",
+      "title": "我是如何理解：我如何用一个本地工作台替代自动日报",
+      "strategy": "经验拆解",
+      "reason": "更适合个人 IP 的第一人称经验表达。",
+      "isSelected": false,
+      "createdAt": "2026-06-03T07:43:33.609Z"
+    },
+    {
+      "id": "title-1780472613610-3",
+      "topicId": "topic-002",
+      "platform": "公众号",
+      "title": "我如何用一个本地工作台替代自动日报：从想法到稳定流程",
+      "strategy": "方法论沉淀",
+      "reason": "强调可复用流程，适合后续生成长文草稿。",
+      "isSelected": false,
+      "createdAt": "2026-06-03T07:43:33.609Z"
+    },
+    {
+      "id": "title-1780474650343-1",
+      "topicId": "topic-1780474640759",
+      "platform": "公众号",
+      "title": "Karpathy 的 llm-wiki 项目获超五千星",
+      "strategy": "原题推进",
+      "reason": "保留选题原始判断，适合先进入大纲确认。",
+      "isSelected": true,
+      "createdAt": "2026-06-03T08:17:30.342Z"
+    },
+    {
+      "id": "title-1780474650343-2",
+      "topicId": "topic-1780474640759",
+      "platform": "公众号",
+      "title": "我是如何理解：Karpathy 的 llm-wiki 项目获超五千星",
+      "strategy": "经验拆解",
+      "reason": "更适合个人 IP 的第一人称经验表达。",
+      "isSelected": false,
+      "createdAt": "2026-06-03T08:17:30.342Z"
+    },
+    {
+      "id": "title-1780474650343-3",
+      "topicId": "topic-1780474640759",
+      "platform": "公众号",
+      "title": "Karpathy 的 llm-wiki 项目获超五千星：从想法到稳定流程",
+      "strategy": "方法论沉淀",
+      "reason": "强调可复用流程，适合后续生成长文草稿。",
+      "isSelected": false,
+      "createdAt": "2026-06-03T08:17:30.342Z"
+    },
+    {
+      "id": "title-1780475832338-1",
+      "topicId": "topic-1780475819954",
+      "platform": "公众号",
+      "title": "NousResearch 发布 Hermes Agent 桌面应用公测版",
+      "strategy": "原题推进",
+      "reason": "保留选题原始判断，适合先进入大纲确认。",
+      "isSelected": true,
+      "createdAt": "2026-06-03T08:37:12.338Z"
+    },
+    {
+      "id": "title-1780475832338-2",
+      "topicId": "topic-1780475819954",
+      "platform": "公众号",
+      "title": "我是如何理解：NousResearch 发布 Hermes Agent 桌面应用公测版",
+      "strategy": "经验拆解",
+      "reason": "更适合个人 IP 的第一人称经验表达。",
+      "isSelected": false,
+      "createdAt": "2026-06-03T08:37:12.338Z"
+    },
+    {
+      "id": "title-1780475832338-3",
+      "topicId": "topic-1780475819954",
+      "platform": "公众号",
+      "title": "NousResearch 发布 Hermes Agent 桌面应用公测版：从想法到稳定流程",
+      "strategy": "方法论沉淀",
+      "reason": "强调可复用流程，适合后续生成长文草稿。",
+      "isSelected": false,
+      "createdAt": "2026-06-03T08:37:12.338Z"
+    },
+    {
+      "id": "title-1780476886954-1",
+      "topicId": "topic-1780476884381",
+      "platform": "公众号",
+      "title": "消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投",
+      "strategy": "原题推进",
+      "reason": "保留选题原始判断，适合先进入大纲确认。",
+      "isSelected": true,
+      "createdAt": "2026-06-03T08:54:46.953Z"
+    },
+    {
+      "id": "title-1780476886954-2",
+      "topicId": "topic-1780476884381",
+      "platform": "公众号",
+      "title": "我是如何理解：消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投",
+      "strategy": "经验拆解",
+      "reason": "更适合个人 IP 的第一人称经验表达。",
+      "isSelected": false,
+      "createdAt": "2026-06-03T08:54:46.953Z"
+    },
+    {
+      "id": "title-1780476886954-3",
+      "topicId": "topic-1780476884381",
+      "platform": "公众号",
+      "title": "消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投：从想法到稳定流程",
+      "strategy": "方法论沉淀",
+      "reason": "强调可复用流程，适合后续生成长文草稿。",
+      "isSelected": false,
+      "createdAt": "2026-06-03T08:54:46.953Z"
+    },
+    {
+      "id": "title-1780477092301-1",
+      "topicId": "topic-1780477088778",
+      "platform": "公众号",
+      "title": "Satya Nadella 谈微软 Build 大会主旨演讲",
+      "strategy": "原题推进",
+      "reason": "保留选题原始判断，适合先进入大纲确认。",
+      "isSelected": false,
+      "createdAt": "2026-06-03T08:58:12.300Z"
+    },
+    {
+      "id": "title-1780477092301-2",
+      "topicId": "topic-1780477088778",
+      "platform": "公众号",
+      "title": "我是如何理解：Satya Nadella 谈微软 Build 大会主旨演讲",
+      "strategy": "经验拆解",
+      "reason": "更适合个人 IP 的第一人称经验表达。",
+      "isSelected": false,
+      "createdAt": "2026-06-03T08:58:12.300Z"
+    },
+    {
+      "id": "title-1780477092301-3",
+      "topicId": "topic-1780477088778",
+      "platform": "公众号",
+      "title": "Satya Nadella 谈微软 Build 大会主旨演讲：从想法到稳定流程",
+      "strategy": "方法论沉淀",
+      "reason": "强调可复用流程，适合后续生成长文草稿。",
+      "isSelected": true,
+      "createdAt": "2026-06-03T08:58:12.300Z"
     }
   ],
   "outlines": [
@@ -181,10 +798,254 @@
       "isConfirmed": true,
       "createdAt": "2026-06-03T10:35:00+08:00",
       "updatedAt": "2026-06-03T06:52:11.553Z"
+    },
+    {
+      "id": "outline-1780472613610-session-1780472517945",
+      "topicId": "topic-002",
+      "titleCandidateId": "title-1780472613609-1",
+      "opening": "这个选题来自「自媒体实验」方向，适合先从真实工作场景切入。",
+      "corePoints": [
+        "这个选题的核心不是单点技巧，而是「自媒体实验」背后的长期判断。",
+        "先把问题、场景和个人经验讲清楚，再进入具体方法。",
+        "最后把这次内容沉淀成下一轮选题和复盘依据。"
+      ],
+      "cases": [
+        "结合当前内容工作台，说明「我如何用一个本地工作台替代自动日报」如何从灵感进入确认流程。",
+        "用一次真实创作流程展示选题、标题、大纲、生成和复盘之间的关系。"
+      ],
+      "ending": "一个稳定的内容系统，价值不在于一次生成，而在于每次都能留下可复用的判断。",
+      "callToAction": "如果你也在搭建个人内容系统，可以先从一个选题确认流程开始。",
+      "isConfirmed": true,
+      "createdAt": "2026-06-03T07:43:33.609Z",
+      "updatedAt": "2026-06-03T07:43:41.986Z"
+    },
+    {
+      "id": "outline-1780474650343-session-1780474640759",
+      "topicId": "topic-1780474640759",
+      "titleCandidateId": "title-1780474650343-1",
+      "opening": "@karpathy 的 llm-wiki 在几周内获得了 5，000+ 颗星。\n\n其理念是：停止在每个会话中重新发现知识。让一个大语言模型构建并维护一个维基，每次使用时它都会变得更智能。\n\n以下是如何使用 @opencode + @justsisyphus OMO + SiliconFlow 构建你自己的版本 🧵\n来源：X：硅基流动 SiliconFlow (@SiliconFlowAI)\nhttps://x.com/SiliconFlowAI/status/2062054848762450324\naihot:cmpxp1npl061rslckexyk9lam",
+      "corePoints": [
+        "这个选题的核心不是单点技巧，而是「AI工具」背后的长期判断。",
+        "先把问题、场景和个人经验讲清楚，再进入具体方法。",
+        "最后把这次内容沉淀成下一轮选题和复盘依据。"
+      ],
+      "cases": [
+        "结合当前内容工作台，说明「Karpathy 的 llm-wiki 项目获超五千星」如何从灵感进入确认流程。",
+        "用一次真实创作流程展示选题、标题、大纲、生成和复盘之间的关系。"
+      ],
+      "ending": "一个稳定的内容系统，价值不在于一次生成，而在于每次都能留下可复用的判断。",
+      "callToAction": "如果你也在搭建个人内容系统，可以先从一个选题确认流程开始。",
+      "isConfirmed": true,
+      "createdAt": "2026-06-03T08:17:30.342Z",
+      "updatedAt": "2026-06-03T08:17:39.654Z"
+    },
+    {
+      "id": "outline-1780475832338-session-1780475819955",
+      "topicId": "topic-1780475819954",
+      "titleCandidateId": "title-1780475832338-1",
+      "opening": "官方 Hermes Agent 桌面应用现已推出！\n来源：X：硅基流动 SiliconFlow (@SiliconFlowAI)\nhttps://x.com/SiliconFlowAI/status/2062042813852995899\naihot:cmpxnygnz05rnslckz87nvi12",
+      "corePoints": [
+        "这个选题的核心不是单点技巧，而是「AI工具」背后的长期判断。",
+        "先把问题、场景和个人经验讲清楚，再进入具体方法。",
+        "最后把这次内容沉淀成下一轮选题和复盘依据。"
+      ],
+      "cases": [
+        "结合当前内容工作台，说明「NousResearch 发布 Hermes Agent 桌面应用公测版」如何从灵感进入确认流程。",
+        "用一次真实创作流程展示选题、标题、大纲、生成和复盘之间的关系。"
+      ],
+      "ending": "一个稳定的内容系统，价值不在于一次生成，而在于每次都能留下可复用的判断。",
+      "callToAction": "如果你也在搭建个人内容系统，可以先从一个选题确认流程开始。",
+      "isConfirmed": true,
+      "createdAt": "2026-06-03T08:37:12.338Z",
+      "updatedAt": "2026-06-03T08:52:47.488Z"
+    },
+    {
+      "id": "outline-1780476886954-session-1780476884381",
+      "topicId": "topic-1780476884381",
+      "titleCandidateId": "title-1780476886954-1",
+      "opening": "DeepSeek 计划在首轮融资中从腾讯、宁德时代等投资方处筹集约 500 亿元人民币。融资落地后，其投后估值预计在 3500 亿至 4000 亿元。创始人梁文峰将出资 200 亿元，腾讯和宁德时代分别拟投资 100 亿元和 50 亿元，成为最大外部投资者。DeepSeek 去年凭借 V3 大模型与 R1 推理模型获得广泛认可。此次融资凸显了中国正打造从大模型到算力能源基建的全链条 AI 产业。\n来源：IT之家（RSS）\nhttps://www.ithome.com/0/959/249.htm\naihot:cmpxlx0y5058eslckymzyv282",
+      "corePoints": [
+        "这个选题的核心不是单点技巧，而是「产品思考」背后的长期判断。",
+        "先把问题、场景和个人经验讲清楚，再进入具体方法。",
+        "最后把这次内容沉淀成下一轮选题和复盘依据。"
+      ],
+      "cases": [
+        "结合当前内容工作台，说明「消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投」如何从灵感进入确认流程。",
+        "用一次真实创作流程展示选题、标题、大纲、生成和复盘之间的关系。"
+      ],
+      "ending": "一个稳定的内容系统，价值不在于一次生成，而在于每次都能留下可复用的判断。",
+      "callToAction": "如果你也在搭建个人内容系统，可以先从一个选题确认流程开始。",
+      "isConfirmed": false,
+      "createdAt": "2026-06-03T08:54:46.953Z",
+      "updatedAt": "2026-06-03T08:54:46.953Z"
+    },
+    {
+      "id": "outline-1780477092301-session-1780477088779",
+      "topicId": "topic-1780477088778",
+      "titleCandidateId": "title-1780477092301-1",
+      "opening": "与我们共同构建前沿智能生态系统。\n\n今早我在 Microsoft Build 上的主旨演讲亮点。\n来源：X：Satya Nadella (@satyanadella)\nhttps://x.com/satyanadella/status/2062022060176801826\naihot:cmpxjje1j04kwslckd0qcw0s7",
+      "corePoints": [
+        "这个选题的核心不是单点技巧，而是「产品思考」背后的长期判断。",
+        "先把问题、场景和个人经验讲清楚，再进入具体方法。",
+        "最后把这次内容沉淀成下一轮选题和复盘依据。"
+      ],
+      "cases": [
+        "结合当前内容工作台，说明「Satya Nadella 谈微软 Build 大会主旨演讲」如何从灵感进入确认流程。",
+        "用一次真实创作流程展示选题、标题、大纲、生成和复盘之间的关系。"
+      ],
+      "ending": "一个稳定的内容系统，价值不在于一次生成，而在于每次都能留下可复用的判断。",
+      "callToAction": "如果你也在搭建个人内容系统，可以先从一个选题确认流程开始。",
+      "isConfirmed": true,
+      "createdAt": "2026-06-03T08:58:12.300Z",
+      "updatedAt": "2026-06-03T08:59:03.491Z"
     }
   ],
   "videoScripts": [],
   "toolRuns": [
+    {
+      "id": "tool-prepared-session-1780477088779",
+      "sessionId": "session-1780477088779",
+      "topicId": "topic-1780477088778",
+      "toolName": "wechat-article-generator",
+      "status": "成功",
+      "command": "internal:generate-wechat-draft --input /Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T08-59-08-397Z-session-1780477088779-input.json",
+      "inputSummary": "公众号长文生成完成：Satya Nadella 谈微软 Build 大会主旨演讲：从想法到稳定流程",
+      "outputs": [
+        {
+          "id": "output-2026-06-03T08-59-08-397Z-session-1780477088779-input",
+          "label": "已确认生成输入",
+          "kind": "json",
+          "path": "/Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T08-59-08-397Z-session-1780477088779-input.json",
+          "description": "由当前创作流的已确认选题、标题和大纲整理生成。"
+        },
+        {
+          "id": "output-2026-06-03T08-59-08-397Z-session-1780477088779-markdown",
+          "label": "公众号 Markdown 草稿",
+          "kind": "markdown",
+          "path": "/Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T08-59-08-397Z-session-1780477088779.md",
+          "description": "可继续人工编辑的真实本地草稿文件。"
+        },
+        {
+          "id": "output-2026-06-03T08-59-08-397Z-session-1780477088779-html",
+          "label": "HTML 预览",
+          "kind": "html",
+          "path": "/Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T08-59-08-397Z-session-1780477088779.html",
+          "description": "由 Markdown 草稿生成的本地预览文件。"
+        }
+      ],
+      "createdAt": "2026-06-03T08:59:03.491Z",
+      "updatedAt": "2026-06-03T08:59:08.401Z",
+      "startedAt": "2026-06-03T08:59:08.397Z",
+      "finishedAt": "2026-06-03T08:59:08.401Z"
+    },
+    {
+      "id": "tool-prepared-session-1780475819955",
+      "sessionId": "session-1780475819955",
+      "topicId": "topic-1780475819954",
+      "toolName": "wechat-article-generator",
+      "status": "成功",
+      "command": "internal:generate-wechat-draft --input /Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T08-52-50-401Z-session-1780475819955-input.json",
+      "inputSummary": "公众号长文生成完成：NousResearch 发布 Hermes Agent 桌面应用公测版",
+      "outputs": [
+        {
+          "id": "output-2026-06-03T08-52-50-401Z-session-1780475819955-input",
+          "label": "已确认生成输入",
+          "kind": "json",
+          "path": "/Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T08-52-50-401Z-session-1780475819955-input.json",
+          "description": "由当前创作流的已确认选题、标题和大纲整理生成。"
+        },
+        {
+          "id": "output-2026-06-03T08-52-50-401Z-session-1780475819955-markdown",
+          "label": "公众号 Markdown 草稿",
+          "kind": "markdown",
+          "path": "/Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T08-52-50-401Z-session-1780475819955.md",
+          "description": "可继续人工编辑的真实本地草稿文件。"
+        },
+        {
+          "id": "output-2026-06-03T08-52-50-401Z-session-1780475819955-html",
+          "label": "HTML 预览",
+          "kind": "html",
+          "path": "/Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T08-52-50-401Z-session-1780475819955.html",
+          "description": "由 Markdown 草稿生成的本地预览文件。"
+        }
+      ],
+      "createdAt": "2026-06-03T08:52:47.488Z",
+      "updatedAt": "2026-06-03T08:52:50.404Z",
+      "startedAt": "2026-06-03T08:52:50.400Z",
+      "finishedAt": "2026-06-03T08:52:50.404Z"
+    },
+    {
+      "id": "tool-prepared-session-1780474640759",
+      "sessionId": "session-1780474640759",
+      "topicId": "topic-1780474640759",
+      "toolName": "wechat-article-generator",
+      "status": "成功",
+      "command": "internal:generate-wechat-draft --input /Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T08-17-41-525Z-session-1780474640759-input.json",
+      "inputSummary": "公众号长文生成完成：Karpathy 的 llm-wiki 项目获超五千星",
+      "outputs": [
+        {
+          "id": "output-2026-06-03T08-17-41-525Z-session-1780474640759-input",
+          "label": "已确认生成输入",
+          "kind": "json",
+          "path": "/Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T08-17-41-525Z-session-1780474640759-input.json",
+          "description": "由当前创作流的已确认选题、标题和大纲整理生成。"
+        },
+        {
+          "id": "output-2026-06-03T08-17-41-525Z-session-1780474640759-markdown",
+          "label": "公众号 Markdown 草稿",
+          "kind": "markdown",
+          "path": "/Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T08-17-41-525Z-session-1780474640759.md",
+          "description": "可继续人工编辑的真实本地草稿文件。"
+        },
+        {
+          "id": "output-2026-06-03T08-17-41-525Z-session-1780474640759-html",
+          "label": "HTML 预览",
+          "kind": "html",
+          "path": "/Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T08-17-41-525Z-session-1780474640759.html",
+          "description": "由 Markdown 草稿生成的本地预览文件。"
+        }
+      ],
+      "createdAt": "2026-06-03T08:17:39.654Z",
+      "updatedAt": "2026-06-03T08:17:41.529Z",
+      "startedAt": "2026-06-03T08:17:41.524Z",
+      "finishedAt": "2026-06-03T08:17:41.529Z"
+    },
+    {
+      "id": "tool-prepared-session-1780472517945",
+      "sessionId": "session-1780472517945",
+      "topicId": "topic-002",
+      "toolName": "wechat-article-generator",
+      "status": "成功",
+      "command": "internal:generate-wechat-draft --input /Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T07-46-03-709Z-session-1780472517945-input.json",
+      "inputSummary": "公众号长文生成完成：我如何用一个本地工作台替代自动日报",
+      "outputs": [
+        {
+          "id": "output-2026-06-03T07-46-03-709Z-session-1780472517945-input",
+          "label": "已确认生成输入",
+          "kind": "json",
+          "path": "/Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T07-46-03-709Z-session-1780472517945-input.json",
+          "description": "由当前创作流的已确认选题、标题和大纲整理生成。"
+        },
+        {
+          "id": "output-2026-06-03T07-46-03-709Z-session-1780472517945-markdown",
+          "label": "公众号 Markdown 草稿",
+          "kind": "markdown",
+          "path": "/Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T07-46-03-709Z-session-1780472517945.md",
+          "description": "可继续人工编辑的真实本地草稿文件。"
+        },
+        {
+          "id": "output-2026-06-03T07-46-03-709Z-session-1780472517945-html",
+          "label": "HTML 预览",
+          "kind": "html",
+          "path": "/Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T07-46-03-709Z-session-1780472517945.html",
+          "description": "由 Markdown 草稿生成的本地预览文件。"
+        }
+      ],
+      "createdAt": "2026-06-03T07:46:03.708Z",
+      "updatedAt": "2026-06-03T07:46:03.715Z",
+      "startedAt": "2026-06-03T07:46:03.709Z",
+      "finishedAt": "2026-06-03T07:46:03.715Z"
+    },
     {
       "id": "tool-prepared-001",
       "sessionId": "session-001",

@@ -12,7 +12,9 @@ import {
   Sparkles,
 } from "lucide-react";
 import Link from "next/link";
-import { confirmCurrentStep } from "./actions";
+import { confirmCurrentStep, runActiveGeneration } from "./actions";
+import { AngleConfirm } from "./angle-confirm";
+import { TitleConfirm } from "./title-confirm";
 import {
   getActiveCreationSession,
   getConfirmedOrLatestOutline,
@@ -41,6 +43,8 @@ export default async function CreationPage() {
     ? workbenchData.toolRuns.find((toolRun) => toolRun.sessionId === activeSession.id)
     : undefined;
   const pendingDecision = activeSession?.decisions.find((decision) => decision.status === "待确认");
+  const needsGenerationRun =
+    activeSession?.currentStep === "内容生成" && (!preparedToolRun || preparedToolRun.status === "失败");
 
   return (
     <main className="min-h-screen px-5 py-5 text-[var(--foreground)] md:px-8">
@@ -92,6 +96,13 @@ export default async function CreationPage() {
                   确认当前步骤
                 </button>
               </form>
+            ) : needsGenerationRun ? (
+              <form action={runActiveGeneration} className="w-fit">
+                <button className="inline-flex h-11 items-center justify-center gap-2 rounded-md bg-[var(--green)] px-4 text-sm font-semibold text-white shadow-sm transition hover:bg-[#275d45]">
+                  <Play size={18} />
+                  执行生成
+                </button>
+              </form>
             ) : (
               <Link
                 className="inline-flex h-11 w-fit items-center justify-center gap-2 rounded-md bg-[var(--green)] px-4 text-sm font-semibold text-white shadow-sm transition hover:bg-[#275d45]"
@@ -141,7 +152,11 @@ export default async function CreationPage() {
                           </div>
                           <p className="text-sm text-[var(--muted)]">{decision.question}</p>
                           {decision.answer ? <p className="mt-2 text-sm leading-6">{decision.answer}</p> : null}
-                          {decision.status === "待确认" ? (
+                          {decision.status === "待确认" && decision.step === "角度确认" ? (
+                            <AngleConfirm suggestedAngle={decision.confirmedValue ?? "观点"} />
+                          ) : decision.status === "待确认" && decision.step === "标题确认" ? (
+                            <TitleConfirm options={decision.options ?? []} />
+                          ) : decision.status === "待确认" ? (
                             <div className="mt-4 flex flex-wrap gap-2">
                               <form action={confirmCurrentStep}>
                                 <button className="inline-flex h-9 items-center gap-2 rounded-md bg-[var(--ink)] px-3 text-sm font-semibold text-white">
