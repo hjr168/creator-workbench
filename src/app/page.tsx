@@ -11,132 +11,36 @@ import {
   RefreshCw,
   Sparkles,
 } from "lucide-react";
-import type { Topic } from "@/types/content";
-import type { ToolRun } from "@/types/tool";
-import type { CreationSession } from "@/types/workflow";
-
-const topics: Topic[] = [
-  {
-    id: "topic-001",
-    title: "为什么产品经理需要把 AI 工具变成工作流，而不是收藏夹",
-    direction: "AI工具",
-    platforms: ["公众号", "小红书"],
-    contentType: "长文",
-    status: "待创作",
-    tags: ["AI工作流", "产品经理", "效率"],
-    note: "适合从个人真实使用场景切入，强调工具组合和复盘。",
-    createdAt: "2026-06-03T09:10:00+08:00",
-    updatedAt: "2026-06-03T10:20:00+08:00",
-  },
-  {
-    id: "topic-002",
-    title: "我如何用一个本地工作台替代自动日报",
-    direction: "自媒体实验",
-    platforms: ["公众号"],
-    contentType: "长文",
-    status: "灵感",
-    tags: ["个人IP", "内容系统", "复盘"],
-    createdAt: "2026-06-03T11:00:00+08:00",
-    updatedAt: "2026-06-03T11:00:00+08:00",
-  },
-  {
-    id: "topic-003",
-    title: "项目管理里最容易被忽略的不是计划，而是确认成本",
-    direction: "项目管理",
-    platforms: ["X", "视频号"],
-    contentType: "线程",
-    status: "已发布",
-    tags: ["项目管理", "沟通", "确认机制"],
-    createdAt: "2026-06-01T08:30:00+08:00",
-    updatedAt: "2026-06-02T21:15:00+08:00",
-  },
-];
-
-const activeSession: CreationSession = {
-  id: "session-001",
-  topicId: "topic-001",
-  topicSnapshot: topics[0],
-  currentStep: "大纲确认",
-  status: "进行中",
-  targetPlatform: "公众号",
-  targetContentType: "长文",
-  confirmedAngle: "方法论",
-  confirmedTitleId: "title-001",
-  decisions: [
-    {
-      id: "decision-001",
-      step: "选题确认",
-      status: "已确认",
-      question: "这个选题是否值得写成长文？",
-      answer: "值得，重点写工具如何进入稳定工作流。",
-      confirmedValue: "AI 工具工作流",
-      createdAt: "2026-06-03T10:20:00+08:00",
-      updatedAt: "2026-06-03T10:20:00+08:00",
-    },
-    {
-      id: "decision-002",
-      step: "角度确认",
-      status: "已确认",
-      question: "主角度是什么？",
-      answer: "方法论，减少工具收藏焦虑。",
-      confirmedValue: "方法论",
-      createdAt: "2026-06-03T10:28:00+08:00",
-      updatedAt: "2026-06-03T10:28:00+08:00",
-    },
-    {
-      id: "decision-003",
-      step: "大纲确认",
-      status: "待确认",
-      question: "是否确认当前大纲并准备生成公众号草稿？",
-      createdAt: "2026-06-03T10:36:00+08:00",
-      updatedAt: "2026-06-03T10:36:00+08:00",
-    },
-  ],
-  createdAt: "2026-06-03T10:18:00+08:00",
-  updatedAt: "2026-06-03T10:36:00+08:00",
-};
-
-const toolRuns: ToolRun[] = [
-  {
-    id: "tool-001",
-    sessionId: "session-000",
-    topicId: "topic-003",
-    toolName: "wechat-html-preview",
-    status: "成功",
-    command: "python3 scripts/aihot-morning-brief.py --from-md <md-path>",
-    inputSummary: "从已确认 Markdown 重新生成 HTML 预览",
-    outputs: [
-      {
-        id: "output-001",
-        label: "HTML 预览",
-        kind: "html",
-        path: "~/Obsidian/公众号推文/2026-06-02-preview.html",
-      },
-    ],
-    createdAt: "2026-06-02T20:00:00+08:00",
-    updatedAt: "2026-06-02T20:04:00+08:00",
-    startedAt: "2026-06-02T20:02:00+08:00",
-    finishedAt: "2026-06-02T20:04:00+08:00",
-  },
-];
+import Link from "next/link";
+import {
+  getActiveCreationSession,
+  getDashboardStats,
+  getWorkbenchData,
+} from "@/lib/storage/local-json";
 
 const navItems = [
-  { label: "首页", icon: ClipboardList, active: true },
-  { label: "创作对话", icon: MessageSquareText },
-  { label: "选题库", icon: Library },
-  { label: "工具调用", icon: Play },
-  { label: "数据复盘", icon: RefreshCw },
+  { label: "首页", href: "/", icon: ClipboardList, active: true },
+  { label: "创作对话", href: "/creation", icon: MessageSquareText },
+  { label: "选题库", href: "/topics", icon: Library },
+  { label: "工具调用", href: "/tools", icon: Play },
+  { label: "数据复盘", href: "/review", icon: RefreshCw },
 ];
 
-const stats = [
-  { label: "总选题", value: topics.length, tone: "green" },
-  { label: "待创作", value: topics.filter((topic) => topic.status === "待创作").length, tone: "blue" },
-  { label: "已发布", value: topics.filter((topic) => topic.status === "已发布").length, tone: "gold" },
-  { label: "待确认", value: activeSession.decisions.filter((item) => item.status === "待确认").length, tone: "red" },
-];
+export const dynamic = "force-dynamic";
 
-export default function Home() {
-  const activeTopic = activeSession.topicSnapshot;
+export default async function Home() {
+  const workbenchData = await getWorkbenchData();
+  const topics = workbenchData.topics;
+  const toolRuns = workbenchData.toolRuns;
+  const activeSession = getActiveCreationSession(workbenchData);
+  const activeTopic = activeSession?.topicSnapshot;
+  const dashboardStats = getDashboardStats(workbenchData);
+  const stats = [
+    { label: "总选题", value: dashboardStats.totalTopics, tone: "green" },
+    { label: "待创作", value: dashboardStats.pendingCreation, tone: "blue" },
+    { label: "已发布", value: dashboardStats.published, tone: "gold" },
+    { label: "待确认", value: dashboardStats.pendingConfirmation, tone: "red" },
+  ];
 
   return (
     <main className="min-h-screen px-5 py-5 text-[var(--foreground)] md:px-8">
@@ -153,17 +57,18 @@ export default function Home() {
           </div>
           <nav className="space-y-1">
             {navItems.map((item) => (
-              <button
+              <Link
                 className={`flex h-10 w-full items-center gap-3 rounded-md px-3 text-left text-sm transition ${
                   item.active
                     ? "bg-[var(--ink)] text-[var(--panel)]"
                     : "text-[var(--muted)] hover:bg-[var(--panel-strong)] hover:text-[var(--foreground)]"
                 }`}
+                href={item.href}
                 key={item.label}
               >
                 <item.icon size={17} />
                 {item.label}
-              </button>
+              </Link>
             ))}
           </nav>
         </aside>
@@ -171,15 +76,18 @@ export default function Home() {
         <section className="min-w-0 flex-1">
           <header className="mb-5 flex flex-col gap-4 border-b border-[var(--line)] pb-5 md:flex-row md:items-end md:justify-between">
             <div>
-              <p className="mb-2 text-sm font-semibold text-[var(--green)]">Phase 2 · 最小可运行工作台</p>
+              <p className="mb-2 text-sm font-semibold text-[var(--green)]">MVP · 本地内容工作台</p>
               <h1 className="max-w-3xl text-3xl font-semibold tracking-normal md:text-4xl">
                 先确认选题和大纲，再调用工具生成推文。
               </h1>
             </div>
-            <button className="inline-flex h-11 items-center justify-center gap-2 rounded-md bg-[var(--green)] px-4 text-sm font-semibold text-white shadow-sm transition hover:bg-[#275d45]">
+            <Link
+              className="inline-flex h-11 items-center justify-center gap-2 rounded-md bg-[var(--green)] px-4 text-sm font-semibold text-white shadow-sm transition hover:bg-[#275d45]"
+              href="/creation"
+            >
               <MessageSquareText size={18} />
               开始创作对话
-            </button>
+            </Link>
           </header>
 
           <section className="mb-5 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
@@ -199,12 +107,12 @@ export default function Home() {
                   <p className="text-sm text-[var(--muted)]">关键节点必须确认后才能进入生成。</p>
                 </div>
                 <span className="rounded-md bg-[#f4ead0] px-3 py-1 text-sm font-medium text-[var(--gold)]">
-                  {activeSession.currentStep}
+                  {activeSession?.currentStep ?? "暂无创作流"}
                 </span>
               </div>
 
               <div className="p-5">
-                {activeTopic ? (
+                {activeTopic && activeSession ? (
                   <div>
                     <div className="mb-5">
                       <p className="mb-2 text-sm text-[var(--muted)]">当前选题</p>
@@ -241,14 +149,20 @@ export default function Home() {
                     </div>
 
                     <div className="mt-5 flex flex-col gap-3 border-t border-[var(--line)] pt-5 sm:flex-row">
-                      <button className="inline-flex h-10 items-center justify-center gap-2 rounded-md bg-[var(--ink)] px-4 text-sm font-semibold text-white">
+                      <Link
+                        className="inline-flex h-10 items-center justify-center gap-2 rounded-md bg-[var(--ink)] px-4 text-sm font-semibold text-white"
+                        href="/creation"
+                      >
                         <CheckCircle2 size={17} />
-                        确认大纲
-                      </button>
-                      <button className="inline-flex h-10 items-center justify-center gap-2 rounded-md border border-[var(--line)] bg-transparent px-4 text-sm font-semibold">
+                        进入创作对话
+                      </Link>
+                      <Link
+                        className="inline-flex h-10 items-center justify-center gap-2 rounded-md border border-[var(--line)] bg-transparent px-4 text-sm font-semibold"
+                        href="/topics"
+                      >
                         <Sparkles size={17} />
-                        重新生成标题
-                      </button>
+                        查看选题库
+                      </Link>
                     </div>
                   </div>
                 ) : null}
@@ -330,4 +244,3 @@ function statusClass(status: string) {
       return "bg-white text-[var(--muted)]";
   }
 }
-

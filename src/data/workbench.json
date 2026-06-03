@@ -1,0 +1,285 @@
+{
+  "topics": [
+    {
+      "id": "topic-001",
+      "title": "为什么产品经理需要把 AI 工具变成工作流，而不是收藏夹",
+      "direction": "AI工具",
+      "platforms": [
+        "公众号",
+        "小红书"
+      ],
+      "contentType": "长文",
+      "status": "待创作",
+      "tags": [
+        "AI工作流",
+        "产品经理",
+        "效率"
+      ],
+      "note": "适合从个人真实使用场景切入，强调工具组合和复盘。",
+      "createdAt": "2026-06-03T09:10:00+08:00",
+      "updatedAt": "2026-06-03T10:20:00+08:00"
+    },
+    {
+      "id": "topic-002",
+      "title": "我如何用一个本地工作台替代自动日报",
+      "direction": "自媒体实验",
+      "platforms": [
+        "公众号"
+      ],
+      "contentType": "长文",
+      "status": "灵感",
+      "tags": [
+        "个人IP",
+        "内容系统",
+        "复盘"
+      ],
+      "createdAt": "2026-06-03T11:00:00+08:00",
+      "updatedAt": "2026-06-03T11:00:00+08:00"
+    },
+    {
+      "id": "topic-003",
+      "title": "项目管理里最容易被忽略的不是计划，而是确认成本",
+      "direction": "项目管理",
+      "platforms": [
+        "X",
+        "视频号"
+      ],
+      "contentType": "线程",
+      "status": "已发布",
+      "tags": [
+        "项目管理",
+        "沟通",
+        "确认机制"
+      ],
+      "createdAt": "2026-06-01T08:30:00+08:00",
+      "updatedAt": "2026-06-02T21:15:00+08:00"
+    }
+  ],
+  "creationSessions": [
+    {
+      "id": "session-001",
+      "topicId": "topic-001",
+      "topicSnapshot": {
+        "id": "topic-001",
+        "title": "为什么产品经理需要把 AI 工具变成工作流，而不是收藏夹",
+        "direction": "AI工具",
+        "platforms": [
+          "公众号",
+          "小红书"
+        ],
+        "contentType": "长文",
+        "status": "待创作",
+        "tags": [
+          "AI工作流",
+          "产品经理",
+          "效率"
+        ],
+        "note": "适合从个人真实使用场景切入，强调工具组合和复盘。",
+        "createdAt": "2026-06-03T09:10:00+08:00",
+        "updatedAt": "2026-06-03T10:20:00+08:00"
+      },
+      "currentStep": "发布记录",
+      "status": "进行中",
+      "targetPlatform": "公众号",
+      "targetContentType": "长文",
+      "confirmedAngle": "方法论",
+      "confirmedTitleId": "title-001",
+      "decisions": [
+        {
+          "id": "decision-001",
+          "step": "选题确认",
+          "status": "已确认",
+          "question": "这个选题是否值得写成长文？",
+          "answer": "值得，重点写工具如何进入稳定工作流。",
+          "confirmedValue": "AI 工具工作流",
+          "createdAt": "2026-06-03T10:20:00+08:00",
+          "updatedAt": "2026-06-03T10:20:00+08:00"
+        },
+        {
+          "id": "decision-002",
+          "step": "角度确认",
+          "status": "已确认",
+          "question": "主角度是什么？",
+          "answer": "方法论，减少工具收藏焦虑。",
+          "confirmedValue": "方法论",
+          "createdAt": "2026-06-03T10:28:00+08:00",
+          "updatedAt": "2026-06-03T10:28:00+08:00"
+        },
+        {
+          "id": "decision-003",
+          "step": "大纲确认",
+          "status": "已确认",
+          "question": "是否确认当前大纲并准备生成公众号草稿？",
+          "createdAt": "2026-06-03T10:36:00+08:00",
+          "updatedAt": "2026-06-03T06:52:11.553Z",
+          "answer": "已确认当前大纲，可以进入工具调用准备。"
+        },
+        {
+          "id": "decision-tool-call-001",
+          "step": "工具调用确认",
+          "status": "已确认",
+          "question": "是否将已确认标题和大纲整理为公众号推文生成输入？",
+          "createdAt": "2026-06-03T06:52:11.553Z",
+          "updatedAt": "2026-06-03T06:52:17.034Z",
+          "answer": "已确认工具调用输入。"
+        }
+      ],
+      "createdAt": "2026-06-03T10:18:00+08:00",
+      "updatedAt": "2026-06-03T07:11:17.216Z",
+      "confirmedOutlineId": "outline-001"
+    }
+  ],
+  "titleCandidates": [
+    {
+      "id": "title-001",
+      "topicId": "topic-001",
+      "platform": "公众号",
+      "title": "别再收藏 AI 工具了，产品经理真正需要的是工作流",
+      "strategy": "反差型",
+      "reason": "从常见行为切入，再转向真正问题，适合公众号长文。",
+      "isSelected": true,
+      "createdAt": "2026-06-03T10:31:00+08:00"
+    },
+    {
+      "id": "title-002",
+      "topicId": "topic-001",
+      "platform": "小红书",
+      "title": "我不再乱试 AI 工具后，效率反而变高了",
+      "strategy": "经验型",
+      "reason": "更适合小红书的个人体验表达。",
+      "isSelected": false,
+      "createdAt": "2026-06-03T10:32:00+08:00"
+    },
+    {
+      "id": "title-003",
+      "topicId": "topic-001",
+      "platform": "公众号",
+      "title": "产品经理如何把 AI 工具变成稳定产出系统",
+      "strategy": "方法论型",
+      "reason": "表达更稳，适合系列文章或方法论沉淀。",
+      "isSelected": false,
+      "createdAt": "2026-06-03T10:33:00+08:00"
+    }
+  ],
+  "outlines": [
+    {
+      "id": "outline-001",
+      "topicId": "topic-001",
+      "titleCandidateId": "title-001",
+      "opening": "很多人学 AI 工具的方式，是不断收藏新工具、看新教程、换新模型，但真正改变工作效率的不是工具数量，而是能否形成稳定工作流。",
+      "corePoints": [
+        "工具收藏不是能力，稳定复用才是能力。",
+        "产品经理更需要把 AI 嵌入选题、调研、拆解、表达和复盘流程。",
+        "每个工具都应该有明确入口、输出标准和复盘指标。"
+      ],
+      "cases": [
+        "以公众号推文生产为例，先确认选题和大纲，再调用生成工具，能避免自动日报式的失控。",
+        "以项目复盘为例，AI 负责整理材料，人负责判断观点和取舍。"
+      ],
+      "ending": "AI 工具真正进入工作流后，它不再是灵感玩具，而是一个稳定协作者。",
+      "callToAction": "如果你也在搭建自己的 AI 工作流，可以先从一个固定内容生产流程开始。",
+      "isConfirmed": true,
+      "createdAt": "2026-06-03T10:35:00+08:00",
+      "updatedAt": "2026-06-03T06:52:11.553Z"
+    }
+  ],
+  "videoScripts": [],
+  "toolRuns": [
+    {
+      "id": "tool-prepared-001",
+      "sessionId": "session-001",
+      "topicId": "topic-001",
+      "toolName": "wechat-article-generator",
+      "status": "成功",
+      "command": "internal:generate-wechat-draft --input /Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T07-19-57-476Z-session-001-input.json",
+      "inputSummary": "公众号长文生成完成：别再收藏 AI 工具了，产品经理真正需要的是工作流",
+      "outputs": [
+        {
+          "id": "output-2026-06-03T07-19-57-476Z-session-001-input",
+          "label": "已确认生成输入",
+          "kind": "json",
+          "path": "/Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T07-19-57-476Z-session-001-input.json",
+          "description": "由当前创作流的已确认选题、标题和大纲整理生成。"
+        },
+        {
+          "id": "output-2026-06-03T07-19-57-476Z-session-001-markdown",
+          "label": "公众号 Markdown 草稿",
+          "kind": "markdown",
+          "path": "/Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T07-19-57-476Z-session-001.md",
+          "description": "可继续人工编辑的真实本地草稿文件。"
+        },
+        {
+          "id": "output-2026-06-03T07-19-57-476Z-session-001-html",
+          "label": "HTML 预览",
+          "kind": "html",
+          "path": "/Users/huangjiarong/Documents/AI/个人IP内容工作台/creator-workbench/generated/wechat-drafts/2026-06-03T07-19-57-476Z-session-001.html",
+          "description": "由 Markdown 草稿生成的本地预览文件。"
+        }
+      ],
+      "createdAt": "2026-06-03T06:52:11.553Z",
+      "updatedAt": "2026-06-03T07:19:57.480Z",
+      "finishedAt": "2026-06-03T07:19:57.480Z",
+      "startedAt": "2026-06-03T07:19:57.473Z"
+    },
+    {
+      "id": "tool-001",
+      "sessionId": "session-000",
+      "topicId": "topic-003",
+      "toolName": "wechat-html-preview",
+      "status": "成功",
+      "command": "python3 scripts/aihot-morning-brief.py --from-md <md-path>",
+      "inputSummary": "从已确认 Markdown 重新生成 HTML 预览",
+      "outputs": [
+        {
+          "id": "output-001",
+          "label": "HTML 预览",
+          "kind": "html",
+          "path": "~/Obsidian/公众号推文/2026-06-02-preview.html"
+        }
+      ],
+      "createdAt": "2026-06-02T20:00:00+08:00",
+      "updatedAt": "2026-06-02T20:04:00+08:00",
+      "startedAt": "2026-06-02T20:02:00+08:00",
+      "finishedAt": "2026-06-02T20:04:00+08:00"
+    }
+  ],
+  "publishRecords": [
+    {
+      "id": "publish-001",
+      "topicId": "topic-003",
+      "platform": "X",
+      "publishedAt": "2026-06-02T20:30:00+08:00",
+      "url": "https://x.com/example/status/10001",
+      "reads": 1280,
+      "likes": 46,
+      "favorites": 32,
+      "comments": 8,
+      "shares": 12,
+      "createdAt": "2026-06-02T21:00:00+08:00",
+      "updatedAt": "2026-06-02T22:00:00+08:00"
+    }
+  ],
+  "reviewRecords": [
+    {
+      "id": "review-001",
+      "topicId": "topic-003",
+      "summary": "项目管理类观点适合做短线程，标题里的“确认成本”有辨识度，互动主要来自同行共鸣。",
+      "goodSignals": [
+        "评论集中在真实项目协作痛点。",
+        "收藏率高于普通工具分享内容。",
+        "标题概念清晰，适合继续扩展成长文。"
+      ],
+      "weakSignals": [
+        "缺少具体案例，转发动力一般。",
+        "视频号版本需要更强的前三秒钩子。"
+      ],
+      "nextActions": [
+        "把确认成本扩展成公众号长文。",
+        "补一个真实项目场景案例。",
+        "尝试做一版视频号口播脚本。"
+      ],
+      "createdAt": "2026-06-02T22:30:00+08:00",
+      "updatedAt": "2026-06-02T22:30:00+08:00"
+    }
+  ]
+}
