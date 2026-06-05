@@ -113,6 +113,89 @@ export async function confirmCurrentStep() {
   revalidatePath("/tools");
 }
 
+export async function reeditDecision(decisionId: string) {
+  const data = await getWorkbenchData();
+  const activeSession = getActiveCreationSession(data);
+  if (!activeSession) return;
+
+  const decision = activeSession.decisions.find((d) => d.id === decisionId);
+  if (!decision || decision.status !== "已确认") return;
+
+  const now = new Date().toISOString();
+  decision.status = "待确认";
+  decision.answer = undefined;
+  decision.updatedAt = now;
+
+  if (decision.step === "角度确认" && !decision.options) {
+    decision.options = ["观点", "案例", "工具评测", "方法论", "项目复盘", "个人实验", "趋势观察"];
+  }
+
+  if (decision.step === "标题确认") {
+    const candidates = data.titleCandidates.filter((c) => c.topicId === activeSession.topicId);
+    decision.options = candidates.map((c) => c.title);
+  }
+
+  activeSession.decisions.forEach((d) => {
+    if (d.id !== decisionId && d.status === "待确认") {
+      d.status = "已跳过";
+      d.answer = "因上游重新编辑而跳过。";
+      d.updatedAt = now;
+    }
+  });
+
+  const stepsAfter = ["选题确认", "角度确认", "标题确认", "大纲确认", "工具调用确认"];
+  const currentIndex = stepsAfter.indexOf(decision.step);
+  if (currentIndex >= 0) {
+    const laterDecisions = activeSession.decisions.filter((d) => {
+      const idx = stepsAfter.indexOf(d.step);
+      return idx > currentIndex;
+    });
+    for (const ld of laterDecisions) {
+      if (ld.status === "已确认") {
+        ld.status = "待确认";
+        ld.answer = undefined;
+        ld.updatedAt = now;
+      }
+    }
+  }
+
+  activeSession.currentStep = decision.step as typeof activeSession.currentStep;
+  activeSession.updatedAt = now;
+
+  await saveWorkbenchData(data);
+  revalidatePath("/");
+  revalidatePath("/creation");
+}
+
+export async function switchTitle(candidateId: string) {
+  const data = await getWorkbenchData();
+  const activeSession = getActiveCreationSession(data);
+  if (!activeSession?.topicId) return;
+
+  const candidate = data.titleCandidates.find((c) => c.id === candidateId);
+  if (!candidate || candidate.topicId !== activeSession.topicId) return;
+
+  const now = new Date().toISOString();
+  data.titleCandidates.forEach((c) => {
+    if (c.topicId === activeSession.topicId) c.isSelected = c.id === candidateId;
+  });
+  activeSession.confirmedTitleId = candidateId;
+
+  const titleDecision = activeSession.decisions.find((d) => d.step === "标题确认");
+  if (titleDecision) {
+    titleDecision.confirmedValue = candidate.title;
+    if (titleDecision.status === "已确认") {
+      titleDecision.answer = `选择「${candidate.title}」作为标题。`;
+    }
+    titleDecision.updatedAt = now;
+  }
+
+  activeSession.updatedAt = now;
+  await saveWorkbenchData(data);
+  revalidatePath("/");
+  revalidatePath("/creation");
+}
+
 export async function confirmAngle(angle: string, customAngle?: string) {
   const data = await getWorkbenchData();
   const activeSession = getActiveCreationSession(data);

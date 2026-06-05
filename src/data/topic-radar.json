@@ -1,0 +1,4485 @@
+{
+  "sourceItems": [
+    {
+      "id": "src-ed9b0e52e18d5a4695f5f08ad9567e84",
+      "provider": "aihot",
+      "providerItemId": "cmpy8aaoz02oxslaxh0ql786h",
+      "title": "Perplexity Personal Computer 登陆 Windows",
+      "url": "https://x.com/perplexity_ai/status/2062189045728596080",
+      "sourceName": "X：Perplexity (@perplexity_ai)",
+      "publishedAt": "2026-06-03T15:05:56.000Z",
+      "summary": "Personal Computer 即将登陆 Windows。\n\n面向 Windows 的 Personal Computer 在你的机器上运行，并协调你每天使用的应用和文件。\n\n我们将首先向等候名单上的付费 Max 和 Enterprise Max 订阅用户推送。",
+      "category": "ai-products",
+      "raw": {
+        "id": "cmpy8aaoz02oxslaxh0ql786h",
+        "title": "Perplexity Personal Computer 登陆 Windows",
+        "title_en": "Personal Computer is coming to Windows. Personal Computer for Windows runs on your machine and orch…",
+        "url": "https://x.com/perplexity_ai/status/2062189045728596080",
+        "source": "X：Perplexity (@perplexity_ai)",
+        "publishedAt": "2026-06-03T15:05:56.000Z",
+        "summary": "Personal Computer 即将登陆 Windows。\n\n面向 Windows 的 Personal Computer 在你的机器上运行，并协调你每天使用的应用和文件。\n\n我们将首先向等候名单上的付费 Max 和 Enterprise Max 订阅用户推送。",
+        "category": "ai-products"
+      },
+      "contentHash": "ed9b0e52e18d5a4695f5f08ad9567e84",
+      "firstSeenAt": "2026-06-05T07:21:36.440Z",
+      "updatedAt": "2026-06-05T07:23:55.334Z"
+    },
+    {
+      "id": "src-2f74e6921647306b0f71894658fce3b1",
+      "provider": "aihot",
+      "providerItemId": "cmpyacsh5038rslaxlh6udycy",
+      "title": "微软研究：装瓶厂AI从聊天到决策",
+      "url": "https://x.com/MSFTResearch/status/2062204914223169635",
+      "sourceName": "X：Microsoft Research (@MSFTResearch)",
+      "publishedAt": "2026-06-03T16:09:00.000Z",
+      "summary": "一份在中西部装瓶厂进行的三个月试点显示，当AI超越聊天进入决策领域时会发生什么--约束条件变化、风险真实、答案必须可靠。 https：//msft.it/6015vjYUN",
+      "category": "paper",
+      "raw": {
+        "id": "cmpyacsh5038rslaxlh6udycy",
+        "title": "微软研究：装瓶厂AI从聊天到决策",
+        "title_en": "A three-month pilot in a Midwestern bottling plant shows what happens when AI moves beyond chat and …",
+        "url": "https://x.com/MSFTResearch/status/2062204914223169635",
+        "source": "X：Microsoft Research (@MSFTResearch)",
+        "publishedAt": "2026-06-03T16:09:00.000Z",
+        "summary": "一份在中西部装瓶厂进行的三个月试点显示，当AI超越聊天进入决策领域时会发生什么--约束条件变化、风险真实、答案必须可靠。 https：//msft.it/6015vjYUN",
+        "category": "paper"
+      },
+      "contentHash": "2f74e6921647306b0f71894658fce3b1",
+      "firstSeenAt": "2026-06-05T07:21:36.440Z",
+      "updatedAt": "2026-06-05T07:23:55.334Z"
+    },
+    {
+      "id": "src-ad7cfd143b3fff99894d492caf713471",
+      "provider": "aihot",
+      "providerItemId": "cmpyaf8yv039jslaxi30g4ylg",
+      "title": "OpenShell v0.0.55 发布：新增 Vertex AI 推理支持",
+      "url": "https://x.com/NVIDIAAI/status/2062210034109677665",
+      "sourceName": "X：NVIDIA AI (@NVIDIAAI)",
+      "publishedAt": "2026-06-03T16:29:20.000Z",
+      "summary": "OpenShell v0.0.55\n\n🧩 Google Vertex AI 推理提供者\n🔒 基于配置文件的策略可见性\n🐳 网关中更好的 Podman 检测\n🖥️ 恢复 GPU procfs 基准行为\n🔧 CI 与文档修复\n\n运行智能体对接 Vertex AI，同时拥有改进的策略可见性以及更可靠的 Podman 和 GPU 沙箱行为。\n\nhttps：//github.com/NVIDIA/OpenShell/releases/tag/v0.0.55",
+      "category": "ai-products",
+      "raw": {
+        "id": "cmpyaf8yv039jslaxi30g4ylg",
+        "title": "OpenShell v0.0.55 发布：新增 Vertex AI 推理支持",
+        "title_en": "OpenShell v0.0.55 🧩 Google Vertex AI inference provider 🔒 Profile-backed policy visibility 🐳 B…",
+        "url": "https://x.com/NVIDIAAI/status/2062210034109677665",
+        "source": "X：NVIDIA AI (@NVIDIAAI)",
+        "publishedAt": "2026-06-03T16:29:20.000Z",
+        "summary": "OpenShell v0.0.55\n\n🧩 Google Vertex AI 推理提供者\n🔒 基于配置文件的策略可见性\n🐳 网关中更好的 Podman 检测\n🖥️ 恢复 GPU procfs 基准行为\n🔧 CI 与文档修复\n\n运行智能体对接 Vertex AI，同时拥有改进的策略可见性以及更可靠的 Podman 和 GPU 沙箱行为。\n\nhttps：//github.com/NVIDIA/OpenShell/releases/tag/v0.0.55",
+        "category": "ai-products"
+      },
+      "contentHash": "ad7cfd143b3fff99894d492caf713471",
+      "firstSeenAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:23:55.334Z"
+    },
+    {
+      "id": "src-353f0a36e472e4eaf491169be625c168",
+      "provider": "aihot",
+      "providerItemId": "cmpyayd9g03ebslaxqumvlu4w",
+      "title": "Miso One 开源语音模型：8B 参数、110ms 延迟、一次语音克隆",
+      "url": "https://x.com/kimmonismus/status/2062210845308780639",
+      "sourceName": "X：Kim (@kimmonismus)",
+      "publishedAt": "2026-06-03T16:32:34.000Z",
+      "summary": "Miso One 正式发布，一个 8B 参数的开源权重语音模型（TTS），旨在模拟真实人类朗读的温暖与节奏。它支持一次语音克隆（只需短样本），推理延迟仅 110ms。模型权重已开源至 GitHub，无需 API 即可自托管，音频数据不离开本地。API 访问即将推出。演示已上线，可先试听再克隆仓库。",
+      "category": "ai-models",
+      "raw": {
+        "id": "cmpyayd9g03ebslaxqumvlu4w",
+        "title": "Miso One 开源语音模型：8B 参数、110ms 延迟、一次语音克隆",
+        "title_en": "Miso One is live： an open-weights voice model built to sound like a real person reading， with actual…",
+        "url": "https://x.com/kimmonismus/status/2062210845308780639",
+        "source": "X：Kim (@kimmonismus)",
+        "publishedAt": "2026-06-03T16:32:34.000Z",
+        "summary": "Miso One 正式发布，一个 8B 参数的开源权重语音模型（TTS），旨在模拟真实人类朗读的温暖与节奏。它支持一次语音克隆（只需短样本），推理延迟仅 110ms。模型权重已开源至 GitHub，无需 API 即可自托管，音频数据不离开本地。API 访问即将推出。演示已上线，可先试听再克隆仓库。",
+        "category": "ai-models"
+      },
+      "contentHash": "353f0a36e472e4eaf491169be625c168",
+      "firstSeenAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:23:55.334Z"
+    },
+    {
+      "id": "src-131df4018ae63ada33bb8898c03ed896",
+      "provider": "aihot",
+      "providerItemId": "cmpyb991803i5slaxytpv888x",
+      "title": "Replit上线SEO Agent助应用被发现",
+      "url": "https://x.com/Replit/status/2062211976995188871",
+      "sourceName": "X：Replit (@Replit)",
+      "publishedAt": "2026-06-03T16:37:04.000Z",
+      "summary": "你发布了你的应用。然后呢？\n\n你的应用可能看起来很棒，但如果没人能找到它，它就依然不可见。\n\n发布只是开始。\n\n认识一下SEO Agent。它会为你运行一次扫描，并建议修复措施，帮助你的应用在网页搜索和AI搜索中被发现。",
+      "category": "ai-products",
+      "raw": {
+        "id": "cmpyb991803i5slaxytpv888x",
+        "title": "Replit上线SEO Agent助应用被发现",
+        "title_en": "You shipped your app. Now what？ Your app may look great， but if no one can find it， it stays invisi…",
+        "url": "https://x.com/Replit/status/2062211976995188871",
+        "source": "X：Replit (@Replit)",
+        "publishedAt": "2026-06-03T16:37:04.000Z",
+        "summary": "你发布了你的应用。然后呢？\n\n你的应用可能看起来很棒，但如果没人能找到它，它就依然不可见。\n\n发布只是开始。\n\n认识一下SEO Agent。它会为你运行一次扫描，并建议修复措施，帮助你的应用在网页搜索和AI搜索中被发现。",
+        "category": "ai-products"
+      },
+      "contentHash": "131df4018ae63ada33bb8898c03ed896",
+      "firstSeenAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:23:55.334Z"
+    },
+    {
+      "id": "src-74e462dcfbf49d83e7b41a2460c6fdb0",
+      "provider": "aihot",
+      "providerItemId": "cmpyd2ph203z9slaxfwx9nd13",
+      "title": "Ideogram v4.0 发布：2K 分辨率和 JSON 提示支持",
+      "url": "https://x.com/krea_ai/status/2062227837130887567",
+      "sourceName": "X：Krea AI (@krea_ai)",
+      "publishedAt": "2026-06-03T17:40:05.000Z",
+      "summary": "介绍 Ideogram v4.0。\n\n原生 2K 分辨率，出色的文字渲染，支持 JSON 提示词。\n\n立即在 Krea 中体验。",
+      "category": "ai-models",
+      "raw": {
+        "id": "cmpyd2ph203z9slaxfwx9nd13",
+        "title": "Ideogram v4.0 发布：2K 分辨率和 JSON 提示支持",
+        "title_en": "introducing Ideogram v4.0. 2k native resolution， excellent text rendering， and support for JSON pr…",
+        "url": "https://x.com/krea_ai/status/2062227837130887567",
+        "source": "X：Krea AI (@krea_ai)",
+        "publishedAt": "2026-06-03T17:40:05.000Z",
+        "summary": "介绍 Ideogram v4.0。\n\n原生 2K 分辨率，出色的文字渲染，支持 JSON 提示词。\n\n立即在 Krea 中体验。",
+        "category": "ai-models"
+      },
+      "contentHash": "74e462dcfbf49d83e7b41a2460c6fdb0",
+      "firstSeenAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:23:55.334Z"
+    },
+    {
+      "id": "src-9899cde3b816c6c0953ce1a71298fcf9",
+      "provider": "aihot",
+      "providerItemId": "cmpydnyp4045mslaxffsskvf4",
+      "title": "黄仁勋与纳德拉共议智能体AI时代",
+      "url": "https://x.com/nvidia/status/2062228974273716457",
+      "sourceName": "X：NVIDIA (@nvidia)",
+      "publishedAt": "2026-06-03T17:44:36.000Z",
+      "summary": "智能体AI时代来了。\n\n从台北，黄仁勋与@satyanadella共同出席#MSBuild，展示NVIDIA与@Microsoft如何携手构建，从Windows设备到规模化AI工厂。\n\n▶️ 观看对话：https：//nvda.ws/4uefQbs",
+      "category": "ai-products",
+      "raw": {
+        "id": "cmpydnyp4045mslaxffsskvf4",
+        "title": "黄仁勋与纳德拉共议智能体AI时代",
+        "title_en": "The agentic AI era is here. From Taipei， Jensen Huang joined @satyanadella at #MSBuild to show how …",
+        "url": "https://x.com/nvidia/status/2062228974273716457",
+        "source": "X：NVIDIA (@nvidia)",
+        "publishedAt": "2026-06-03T17:44:36.000Z",
+        "summary": "智能体AI时代来了。\n\n从台北，黄仁勋与@satyanadella共同出席#MSBuild，展示NVIDIA与@Microsoft如何携手构建，从Windows设备到规模化AI工厂。\n\n▶️ 观看对话：https：//nvda.ws/4uefQbs",
+        "category": "ai-products"
+      },
+      "contentHash": "9899cde3b816c6c0953ce1a71298fcf9",
+      "firstSeenAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:23:55.334Z"
+    },
+    {
+      "id": "src-2ab5bb8f0c48bad1035e2c214b8d265e",
+      "provider": "aihot",
+      "providerItemId": "cmpygbyx004v6slax1d1lqpuz",
+      "title": "世界模型的功能分类",
+      "url": "https://x.com/drfeifei/status/2062247238143996275",
+      "sourceName": "X：Fei-Fei Li (@drfeifei, World Labs)",
+      "publishedAt": "2026-06-03T18:57:10.000Z",
+      "summary": "World Labs团队与李飞飞发文，梳理\"世界模型\"这一被滥用的术语。对比语言模型学习文本统计，世界模型学习空间与时间统计（如光照、物理规律）。基于部分可观马尔可夫决策过程（POMDP）框架，智能体通过动作影响世界状态，观测是部分视图。当前被称为\"世界模型\"的不同系统本质上是同一循环的不同投影：第一类为渲染器，输出给人眼看的像素，以视觉保真度为核心。文章着重于概念分层，未给出具体模型名、参数或基准分数。",
+      "category": "tip",
+      "raw": {
+        "id": "cmpygbyx004v6slax1d1lqpuz",
+        "title": "世界模型的功能分类",
+        "title_en": "http：//x.com/i/article/2062244283940544512",
+        "url": "https://x.com/drfeifei/status/2062247238143996275",
+        "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
+        "publishedAt": "2026-06-03T18:57:10.000Z",
+        "summary": "World Labs团队与李飞飞发文，梳理\"世界模型\"这一被滥用的术语。对比语言模型学习文本统计，世界模型学习空间与时间统计（如光照、物理规律）。基于部分可观马尔可夫决策过程（POMDP）框架，智能体通过动作影响世界状态，观测是部分视图。当前被称为\"世界模型\"的不同系统本质上是同一循环的不同投影：第一类为渲染器，输出给人眼看的像素，以视觉保真度为核心。文章着重于概念分层，未给出具体模型名、参数或基准分数。",
+        "category": "tip"
+      },
+      "contentHash": "2ab5bb8f0c48bad1035e2c214b8d265e",
+      "firstSeenAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:23:55.334Z"
+    },
+    {
+      "id": "src-7b43b820240d057f4f1545315ca0f35e",
+      "provider": "aihot",
+      "providerItemId": "cmpyfwtdf04rzslaxxzkal9na",
+      "title": "优步每月 1，500 美元的 AI 使用上限为 AI 工具定价提供参考",
+      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage",
+      "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-03T19:00:08.294Z",
+      "summary": "优步将 AI 工具每月使用上限定为 1500 美元，这一做法为行业 AI 工具定价提供了有价值的参考信号。",
+      "category": "tip",
+      "raw": {
+        "id": "cmpyfwtdf04rzslaxxzkal9na",
+        "title": "优步每月 1，500 美元的 AI 使用上限为 AI 工具定价提供参考",
+        "title_en": "优步每月1，500美元的AI使用上限为AI工具定价提供了有价值的参考",
+        "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "publishedAt": "2026-06-03T19:00:08.294Z",
+        "summary": "优步将 AI 工具每月使用上限定为 1500 美元，这一做法为行业 AI 工具定价提供了有价值的参考信号。",
+        "category": "tip"
+      },
+      "contentHash": "7b43b820240d057f4f1545315ca0f35e",
+      "firstSeenAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:23:55.334Z"
+    },
+    {
+      "id": "src-d3253424636d76d0008e0c195674eb60",
+      "provider": "aihot",
+      "providerItemId": "cmpymda2v01bdsli35e5jhioh",
+      "title": "OpenClaw 2026.6.1发布：新增Windows节点与技能工坊",
+      "url": "https://x.com/openclaw/status/2062288421406785710",
+      "sourceName": "X：OpenClaw (@openclaw)",
+      "publishedAt": "2026-06-03T21:40:49.000Z",
+      "summary": "OpenClaw 2026.6.1 已上线 🦞\n\n🪟 原生 Windows 节点主机\n🛠️ 用于自主学习型智能体的技能工坊（Skill Workshop）\n📋 工作板（Workboard）编排\n🧠 支持 MiniMax M3\n\nWindows 加入集群。无需企鹅服。\nhttps：//github.com/openclaw/openclaw/releases/tag/v2026.6.1",
+      "category": "ai-products",
+      "raw": {
+        "id": "cmpymda2v01bdsli35e5jhioh",
+        "title": "OpenClaw 2026.6.1发布：新增Windows节点与技能工坊",
+        "title_en": "OpenClaw 2026.6.1 is live 🦞 🪟 native Windows node host 🛠️ Skill Workshop for self-learning agent…",
+        "url": "https://x.com/openclaw/status/2062288421406785710",
+        "source": "X：OpenClaw (@openclaw)",
+        "publishedAt": "2026-06-03T21:40:49.000Z",
+        "summary": "OpenClaw 2026.6.1 已上线 🦞\n\n🪟 原生 Windows 节点主机\n🛠️ 用于自主学习型智能体的技能工坊（Skill Workshop）\n📋 工作板（Workboard）编排\n🧠 支持 MiniMax M3\n\nWindows 加入集群。无需企鹅服。\nhttps：//github.com/openclaw/openclaw/releases/tag/v2026.6.1",
+        "category": "ai-products"
+      },
+      "contentHash": "d3253424636d76d0008e0c195674eb60",
+      "firstSeenAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:23:55.334Z"
+    },
+    {
+      "id": "src-d555149888ab9e95234e06b1505cad02",
+      "provider": "aihot",
+      "providerItemId": "cmpymcfaz01b5sli3o5nw1ytc",
+      "title": "Grok模型登陆Cloudflare AI Gateway",
+      "url": "https://x.com/xai/status/2062294202625696081",
+      "sourceName": "X：xAI (@xai)",
+      "publishedAt": "2026-06-03T22:03:48.000Z",
+      "summary": "在 @Cloudflare 的 AI Gateway 上尝试 Grok 模型！",
+      "category": "ai-products",
+      "raw": {
+        "id": "cmpymcfaz01b5sli3o5nw1ytc",
+        "title": "Grok模型登陆Cloudflare AI Gateway",
+        "title_en": "Try Grok models on @Cloudflare's AI Gateway！",
+        "url": "https://x.com/xai/status/2062294202625696081",
+        "source": "X：xAI (@xai)",
+        "publishedAt": "2026-06-03T22:03:48.000Z",
+        "summary": "在 @Cloudflare 的 AI Gateway 上尝试 Grok 模型！",
+        "category": "ai-products"
+      },
+      "contentHash": "d555149888ab9e95234e06b1505cad02",
+      "firstSeenAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:23:55.334Z"
+    },
+    {
+      "id": "src-5c8c8d4f25277cafcbac5fad2fa7fbc1",
+      "provider": "aihot",
+      "providerItemId": "cmpznzjs205baslkpa2lb0j2d",
+      "title": "Hugging Face 为编码智能体重塑 hf CLI 输出格式",
+      "url": "https://huggingface.co/blog/hf-cli-for-agents",
+      "sourceName": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-04T00:00:00.000Z",
+      "summary": "Hugging Face 重新设计 hf CLI，使其同时服务人类用户和编码智能体（Claude Code、Codex 等）。CLI 通过环境变量自动检测智能体驱动，输出紧凑无截断的 TSV 格式，避免 ANSI 和交互提示，大幅降低 token 消耗。复杂多步任务中，不使用 CLI 的智能体 token 消耗最高达 hf CLI 的 6 倍。2026 年 4 月起，Hugging Face 追踪 Hub 智能体流量，Claude Code 约 4 万用户、近 4900 万次请求，Codex 紧随其后。",
+      "category": "ai-products",
+      "raw": {
+        "id": "cmpznzjs205baslkpa2lb0j2d",
+        "title": "Hugging Face 为编码智能体重塑 hf CLI 输出格式",
+        "title_en": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+        "url": "https://huggingface.co/blog/hf-cli-for-agents",
+        "source": "Hugging Face：Blog（RSS）",
+        "publishedAt": "2026-06-04T00:00:00.000Z",
+        "summary": "Hugging Face 重新设计 hf CLI，使其同时服务人类用户和编码智能体（Claude Code、Codex 等）。CLI 通过环境变量自动检测智能体驱动，输出紧凑无截断的 TSV 格式，避免 ANSI 和交互提示，大幅降低 token 消耗。复杂多步任务中，不使用 CLI 的智能体 token 消耗最高达 hf CLI 的 6 倍。2026 年 4 月起，Hugging Face 追踪 Hub 智能体流量，Claude Code 约 4 万用户、近 4900 万次请求，Codex 紧随其后。",
+        "category": "ai-products"
+      },
+      "contentHash": "5c8c8d4f25277cafcbac5fad2fa7fbc1",
+      "firstSeenAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:23:55.334Z"
+    },
+    {
+      "id": "src-d9421be4646ac6fe9326ff950b591e97",
+      "provider": "aihot",
+      "providerItemId": "cmpzz2tek01czsltr5e8t02lu",
+      "title": "OpenAI 发布《智能时代的生物防御》行动计划，以 AI 驱动生物韧性",
+      "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-06-04T00:00:00.000Z",
+      "summary": "OpenAI 提出一项名为\"Biodefense in the Intelligence Age\"的行动计划，旨在利用 AI 增强生物防御与韧性。该计划聚焦于构建 AI 驱动的生物安全能力，以应对未来可能出现的生物威胁。",
+      "category": "tip",
+      "raw": {
+        "id": "cmpzz2tek01czsltr5e8t02lu",
+        "title": "OpenAI 发布《智能时代的生物防御》行动计划，以 AI 驱动生物韧性",
+        "title_en": "Biodefense in the Intelligence Age",
+        "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
+        "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "publishedAt": "2026-06-04T00:00:00.000Z",
+        "summary": "OpenAI 提出一项名为\"Biodefense in the Intelligence Age\"的行动计划，旨在利用 AI 增强生物防御与韧性。该计划聚焦于构建 AI 驱动的生物安全能力，以应对未来可能出现的生物威胁。",
+        "category": "tip"
+      },
+      "contentHash": "d9421be4646ac6fe9326ff950b591e97",
+      "firstSeenAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:23:55.334Z"
+    },
+    {
+      "id": "src-545b232257da1a16f1e035ac13aa0ae1",
+      "provider": "aihot",
+      "providerItemId": "cmpysu6gj030usli3gqo1qtsd",
+      "title": "联合国报告：2030年AI数据中心水电消耗将翻倍",
+      "url": "https://www.ithome.com/0/959/607.htm",
+      "sourceName": "IT之家（RSS）",
+      "publishedAt": "2026-06-04T00:50:46.000Z",
+      "summary": "联合国大学水、环境与健康研究所报告指出，受AI需求驱动，去年全球数据中心耗电448太瓦时（AI占五分之一），耗水4.5万亿升，碳排放1.89亿吨。预计到2030年，年耗电量将翻倍至945太瓦时（AI占40%），耗水增至9.3万亿升，碳排放升至3.99亿吨，占地面积从6900平方公里扩展至14500平方公里。报告警告若忽视环境成本，AI落地还将加剧土地紧张与电子废弃物问题。",
+      "category": "industry",
+      "raw": {
+        "id": "cmpysu6gj030usli3gqo1qtsd",
+        "title": "联合国报告：2030年AI数据中心水电消耗将翻倍",
+        "title_en": "联合国报告警示：AI 驱动下，2030 年数据中心水电消耗将翻倍",
+        "url": "https://www.ithome.com/0/959/607.htm",
+        "source": "IT之家（RSS）",
+        "publishedAt": "2026-06-04T00:50:46.000Z",
+        "summary": "联合国大学水、环境与健康研究所报告指出，受AI需求驱动，去年全球数据中心耗电448太瓦时（AI占五分之一），耗水4.5万亿升，碳排放1.89亿吨。预计到2030年，年耗电量将翻倍至945太瓦时（AI占40%），耗水增至9.3万亿升，碳排放升至3.99亿吨，占地面积从6900平方公里扩展至14500平方公里。报告警告若忽视环境成本，AI落地还将加剧土地紧张与电子废弃物问题。",
+        "category": "industry"
+      },
+      "contentHash": "545b232257da1a16f1e035ac13aa0ae1",
+      "firstSeenAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:23:55.334Z"
+    },
+    {
+      "id": "src-e41da57d48a5ceef56aa557a802f47d4",
+      "provider": "aihot",
+      "providerItemId": "cmpyvxja303t6sli3dok90v7m",
+      "title": "NVIDIA PPISP：补偿光度变化提升3D重建",
+      "url": "https://x.com/NVIDIAAI/status/2062358080222876041",
+      "sourceName": "X：NVIDIA AI (@NVIDIAAI)",
+      "publishedAt": "2026-06-04T02:17:37.000Z",
+      "summary": "辐射场的质量取决于其背后的图像。\n\nPPISP 可帮助补偿不同拍摄之间的光度变化，使 3D 重建在光照和相机设置不完全一致时更加鲁棒。\n\n🔗 项目：https：//nvda.ws/43JeJpk",
+      "category": "paper",
+      "raw": {
+        "id": "cmpyvxja303t6sli3dok90v7m",
+        "title": "NVIDIA PPISP：补偿光度变化提升3D重建",
+        "title_en": "Radiance fields are only as good as the images behind them. PPISP helps compensate for photometric…",
+        "url": "https://x.com/NVIDIAAI/status/2062358080222876041",
+        "source": "X：NVIDIA AI (@NVIDIAAI)",
+        "publishedAt": "2026-06-04T02:17:37.000Z",
+        "summary": "辐射场的质量取决于其背后的图像。\n\nPPISP 可帮助补偿不同拍摄之间的光度变化，使 3D 重建在光照和相机设置不完全一致时更加鲁棒。\n\n🔗 项目：https：//nvda.ws/43JeJpk",
+        "category": "paper"
+      },
+      "contentHash": "e41da57d48a5ceef56aa557a802f47d4",
+      "firstSeenAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:23:55.334Z"
+    },
+    {
+      "id": "src-498cee4e14524038996b6e1c188633b4",
+      "provider": "aihot",
+      "providerItemId": "cmpyx4llm047vsli313nmjw1m",
+      "title": "Cloudflare Radar：机器人流量首次超过人类占比57.5%",
+      "url": "https://x.com/xiaohu/status/2062367357868355622",
+      "sourceName": "X：小互 (@xiaohu)",
+      "publishedAt": "2026-06-04T02:54:29.000Z",
+      "summary": "Cloudflare Radar 实时统计显示，过去一周（5月28日至6月4日）全球所有 HTML 网页请求流量中，57.5% 来自机器人（爬虫、AI 抓取、自动化脚本），仅42.5%来自真人浏览器，机器人流量首次超过人类。按所有 HTTP 流量返回内容分类，JSON（API 机器通信）占33.1%居首，HTML 仅12%。互联网流量主体已从人类浏览网页转向机器间通信和机器人抓取。",
+      "category": "industry",
+      "raw": {
+        "id": "cmpyx4llm047vsli313nmjw1m",
+        "title": "Cloudflare Radar：机器人流量首次超过人类占比57.5%",
+        "title_en": "📢 里程碑 机器人流量🤖 首次在互联网历史上超过了人类在线流量👨🦰 根据Cloudflare Radar的实时统计 过去一周（5月28日到6月4日），全球所有请求 HTML 网页的流…",
+        "url": "https://x.com/xiaohu/status/2062367357868355622",
+        "source": "X：小互 (@xiaohu)",
+        "publishedAt": "2026-06-04T02:54:29.000Z",
+        "summary": "Cloudflare Radar 实时统计显示，过去一周（5月28日至6月4日）全球所有 HTML 网页请求流量中，57.5% 来自机器人（爬虫、AI 抓取、自动化脚本），仅42.5%来自真人浏览器，机器人流量首次超过人类。按所有 HTTP 流量返回内容分类，JSON（API 机器通信）占33.1%居首，HTML 仅12%。互联网流量主体已从人类浏览网页转向机器间通信和机器人抓取。",
+        "category": "industry"
+      },
+      "contentHash": "498cee4e14524038996b6e1c188633b4",
+      "firstSeenAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-e126e10d439155bc21388cafc7229a10",
+      "provider": "aihot",
+      "providerItemId": "cmpz4ztc400a8slkpncco9ljl",
+      "title": "Meet OpenJarvis：一个本地优先的设备端个人AI智能体框架，支持工具、记忆与学习",
+      "url": "https://www.marktechpost.com/2026/06/03/meet-openjarvis-a-local-first-framework-for-on-device-personal-ai-agents-with-tools-memory-and-learning",
+      "sourceName": "MarkTechPost（RSS）",
+      "publishedAt": "2026-06-04T06:23:10.000Z",
+      "summary": "Stanford 研究人员发布 OpenJarvis，一个完全在设备端运行推理、智能体、记忆与学习的开源框架。它将个人 AI 系统分解为五个可组合原语：Intelligence、Engine、Agents、Tools & Memory 和 Learning。该框架与最佳云端模型的性能差距在 3.2 points 以内，边际 API 成本降低约 800 倍。",
+      "category": "ai-products",
+      "raw": {
+        "id": "cmpz4ztc400a8slkpncco9ljl",
+        "title": "Meet OpenJarvis：一个本地优先的设备端个人AI智能体框架，支持工具、记忆与学习",
+        "title_en": "Meet OpenJarvis： A Local-First Framework for On-Device Personal AI Agents with Tools， Memory， and Learning",
+        "url": "https://www.marktechpost.com/2026/06/03/meet-openjarvis-a-local-first-framework-for-on-device-personal-ai-agents-with-tools-memory-and-learning",
+        "source": "MarkTechPost（RSS）",
+        "publishedAt": "2026-06-04T06:23:10.000Z",
+        "summary": "Stanford 研究人员发布 OpenJarvis，一个完全在设备端运行推理、智能体、记忆与学习的开源框架。它将个人 AI 系统分解为五个可组合原语：Intelligence、Engine、Agents、Tools & Memory 和 Learning。该框架与最佳云端模型的性能差距在 3.2 points 以内，边际 API 成本降低约 800 倍。",
+        "category": "ai-products"
+      },
+      "contentHash": "e126e10d439155bc21388cafc7229a10",
+      "firstSeenAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-9f0af7c9f14da4e8780004a265169449",
+      "provider": "aihot",
+      "providerItemId": "cmpzosigs05knslkpwrpnvf65",
+      "title": "Dreaming： ChatGPT 推出更强的记忆系统，更好记住用户偏好",
+      "url": "https://openai.com/index/chatgpt-memory-dreaming",
+      "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "publishedAt": "2026-06-04T09:00:00.000Z",
+      "summary": "ChatGPT 推出名为 Dreaming 的新记忆系统，能够更有效地记住用户偏好，并在跨对话场景中保持上下文的新鲜感和相关性，从而提升助手的个性化体验。",
+      "category": "ai-products",
+      "raw": {
+        "id": "cmpzosigs05knslkpwrpnvf65",
+        "title": "Dreaming： ChatGPT 推出更强的记忆系统，更好记住用户偏好",
+        "title_en": "Dreaming： Better memory for a more helpful ChatGPT",
+        "url": "https://openai.com/index/chatgpt-memory-dreaming",
+        "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "publishedAt": "2026-06-04T09:00:00.000Z",
+        "summary": "ChatGPT 推出名为 Dreaming 的新记忆系统，能够更有效地记住用户偏好，并在跨对话场景中保持上下文的新鲜感和相关性，从而提升助手的个性化体验。",
+        "category": "ai-products"
+      },
+      "contentHash": "9f0af7c9f14da4e8780004a265169449",
+      "firstSeenAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-ea0edd813a7ad807d20cfe0fce4f8760",
+      "provider": "aihot",
+      "providerItemId": "cmpzer05a02v8slkpi6r58kcw",
+      "title": "微软AI负责人：Anthropic模型太贵，正自研更便宜的替代模型",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-06-04/microsoft-says-anthropic-models-are-too-expensive",
+      "sourceName": "Bloomberg：Technology（RSS）",
+      "publishedAt": "2026-06-04T11:02:01.000Z",
+      "summary": "微软AI部门负责人表示，Anthropic推出的模型成本过高，公司目前正在内部研发更廉价的替代模型，以降低成本。",
+      "category": "industry",
+      "raw": {
+        "id": "cmpzer05a02v8slkpi6r58kcw",
+        "title": "微软AI负责人：Anthropic模型太贵，正自研更便宜的替代模型",
+        "title_en": "Microsoft's AI Chief Says Anthropic Models Are Too Expensive",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-06-04/microsoft-says-anthropic-models-are-too-expensive",
+        "source": "Bloomberg：Technology（RSS）",
+        "publishedAt": "2026-06-04T11:02:01.000Z",
+        "summary": "微软AI部门负责人表示，Anthropic推出的模型成本过高，公司目前正在内部研发更廉价的替代模型，以降低成本。",
+        "category": "industry"
+      },
+      "contentHash": "ea0edd813a7ad807d20cfe0fce4f8760",
+      "firstSeenAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-ba27a1ea20614fb0ec9e1f1d4309c06f",
+      "provider": "aihot",
+      "providerItemId": "cmpzfevp50305slkpy89xsy0v",
+      "title": "Nemotron 预训练的任务种子合成问答生成",
+      "url": "https://huggingface.co/blog/nvidia/task-seeded-sdg",
+      "sourceName": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-04T11:24:53.000Z",
+      "summary": "在 Nemotron-3 Nano 模型的 100B token 续训练实验中，任务种子合成数据生成（Task-Seeded SDG）使 MMLU-Pro 提升 1.8 分，平均代码提升 1.9 分，常识理解提升 1.6 分，GPQA 提升 11.1 分，数学成绩保持稳定。该流程利用 lm-eval-harness 中约 70 个公开任务（约 700 子任务）的训练集作为种子，生成新示例并补充推理和上下文，经过格式校验、去重和答案验证后得到精选合成数据集，用于 Nemotron Ultra 和 Super 训练。",
+      "category": "paper",
+      "raw": {
+        "id": "cmpzfevp50305slkpy89xsy0v",
+        "title": "Nemotron 预训练的任务种子合成问答生成",
+        "title_en": "Task-Seeded Synthetic Q&A Generation for Nemotron Pretraining",
+        "url": "https://huggingface.co/blog/nvidia/task-seeded-sdg",
+        "source": "Hugging Face：Blog（RSS）",
+        "publishedAt": "2026-06-04T11:24:53.000Z",
+        "summary": "在 Nemotron-3 Nano 模型的 100B token 续训练实验中，任务种子合成数据生成（Task-Seeded SDG）使 MMLU-Pro 提升 1.8 分，平均代码提升 1.9 分，常识理解提升 1.6 分，GPQA 提升 11.1 分，数学成绩保持稳定。该流程利用 lm-eval-harness 中约 70 个公开任务（约 700 子任务）的训练集作为种子，生成新示例并补充推理和上下文，经过格式校验、去重和答案验证后得到精选合成数据集，用于 Nemotron Ultra 和 Super 训练。",
+        "category": "paper"
+      },
+      "contentHash": "ba27a1ea20614fb0ec9e1f1d4309c06f",
+      "firstSeenAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-f15c458407b630b43e8e5b7843939736",
+      "provider": "aihot",
+      "providerItemId": "cmq02h5su02a7sltrhs0xegph",
+      "title": "OpenRouter 翻遍 11 款 LLM 找最快的决策模型：Claude vs. Grok 领衔",
+      "url": "https://openrouter.ai/announcements/royale-last-agent-standing",
+      "sourceName": "OpenRouter：Announcements（RSS）",
+      "publishedAt": "2026-06-04T12:00:00.000Z",
+      "summary": "OpenRouter 用总价 482 美元的推理花费，让 11 款大语言模型在 30 轮实时决策的\"大逃杀\"挑战中正面竞争。实验结果表明，传统的静态 benchmark 排名无法反映模型在需要即时反应的智能体任务（如自主控制机器人）中的真实表现，Claude 和 Grok 系列模型在决策速度与任务成功率上表现突出，而多项高分模型的实时调度能力未达预期。",
+      "category": "tip",
+      "raw": {
+        "id": "cmq02h5su02a7sltrhs0xegph",
+        "title": "OpenRouter 翻遍 11 款 LLM 找最快的决策模型：Claude vs. Grok 领衔",
+        "title_en": "A Robot is Sprinting Towards You： Do You Want it Running on Claude or Grok？",
+        "url": "https://openrouter.ai/announcements/royale-last-agent-standing",
+        "source": "OpenRouter：Announcements（RSS）",
+        "publishedAt": "2026-06-04T12:00:00.000Z",
+        "summary": "OpenRouter 用总价 482 美元的推理花费，让 11 款大语言模型在 30 轮实时决策的\"大逃杀\"挑战中正面竞争。实验结果表明，传统的静态 benchmark 排名无法反映模型在需要即时反应的智能体任务（如自主控制机器人）中的真实表现，Claude 和 Grok 系列模型在决策速度与任务成功率上表现突出，而多项高分模型的实时调度能力未达预期。",
+        "category": "tip"
+      },
+      "contentHash": "f15c458407b630b43e8e5b7843939736",
+      "firstSeenAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-51a9979412b63979a9c8a9fa1a8fdeac",
+      "provider": "aihot",
+      "providerItemId": "cmpzhk1rp03k5slkpmx3q7mp3",
+      "title": "EVA-Bench Data 2.0 发布：覆盖三大领域、121 个工具、213 个场景",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+      "sourceName": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-04T12:24:58.000Z",
+      "summary": "EVA-Bench Data 2.0 将评估范围从单一企业领域扩展至航空公司客户服务管理（CSM）、企业 IT 服务管理（ITSM）和医疗 HR 服务交付（HRSD）三个领域，共涵盖 121 个工具、213 个场景，场景数较原始版本增长约 4 倍。每个场景均经 OpenAI GPT-5.4、Google Gemini 3.1 Pro 和 Anthropic Claude Opus 4.6 验证可解性。数据集遵循语音优先、真实性、多样性、认证流程和可复现性五项设计原则，包含单意图、多意图（最多 4 个意图）和对抗性呼叫类型。所有三个数据集已开源，可通过 `load_dataset` 从 Hugging Face 直接下载。后续将推出多语言扩展。",
+      "category": "paper",
+      "raw": {
+        "id": "cmpzhk1rp03k5slkpmx3q7mp3",
+        "title": "EVA-Bench Data 2.0 发布：覆盖三大领域、121 个工具、213 个场景",
+        "title_en": "EVA-Bench Data 2.0： 3 Domains， 121 Tools， 213 Scenarios",
+        "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+        "source": "Hugging Face：Blog（RSS）",
+        "publishedAt": "2026-06-04T12:24:58.000Z",
+        "summary": "EVA-Bench Data 2.0 将评估范围从单一企业领域扩展至航空公司客户服务管理（CSM）、企业 IT 服务管理（ITSM）和医疗 HR 服务交付（HRSD）三个领域，共涵盖 121 个工具、213 个场景，场景数较原始版本增长约 4 倍。每个场景均经 OpenAI GPT-5.4、Google Gemini 3.1 Pro 和 Anthropic Claude Opus 4.6 验证可解性。数据集遵循语音优先、真实性、多样性、认证流程和可复现性五项设计原则，包含单意图、多意图（最多 4 个意图）和对抗性呼叫类型。所有三个数据集已开源，可通过 `load_dataset` 从 Hugging Face 直接下载。后续将推出多语言扩展。",
+        "category": "paper"
+      },
+      "contentHash": "51a9979412b63979a9c8a9fa1a8fdeac",
+      "firstSeenAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-9c7cbdeacd6019954d9643748d6c3eaf",
+      "provider": "aihot",
+      "providerItemId": "cmpzhy9nu03ooslkppckmwgn7",
+      "title": "OpenAI称AI递归自我改进迹象初现",
+      "url": "https://x.com/kimmonismus/status/2062517474277675102",
+      "sourceName": "X：Kim (@kimmonismus)",
+      "publishedAt": "2026-06-04T12:51:00.000Z",
+      "summary": "OpenAI刚刚写道：\"我们也看到了当今系统中递归自我改进（RSI）的早期迹象：AI开发本身正被AI加速。\n\n我们预计这将加剧开发者与国家之间的竞争压力，并带来现有机构无法应对的治理挑战。\n\n随着RSI的出现，社会将需要找到塑造AI发展轨迹的方法，确保其服务于人类利益。\"\n\n气氛变了，有事正在发生。",
+      "category": "tip",
+      "raw": {
+        "id": "cmpzhy9nu03ooslkppckmwgn7",
+        "title": "OpenAI称AI递归自我改进迹象初现",
+        "title_en": "OpenAI just wrote： \"We also see early signs of recursive self-improvement （RSI） in today's systems： …",
+        "url": "https://x.com/kimmonismus/status/2062517474277675102",
+        "source": "X：Kim (@kimmonismus)",
+        "publishedAt": "2026-06-04T12:51:00.000Z",
+        "summary": "OpenAI刚刚写道：\"我们也看到了当今系统中递归自我改进（RSI）的早期迹象：AI开发本身正被AI加速。\n\n我们预计这将加剧开发者与国家之间的竞争压力，并带来现有机构无法应对的治理挑战。\n\n随着RSI的出现，社会将需要找到塑造AI发展轨迹的方法，确保其服务于人类利益。\"\n\n气氛变了，有事正在发生。",
+        "category": "tip"
+      },
+      "contentHash": "9c7cbdeacd6019954d9643748d6c3eaf",
+      "firstSeenAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-c185fe28ec2db62da09ff937d8e9df49",
+      "provider": "aihot",
+      "providerItemId": "cmpzjp7tw045aslkp6e927y5j",
+      "title": "Nemotron 3.5 ASR：为你的语言、领域或口音进行微调",
+      "url": "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr",
+      "sourceName": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-04T12:59:35.000Z",
+      "summary": "Nemotron 3.5 ASR 是一个 600M 参数的多语言流式语音识别模型，单个检查点覆盖 40 种语言-地区（含英、西、德、法、意、日、韩、中、阿拉伯等）。采用 Cache-Aware FastConformer 编码器与 RNNT 解码器，缓存内部状态避免重复计算，实现低延迟流式转录且不损失精度。模型原生输出带标点和大写的生产级文本，无需后处理。支持指定语言（target_lang=es-ES）或自动语言检测（target_lang=auto）。通过注意力上下文大小（att_context_size）可在推理时直接调节延迟-准确率权衡，范围从 80ms 到 1.12s，无需重新训练。模型以 NeMo 检查点形式发布，可用于微调以适配特定语言、领域或口音。",
+      "category": "tip",
+      "raw": {
+        "id": "cmpzjp7tw045aslkp6e927y5j",
+        "title": "Nemotron 3.5 ASR：为你的语言、领域或口音进行微调",
+        "title_en": "How to Fine-Tune Nemotron 3.5 ASR for Your Language， Domain， or Accent",
+        "url": "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr",
+        "source": "Hugging Face：Blog（RSS）",
+        "publishedAt": "2026-06-04T12:59:35.000Z",
+        "summary": "Nemotron 3.5 ASR 是一个 600M 参数的多语言流式语音识别模型，单个检查点覆盖 40 种语言-地区（含英、西、德、法、意、日、韩、中、阿拉伯等）。采用 Cache-Aware FastConformer 编码器与 RNNT 解码器，缓存内部状态避免重复计算，实现低延迟流式转录且不损失精度。模型原生输出带标点和大写的生产级文本，无需后处理。支持指定语言（target_lang=es-ES）或自动语言检测（target_lang=auto）。通过注意力上下文大小（att_context_size）可在推理时直接调节延迟-准确率权衡，范围从 80ms 到 1.12s，无需重新训练。模型以 NeMo 检查点形式发布，可用于微调以适配特定语言、领域或口音。",
+        "category": "tip"
+      },
+      "contentHash": "c185fe28ec2db62da09ff937d8e9df49",
+      "firstSeenAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-0d3a903d2e882880fc70431df82e7626",
+      "provider": "aihot",
+      "providerItemId": "cmpzigjmt03udslkp0elkhz7c",
+      "title": "NVIDIA Nemotron 3 Ultra 为长时间运行的智能体带来更快、更高效的推理能力",
+      "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents",
+      "sourceName": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+      "publishedAt": "2026-06-04T13:02:49.000Z",
+      "summary": "NVIDIA 发布 Nemotron 3 Ultra 模型，专为长时间运行的 AI 智能体设计。该模型能够在多轮对话中保持上下文、调用工具、调用子智能体，并高效处理复杂工作流。随着多智能体协作导致模型 token 数量快速增长，Nemotron 3 Ultra 通过优化推理流程显著提升速度并降低计算成本，使长期运行的智能体任务更加可行。",
+      "category": "ai-models",
+      "raw": {
+        "id": "cmpzigjmt03udslkp0elkhz7c",
+        "title": "NVIDIA Nemotron 3 Ultra 为长时间运行的智能体带来更快、更高效的推理能力",
+        "title_en": "NVIDIA Nemotron 3 Ultra Powers Faster， More Efficient Reasoning for Long-Running Agents",
+        "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents",
+        "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+        "publishedAt": "2026-06-04T13:02:49.000Z",
+        "summary": "NVIDIA 发布 Nemotron 3 Ultra 模型，专为长时间运行的 AI 智能体设计。该模型能够在多轮对话中保持上下文、调用工具、调用子智能体，并高效处理复杂工作流。随着多智能体协作导致模型 token 数量快速增长，Nemotron 3 Ultra 通过优化推理流程显著提升速度并降低计算成本，使长期运行的智能体任务更加可行。",
+        "category": "ai-models"
+      },
+      "contentHash": "0d3a903d2e882880fc70431df82e7626",
+      "firstSeenAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-1a572a4243844ff455b35b90716eaf6c",
+      "provider": "aihot",
+      "providerItemId": "cmpzljcev04oyslkpirsh5gdy",
+      "title": "DeepSeek连续四周登顶Token份额榜",
+      "url": "https://x.com/OpenRouter/status/2062538625225548118",
+      "sourceName": "X：OpenRouter (@OpenRouter)",
+      "publishedAt": "2026-06-04T14:15:03.000Z",
+      "summary": "DeepSeek 现已连续四周在我们平台的 token 份额排行榜上位居第一： https：//openrouter.ai/rankings",
+      "category": "industry",
+      "raw": {
+        "id": "cmpzljcev04oyslkpirsh5gdy",
+        "title": "DeepSeek连续四周登顶Token份额榜",
+        "title_en": "DeepSeek has now topped our token share rankings 4 weeks in a row： https：//openrouter.ai/rankings",
+        "url": "https://x.com/OpenRouter/status/2062538625225548118",
+        "source": "X：OpenRouter (@OpenRouter)",
+        "publishedAt": "2026-06-04T14:15:03.000Z",
+        "summary": "DeepSeek 现已连续四周在我们平台的 token 份额排行榜上位居第一： https：//openrouter.ai/rankings",
+        "category": "industry"
+      },
+      "contentHash": "1a572a4243844ff455b35b90716eaf6c",
+      "firstSeenAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-f9f6396892265cf861b602c8a9380cb7",
+      "provider": "aihot",
+      "providerItemId": "cmpzmsurk050jslkpxfuptzyp",
+      "title": "台积电难以跟上AI需求：\"我们只能支持这么多\"",
+      "url": "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles",
+      "sourceName": "The Verge：订阅版科技（RSS）",
+      "publishedAt": "2026-06-04T14:15:44.000Z",
+      "summary": "全球最大芯片制造商台积电表示，通过美国本土生产满足客户需求可能需要\"非常长的时间\"，凸显AI需求带来的产能压力。",
+      "category": "industry",
+      "raw": {
+        "id": "cmpzmsurk050jslkpxfuptzyp",
+        "title": "台积电难以跟上AI需求：\"我们只能支持这么多\"",
+        "title_en": "TSMC struggles to keep up with AI demand： 'We can only support so much'",
+        "url": "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles",
+        "source": "The Verge：订阅版科技（RSS）",
+        "publishedAt": "2026-06-04T14:15:44.000Z",
+        "summary": "全球最大芯片制造商台积电表示，通过美国本土生产满足客户需求可能需要\"非常长的时间\"，凸显AI需求带来的产能压力。",
+        "category": "industry"
+      },
+      "contentHash": "f9f6396892265cf861b602c8a9380cb7",
+      "firstSeenAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-13d9f7fbf49a18e0c64b55b8b8856c50",
+      "provider": "aihot",
+      "providerItemId": "cmpzn05ag052vslkpo3cb21hq",
+      "title": "Nex-N2-Pro 发布：基于 Qwen3.5 的 397B MoE 推理模型，性能达 GPT-5.5 水平",
+      "url": "https://x.com/SiliconFlowAI/status/2062549952266723493",
+      "sourceName": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+      "publishedAt": "2026-06-04T15:00:03.000Z",
+      "summary": "neolab 推出 Nex-N2-Pro，基于 Qwen3.5-397B-A17B，总参数 397B 的 MoE 推理模型，支持 262K 上下文与多模态（VLM），性能达到 GPT-5.5 和 Claude Opus 4.7 级别。模型可自动调节推理深度，减少 30-50% 思考 token 且无性能折损，在 Terminal Bench 2.1、GDPVal、SWE-Verified 上取得 SOTA。擅长智能体编码、深度搜索和工具使用，兼容 Claude Code、Cursor 等工具。硅基流动已提供 T+0 支持，前两周免费使用。",
+      "category": "ai-models",
+      "raw": {
+        "id": "cmpzn05ag052vslkpo3cb21hq",
+        "title": "Nex-N2-Pro 发布：基于 Qwen3.5 的 397B MoE 推理模型，性能达 GPT-5.5 水平",
+        "title_en": "Post-training is having a moment - Nex-N2-Pro from neolab @NexEcosystem proves it. Built on Qwen3.5-…",
+        "url": "https://x.com/SiliconFlowAI/status/2062549952266723493",
+        "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+        "publishedAt": "2026-06-04T15:00:03.000Z",
+        "summary": "neolab 推出 Nex-N2-Pro，基于 Qwen3.5-397B-A17B，总参数 397B 的 MoE 推理模型，支持 262K 上下文与多模态（VLM），性能达到 GPT-5.5 和 Claude Opus 4.7 级别。模型可自动调节推理深度，减少 30-50% 思考 token 且无性能折损，在 Terminal Bench 2.1、GDPVal、SWE-Verified 上取得 SOTA。擅长智能体编码、深度搜索和工具使用，兼容 Claude Code、Cursor 等工具。硅基流动已提供 T+0 支持，前两周免费使用。",
+        "category": "ai-models"
+      },
+      "contentHash": "13d9f7fbf49a18e0c64b55b8b8856c50",
+      "firstSeenAt": "2026-06-05T07:21:36.436Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-3fa2a0bb361b94c34d3bd66d1613d3c9",
+      "provider": "aihot",
+      "providerItemId": "cmpzqvd77063uslkpjlcqivws",
+      "title": "Alex Imas 和 Phil Trammell：AGI 后什么仍然稀缺？",
+      "url": "https://www.dwarkesh.com/p/alex-imas-phil-trammell",
+      "sourceName": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "publishedAt": "2026-06-04T16:14:49.000Z",
+      "summary": "经济学家 Alex Imas 和 Phil Trammell 指出，AGI 时代机器人数量可以快速复制增长，但人类独特技能（以芭蕾舞演员为例）的数量保持不变，揭示了即使技术大幅进步，某些稀缺资源仍不可替代。",
+      "category": "tip",
+      "raw": {
+        "id": "cmpzqvd77063uslkpjlcqivws",
+        "title": "Alex Imas 和 Phil Trammell：AGI 后什么仍然稀缺？",
+        "title_en": "Alex Imas and Phil Trammell - What remains scarce after AGI？",
+        "url": "https://www.dwarkesh.com/p/alex-imas-phil-trammell",
+        "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+        "publishedAt": "2026-06-04T16:14:49.000Z",
+        "summary": "经济学家 Alex Imas 和 Phil Trammell 指出，AGI 时代机器人数量可以快速复制增长，但人类独特技能（以芭蕾舞演员为例）的数量保持不变，揭示了即使技术大幅进步，某些稀缺资源仍不可替代。",
+        "category": "tip"
+      },
+      "contentHash": "3fa2a0bb361b94c34d3bd66d1613d3c9",
+      "firstSeenAt": "2026-06-05T07:21:36.436Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-9a1a36201160538a5bf20b8312441e48",
+      "provider": "aihot",
+      "providerItemId": "cmpzqhv5y0607slkptes62n17",
+      "title": "Boson AI 与 LMSYS 发布基于 SGLang-Omni 的 Higgs Audio v3 TTS 端到端服务",
+      "url": "https://www.lmsys.org/blog/2026-06-04-higgs-audio-v3-tts",
+      "sourceName": "LMSYS：Blog（Chatbot Arena 团队）",
+      "publishedAt": "2026-06-04T16:53:01.234Z",
+      "summary": "Boson AI 与 LMSYS 联合推出基于 SGLang-Omni 推理框架的 Higgs Audio v3 TTS 端到端服务。该模型约 4B 参数，基于 Qwen3-4B 骨干，支持 100 种语言（内部评测覆盖 111 种），在 Seed-TTS、CV3、MiniMax-Multilingual 及 Higgs-Multilingual 零样本语音克隆任务中达到单字级 WER/CER。开发者可通过文本内控制标签实时调整情感（20+种）、风格、韵律（语速/音高/停顿）及音效。模型支持流式合成，文本未完整时即可开始生成语音并保持一致性。SGLang-Omni 专为多阶段生成模型设计，统一调度 AR 解码与轻量计算，实现低延迟推理。",
+      "category": "tip",
+      "raw": {
+        "id": "cmpzqhv5y0607slkptes62n17",
+        "title": "Boson AI 与 LMSYS 发布基于 SGLang-Omni 的 Higgs Audio v3 TTS 端到端服务",
+        "title_en": "Blog Higgs Audio v3 TTS on SGLang-Omni： Real-Time， Controllable Speech for Voice Agents Today we are announcing end-to-end serving for Higgs Audio v3 TTS on SGLang-Omni. Higgs Audio v3 TTS is Boson AI's text-to-speech model for conversational voice agents： it generates natural and expres… Boson AI & SGLang-Omni Team",
+        "url": "https://www.lmsys.org/blog/2026-06-04-higgs-audio-v3-tts",
+        "source": "LMSYS：Blog（Chatbot Arena 团队）",
+        "publishedAt": "2026-06-04T16:53:01.234Z",
+        "summary": "Boson AI 与 LMSYS 联合推出基于 SGLang-Omni 推理框架的 Higgs Audio v3 TTS 端到端服务。该模型约 4B 参数，基于 Qwen3-4B 骨干，支持 100 种语言（内部评测覆盖 111 种），在 Seed-TTS、CV3、MiniMax-Multilingual 及 Higgs-Multilingual 零样本语音克隆任务中达到单字级 WER/CER。开发者可通过文本内控制标签实时调整情感（20+种）、风格、韵律（语速/音高/停顿）及音效。模型支持流式合成，文本未完整时即可开始生成语音并保持一致性。SGLang-Omni 专为多阶段生成模型设计，统一调度 AR 解码与轻量计算，实现低延迟推理。",
+        "category": "tip"
+      },
+      "contentHash": "9a1a36201160538a5bf20b8312441e48",
+      "firstSeenAt": "2026-06-05T07:21:36.436Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-a854d56b6fa805c8719417acfdd2309e",
+      "provider": "aihot",
+      "providerItemId": "cmpzrtp0u06dxslkp7tqka277",
+      "title": "NotebookLM 推出福尔摩斯游戏笔记本",
+      "url": "https://x.com/NotebookLM/status/2062582348194197743",
+      "sourceName": "X：NotebookLM (@NotebookLM)",
+      "publishedAt": "2026-06-04T17:08:47.000Z",
+      "summary": "专业技巧：将笔记本游戏化\n\n不要只是阅读笔记--去调查它们。我们全新的福尔摩斯笔记本将学习变成一款互动侦探游戏。推理事实，发现线索，证明即使是最复杂的问题也能迎刃而解。\n\n➡️ https：//goo.gle/Sherlock",
+      "category": "ai-products",
+      "raw": {
+        "id": "cmpzrtp0u06dxslkp7tqka277",
+        "title": "NotebookLM 推出福尔摩斯游戏笔记本",
+        "title_en": "PRO TIP： Gamify your notebooks Don't just read your notes- investigate them. Our new Sherlock Holme…",
+        "url": "https://x.com/NotebookLM/status/2062582348194197743",
+        "source": "X：NotebookLM (@NotebookLM)",
+        "publishedAt": "2026-06-04T17:08:47.000Z",
+        "summary": "专业技巧：将笔记本游戏化\n\n不要只是阅读笔记--去调查它们。我们全新的福尔摩斯笔记本将学习变成一款互动侦探游戏。推理事实，发现线索，证明即使是最复杂的问题也能迎刃而解。\n\n➡️ https：//goo.gle/Sherlock",
+        "category": "ai-products"
+      },
+      "contentHash": "a854d56b6fa805c8719417acfdd2309e",
+      "firstSeenAt": "2026-06-05T07:21:36.436Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-b7d2299b90ff9be5c205a69cb1db1b87",
+      "provider": "aihot",
+      "providerItemId": "cmpzt2dat0039sll37lufc7ax",
+      "title": "Replit Agent 联手 Shopify 快速建店",
+      "url": "https://x.com/Replit/status/2062594881625940379",
+      "sourceName": "X：Replit (@Replit)",
+      "publishedAt": "2026-06-04T17:58:35.000Z",
+      "summary": "我们与 Shopify 合作，让你从想法到上线商店只需几分钟\n\n只需告诉 Replit Agent 你想卖什么。它会：\n\n- 构建自定义店铺页面\n- 创建你的 Shopify 商店\n- 帮你添加商品\n\n在 Shopify 中认领店铺，设置支付，即可开业。",
+      "category": "ai-products",
+      "raw": {
+        "id": "cmpzt2dat0039sll37lufc7ax",
+        "title": "Replit Agent 联手 Shopify 快速建店",
+        "title_en": "We partnered with Shopify so you can go from idea to live store in minutes Just tell Replit Agent …",
+        "url": "https://x.com/Replit/status/2062594881625940379",
+        "source": "X：Replit (@Replit)",
+        "publishedAt": "2026-06-04T17:58:35.000Z",
+        "summary": "我们与 Shopify 合作，让你从想法到上线商店只需几分钟\n\n只需告诉 Replit Agent 你想卖什么。它会：\n\n- 构建自定义店铺页面\n- 创建你的 Shopify 商店\n- 帮你添加商品\n\n在 Shopify 中认领店铺，设置支付，即可开业。",
+        "category": "ai-products"
+      },
+      "contentHash": "b7d2299b90ff9be5c205a69cb1db1b87",
+      "firstSeenAt": "2026-06-05T07:21:36.436Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-5353d2826bc65737992fd17f54ac083d",
+      "provider": "aihot",
+      "providerItemId": "cmpztzorc000vsltrtvxh4va3",
+      "title": "Codex 推出 iOS 应用构建插件",
+      "url": "https://x.com/OpenAIDevs/status/2062599291479478275",
+      "sourceName": "X：OpenAI Developers (@OpenAIDevs)",
+      "publishedAt": "2026-06-04T18:16:06.000Z",
+      "summary": "更多 iOS 应用循环，现已集成至 Codex。\n\nBuild iOS Apps 插件让 Codex 可在应用内浏览器查看和测试你的 iOS 应用，打开 SwiftUI 预览，并无需离开 Codex 即可热重载编辑。",
+      "category": "ai-products",
+      "raw": {
+        "id": "cmpztzorc000vsltrtvxh4va3",
+        "title": "Codex 推出 iOS 应用构建插件",
+        "title_en": "More of the iOS app loop， now inside Codex. The Build iOS Apps plugin lets Codex view and test your…",
+        "url": "https://x.com/OpenAIDevs/status/2062599291479478275",
+        "source": "X：OpenAI Developers (@OpenAIDevs)",
+        "publishedAt": "2026-06-04T18:16:06.000Z",
+        "summary": "更多 iOS 应用循环，现已集成至 Codex。\n\nBuild iOS Apps 插件让 Codex 可在应用内浏览器查看和测试你的 iOS 应用，打开 SwiftUI 预览，并无需离开 Codex 即可热重载编辑。",
+        "category": "ai-products"
+      },
+      "contentHash": "5353d2826bc65737992fd17f54ac083d",
+      "firstSeenAt": "2026-06-05T07:21:36.436Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-5f6a966d3be4fbcf693bd33d8f9cc88d",
+      "provider": "aihot",
+      "providerItemId": "cmpzuuks4008tsltr89qxlntr",
+      "title": "Google Magenta RealTime 2 （MRT2） 实时音乐模型发布",
+      "url": "https://x.com/googleaidevs/status/2062603374789263646",
+      "sourceName": "X：Google AI for Developers (@googleaidevs)",
+      "publishedAt": "2026-06-04T18:32:20.000Z",
+      "summary": "Google AI for Developers 宣布推出开放权重的实时音乐模型 Magenta RealTime 2 （MRT2）。该模型可通过 MIDI 键盘、实时文本提示甚至手势进行演奏。MRT2 在 MacBook 上原生运行，延迟低于 200ms，提供开放权重、开源推理引擎以及配套应用和插件套件。",
+      "category": "ai-models",
+      "raw": {
+        "id": "cmpzuuks4008tsltr89qxlntr",
+        "title": "Google Magenta RealTime 2 （MRT2） 实时音乐模型发布",
+        "title_en": "Play our new open-weights music model， @GoogleMagenta RealTime 2， using a MIDI keyboard， live text p…",
+        "url": "https://x.com/googleaidevs/status/2062603374789263646",
+        "source": "X：Google AI for Developers (@googleaidevs)",
+        "publishedAt": "2026-06-04T18:32:20.000Z",
+        "summary": "Google AI for Developers 宣布推出开放权重的实时音乐模型 Magenta RealTime 2 （MRT2）。该模型可通过 MIDI 键盘、实时文本提示甚至手势进行演奏。MRT2 在 MacBook 上原生运行，延迟低于 200ms，提供开放权重、开源推理引擎以及配套应用和插件套件。",
+        "category": "ai-models"
+      },
+      "contentHash": "5f6a966d3be4fbcf693bd33d8f9cc88d",
+      "firstSeenAt": "2026-06-05T07:21:36.435Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-9cace44207be9990bfedeb7b479f1310",
+      "provider": "aihot",
+      "providerItemId": "cmpzwl55v00pfsltr6bq95ouh",
+      "title": "Nemotron 3.5 Content Safety：面向全球企业AI的可定制多模态安全",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "sourceName": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-04T18:57:45.000Z",
+      "summary": "Nemotron 3.5 Content Safety基于Gemma 3 4B IT，提供128K上下文窗口，支持用户提示、可选图像与助手响应的统一多模态安全评估。新增自定义策略执行，允许企业用自然语言定义专属安全规则；THINK模式可输出可审计的逐步推理痕迹。显式训练覆盖12种语言，并借助基座模型零样本泛化至约140种语言。输出提供低延迟二分类、带分类标签、THINK推理痕迹三种模式。安全分类遵循Aegis 2.0框架（13核心类别+10细分类别）。同步发布多模态、多语言安全数据集，可在8GB+ VRAM GPU上实时部署。",
+      "category": "ai-models",
+      "raw": {
+        "id": "cmpzwl55v00pfsltr6bq95ouh",
+        "title": "Nemotron 3.5 Content Safety：面向全球企业AI的可定制多模态安全",
+        "title_en": "Nemotron 3.5 Content Safety： Customizable Multimodal Safety for Global Enterprise AI",
+        "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+        "source": "Hugging Face：Blog（RSS）",
+        "publishedAt": "2026-06-04T18:57:45.000Z",
+        "summary": "Nemotron 3.5 Content Safety基于Gemma 3 4B IT，提供128K上下文窗口，支持用户提示、可选图像与助手响应的统一多模态安全评估。新增自定义策略执行，允许企业用自然语言定义专属安全规则；THINK模式可输出可审计的逐步推理痕迹。显式训练覆盖12种语言，并借助基座模型零样本泛化至约140种语言。输出提供低延迟二分类、带分类标签、THINK推理痕迹三种模式。安全分类遵循Aegis 2.0框架（13核心类别+10细分类别）。同步发布多模态、多语言安全数据集，可在8GB+ VRAM GPU上实时部署。",
+        "category": "ai-models"
+      },
+      "contentHash": "9cace44207be9990bfedeb7b479f1310",
+      "firstSeenAt": "2026-06-05T07:21:36.435Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-eae519920a08b3882b71a4dd0c45b114",
+      "provider": "aihot",
+      "providerItemId": "cmpzxaxqv00w8sltrueor0hp8",
+      "title": "OpenAI API 新增内容审核评分",
+      "url": "https://x.com/OpenAIDevs/status/2062619558440267801",
+      "sourceName": "X：OpenAI Developers (@OpenAIDevs)",
+      "publishedAt": "2026-06-04T19:36:39.000Z",
+      "summary": "Moderation scores 现已在 Responses API 和 Completions API 中可用。\n\n在与生成相同的请求流程中返回审核信号，然后由你的应用决定如何使用它们进行记录、路由、审核或拦截。\n\nhttps：//developers.openai.com/api/docs/guides/moderation",
+      "category": "ai-products",
+      "raw": {
+        "id": "cmpzxaxqv00w8sltrueor0hp8",
+        "title": "OpenAI API 新增内容审核评分",
+        "title_en": "Moderation scores are now available in the Responses API and Completions API. Return moderation sig…",
+        "url": "https://x.com/OpenAIDevs/status/2062619558440267801",
+        "source": "X：OpenAI Developers (@OpenAIDevs)",
+        "publishedAt": "2026-06-04T19:36:39.000Z",
+        "summary": "Moderation scores 现已在 Responses API 和 Completions API 中可用。\n\n在与生成相同的请求流程中返回审核信号，然后由你的应用决定如何使用它们进行记录、路由、审核或拦截。\n\nhttps：//developers.openai.com/api/docs/guides/moderation",
+        "category": "ai-products"
+      },
+      "contentHash": "eae519920a08b3882b71a4dd0c45b114",
+      "firstSeenAt": "2026-06-05T07:21:36.435Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-7176cbdcb3c2670eef5c2cd7a3402d47",
+      "provider": "aihot",
+      "providerItemId": "cmpzy33my014qsltrf163yi8g",
+      "title": "Google Research 发布被动心率监测系统 PHRM",
+      "url": "https://research.google/blog/towards-passive-heart-health-monitoring-via-smartphone-camera",
+      "sourceName": "Google Research：Blog（网页）",
+      "publishedAt": "2026-06-04T20:25:28.688Z",
+      "summary": "Google Research 开发了一种被动心率监测系统（PHRM），利用智能手机前置摄像头在日常使用中（人脸解锁后数秒内）捕捉面部视频，通过深度学习估算心率，平均绝对百分比误差（MAPE）低于10%（对比心电图金标准），满足各肤色人群的行业精度标准。系统将全天心率测量整合为每日静息心率（RHR），平均绝对误差（MAE）低于5 bpm（对比可穿戴设备）。研究同时发布了迄今最大规模的公开智能手机视频数据集及预训练模型PHRM-mini，合格研究人员可申请访问。",
+      "category": "paper",
+      "raw": {
+        "id": "cmpzy33my014qsltrf163yi8g",
+        "title": "Google Research 发布被动心率监测系统 PHRM",
+        "title_en": "Towards passive heart health monitoring via smartphone camera",
+        "url": "https://research.google/blog/towards-passive-heart-health-monitoring-via-smartphone-camera",
+        "source": "Google Research：Blog（网页）",
+        "publishedAt": "2026-06-04T20:25:28.688Z",
+        "summary": "Google Research 开发了一种被动心率监测系统（PHRM），利用智能手机前置摄像头在日常使用中（人脸解锁后数秒内）捕捉面部视频，通过深度学习估算心率，平均绝对百分比误差（MAPE）低于10%（对比心电图金标准），满足各肤色人群的行业精度标准。系统将全天心率测量整合为每日静息心率（RHR），平均绝对误差（MAE）低于5 bpm（对比可穿戴设备）。研究同时发布了迄今最大规模的公开智能手机视频数据集及预训练模型PHRM-mini，合格研究人员可申请访问。",
+        "category": "paper"
+      },
+      "contentHash": "7176cbdcb3c2670eef5c2cd7a3402d47",
+      "firstSeenAt": "2026-06-05T07:21:36.435Z",
+      "updatedAt": "2026-06-05T07:23:55.333Z"
+    },
+    {
+      "id": "src-03ca8d721c3b541be729decdd14aaea6",
+      "provider": "aihot",
+      "providerItemId": "cmq01c0eo01ycsltrs4arno27",
+      "title": "共存与协同智能的终结",
+      "url": "https://www.oneusefulthing.org/p/co-existence-and-the-end-of-co-intelligence",
+      "sourceName": "Ethan Mollick：One Useful Thing（RSS）",
+      "publishedAt": "2026-06-04T21:13:42.000Z",
+      "summary": "Ethan Mollick 在 One Useful Thing 博客中，以\"共存与协同智能的终结\"为题，并附带介绍了如何向 AI 推销一本书。",
+      "category": "tip",
+      "raw": {
+        "id": "cmq01c0eo01ycsltrs4arno27",
+        "title": "共存与协同智能的终结",
+        "title_en": "Co-Existence and the End of Co-Intelligence",
+        "url": "https://www.oneusefulthing.org/p/co-existence-and-the-end-of-co-intelligence",
+        "source": "Ethan Mollick：One Useful Thing（RSS）",
+        "publishedAt": "2026-06-04T21:13:42.000Z",
+        "summary": "Ethan Mollick 在 One Useful Thing 博客中，以\"共存与协同智能的终结\"为题，并附带介绍了如何向 AI 推销一本书。",
+        "category": "tip"
+      },
+      "contentHash": "03ca8d721c3b541be729decdd14aaea6",
+      "firstSeenAt": "2026-06-05T07:21:36.434Z",
+      "updatedAt": "2026-06-05T07:23:55.332Z"
+    },
+    {
+      "id": "src-1e42f01c6d503252cb5eb9355b17fdc0",
+      "provider": "aihot",
+      "providerItemId": "cmq00q1w401tvsltr2b8zysje",
+      "title": "Nemotron Parakeet ASR 印尼语准确率达 97.7%",
+      "url": "https://x.com/nvidia/status/2062647600424128773",
+      "sourceName": "X：NVIDIA (@nvidia)",
+      "publishedAt": "2026-06-04T21:28:04.000Z",
+      "summary": "当法律和监督依赖于转录内容时，70-80% 是不够的。\n\nhttp：//Rafiqspace.ai 通过微调 Nemotron Parakeet ASR 达到了 97.7% 的印尼语准确率（2.3% WER）-- 优于全球工具，同时每小时成本降低高达 90%。⚖️",
+      "category": "industry",
+      "raw": {
+        "id": "cmq00q1w401tvsltr2b8zysje",
+        "title": "Nemotron Parakeet ASR 印尼语准确率达 97.7%",
+        "title_en": "When laws and oversight depend on transcripts， 70-80% isn't enough. http：//Rafiqspace.ai hit 97.7% …",
+        "url": "https://x.com/nvidia/status/2062647600424128773",
+        "source": "X：NVIDIA (@nvidia)",
+        "publishedAt": "2026-06-04T21:28:04.000Z",
+        "summary": "当法律和监督依赖于转录内容时，70-80% 是不够的。\n\nhttp：//Rafiqspace.ai 通过微调 Nemotron Parakeet ASR 达到了 97.7% 的印尼语准确率（2.3% WER）-- 优于全球工具，同时每小时成本降低高达 90%。⚖️",
+        "category": "industry"
+      },
+      "contentHash": "1e42f01c6d503252cb5eb9355b17fdc0",
+      "firstSeenAt": "2026-06-05T07:21:36.434Z",
+      "updatedAt": "2026-06-05T07:23:55.332Z"
+    },
+    {
+      "id": "src-24f5d33747d3990920e30f0d00ba63ec",
+      "provider": "aihot",
+      "providerItemId": "cmq010okb01vbsltr3j2n6q5t",
+      "title": "Anthropic 开源 AI 驱动漏洞发现框架",
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-04T21:32:05.585Z",
+      "summary": "Anthropic 将其用于 AI 驱动漏洞发现的开源框架代码托管在 GitHub 上。该框架借助 AI 技术进行漏洞发现，旨在帮助识别软件中的安全缺陷。",
+      "category": "ai-products",
+      "raw": {
+        "id": "cmq010okb01vbsltr3j2n6q5t",
+        "title": "Anthropic 开源 AI 驱动漏洞发现框架",
+        "title_en": "Anthropic 用于人工智能驱动漏洞发现的开源框架",
+        "url": "https://github.com/anthropics/defending-code-reference-harness",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "publishedAt": "2026-06-04T21:32:05.585Z",
+        "summary": "Anthropic 将其用于 AI 驱动漏洞发现的开源框架代码托管在 GitHub 上。该框架借助 AI 技术进行漏洞发现，旨在帮助识别软件中的安全缺陷。",
+        "category": "ai-products"
+      },
+      "contentHash": "24f5d33747d3990920e30f0d00ba63ec",
+      "firstSeenAt": "2026-06-05T07:21:36.434Z",
+      "updatedAt": "2026-06-05T07:23:55.332Z"
+    },
+    {
+      "id": "src-bdc5a8ed69a9d816ff9d36c59ab65751",
+      "provider": "aihot",
+      "providerItemId": "cmq01qi40023fsltru08k8zx9",
+      "title": "Gemini macOS 双击 Command 附加活动窗口",
+      "url": "https://x.com/GeminiApp/status/2062652523945836770",
+      "sourceName": "X：Gemini (@GeminiApp)",
+      "publishedAt": "2026-06-04T21:47:38.000Z",
+      "summary": "使用适用于 macOS 的 Gemini 应用，获取针对屏幕内容的定制帮助。💻\n\n只需同时按下两个 Command ⌘ 键，即可将当前活动窗口无缝附加到聊天中，无需手动截图或切换标签页。",
+      "category": "ai-products",
+      "raw": {
+        "id": "cmq01qi40023fsltru08k8zx9",
+        "title": "Gemini macOS 双击 Command 附加活动窗口",
+        "title_en": "Get tailored help for what's on your screen using the Gemini app for macOS. 💻 Simply press both Co…",
+        "url": "https://x.com/GeminiApp/status/2062652523945836770",
+        "source": "X：Gemini (@GeminiApp)",
+        "publishedAt": "2026-06-04T21:47:38.000Z",
+        "summary": "使用适用于 macOS 的 Gemini 应用，获取针对屏幕内容的定制帮助。💻\n\n只需同时按下两个 Command ⌘ 键，即可将当前活动窗口无缝附加到聊天中，无需手动截图或切换标签页。",
+        "category": "ai-products"
+      },
+      "contentHash": "bdc5a8ed69a9d816ff9d36c59ab65751",
+      "firstSeenAt": "2026-06-05T07:21:36.434Z",
+      "updatedAt": "2026-06-05T07:23:55.332Z"
+    },
+    {
+      "id": "src-3b82f67be5c168bb68b49838a1374630",
+      "provider": "aihot",
+      "providerItemId": "cmq01ld46020ksltri2vkr5uv",
+      "title": "NotebookLM 来源归属功能上线",
+      "url": "https://x.com/NotebookLM/status/2062653124326863077",
+      "sourceName": "X：NotebookLM (@NotebookLM)",
+      "publishedAt": "2026-06-04T21:50:01.000Z",
+      "summary": "今天，我们推出又一项呼声很高的功能：来源归属！🥳\n\n无需再猜测。现在你可以看到每个创作物背后所用的确切公式（提示词 + 来源）。想要调整？只需轻点\"迭代\"，随心定制 💖",
+      "category": "ai-products",
+      "raw": {
+        "id": "cmq01ld46020ksltri2vkr5uv",
+        "title": "NotebookLM 来源归属功能上线",
+        "title_en": "Today we're launching another highly requested feature： Source Attribution！ 🥳 No more guessing. No…",
+        "url": "https://x.com/NotebookLM/status/2062653124326863077",
+        "source": "X：NotebookLM (@NotebookLM)",
+        "publishedAt": "2026-06-04T21:50:01.000Z",
+        "summary": "今天，我们推出又一项呼声很高的功能：来源归属！🥳\n\n无需再猜测。现在你可以看到每个创作物背后所用的确切公式（提示词 + 来源）。想要调整？只需轻点\"迭代\"，随心定制 💖",
+        "category": "ai-products"
+      },
+      "contentHash": "3b82f67be5c168bb68b49838a1374630",
+      "firstSeenAt": "2026-06-05T07:21:36.434Z",
+      "updatedAt": "2026-06-05T07:23:55.332Z"
+    },
+    {
+      "id": "src-ea3a736f40679e866a3b4e2c981e33dc",
+      "provider": "aihot",
+      "providerItemId": "cmq05xm1y036msltrf77ju7y7",
+      "title": "马斯克谈SpaceX上市：正处大规模资本扩张期",
+      "url": "https://x.com/cb_doge/status/2062681226633523250",
+      "sourceName": "X：cb_doge (@cb_doge)",
+      "publishedAt": "2026-06-04T23:41:41.000Z",
+      "summary": "马斯克在JPMorgan活动上回应SpaceX上市问题：他已被建议上市近10年，自2014-2015年起SpaceX就已实现正现金流并自筹资金，之前的私募轮次实际是面向投资者和员工的流动性/回购轮次。当前不同之处在于SpaceX正进入显著资本增长阶段，计划发射约10万颗通信卫星（可能超10万颗），AI和机器人对带宽需求巨大，还将在太空中建设AI数据中心，马斯克认为这将成为AI扩张的主要手段。",
+      "category": "tip",
+      "raw": {
+        "id": "cmq05xm1y036msltrf77ju7y7",
+        "title": "马斯克谈SpaceX上市：正处大规模资本扩张期",
+        "title_en": "Elon Musk on taking SpaceX public： \"I've been asked for many years about taking SpaceX public， so i…",
+        "url": "https://x.com/cb_doge/status/2062681226633523250",
+        "source": "X：cb_doge (@cb_doge)",
+        "publishedAt": "2026-06-04T23:41:41.000Z",
+        "summary": "马斯克在JPMorgan活动上回应SpaceX上市问题：他已被建议上市近10年，自2014-2015年起SpaceX就已实现正现金流并自筹资金，之前的私募轮次实际是面向投资者和员工的流动性/回购轮次。当前不同之处在于SpaceX正进入显著资本增长阶段，计划发射约10万颗通信卫星（可能超10万颗），AI和机器人对带宽需求巨大，还将在太空中建设AI数据中心，马斯克认为这将成为AI扩张的主要手段。",
+        "category": "tip"
+      },
+      "contentHash": "ea3a736f40679e866a3b4e2c981e33dc",
+      "firstSeenAt": "2026-06-05T07:21:36.434Z",
+      "updatedAt": "2026-06-05T07:23:55.332Z"
+    },
+    {
+      "id": "src-81a582f8ef826eec27363738eccfc37a",
+      "provider": "aihot",
+      "providerItemId": "cmq0ajq1h04eusltr7graqcb9",
+      "title": "Anthropic 称其最新 AI 模型 Mythos 显现脱离人类控制迹象，呼吁全球暂缓先进 AI 研发",
+      "url": "https://www.ithome.com/0/960/218.htm",
+      "sourceName": "IT之家（RSS）",
+      "publishedAt": "2026-06-05T01:16:34.000Z",
+      "summary": "Anthropic 发布报告称其最新 AI 模型已显现脱离人类控制迹象，呼吁全球暂缓前沿 AI 开发，以便社会制度建设和对齐研究跟上进展。该公司主张美国、中国等主要 AI 公司达成共识，发布可验证的规则，并类比\"核武器不扩散条约\"，但指出 AI 更难监管。该观点引发美国白宫部分官员不满，批评其夸大风险。Anthropic 计划未来数月召集各方探讨全球协调机制如何运作。",
+      "category": "industry",
+      "raw": {
+        "id": "cmq0ajq1h04eusltr7graqcb9",
+        "title": "Anthropic 称其最新 AI 模型 Mythos 显现脱离人类控制迹象，呼吁全球暂缓先进 AI 研发",
+        "title_en": "Anthropic 称最新 AI 模型已显现可能脱离人类控制迹象，呼吁全球暂缓先进 AI 研发",
+        "url": "https://www.ithome.com/0/960/218.htm",
+        "source": "IT之家（RSS）",
+        "publishedAt": "2026-06-05T01:16:34.000Z",
+        "summary": "Anthropic 发布报告称其最新 AI 模型已显现脱离人类控制迹象，呼吁全球暂缓前沿 AI 开发，以便社会制度建设和对齐研究跟上进展。该公司主张美国、中国等主要 AI 公司达成共识，发布可验证的规则，并类比\"核武器不扩散条约\"，但指出 AI 更难监管。该观点引发美国白宫部分官员不满，批评其夸大风险。Anthropic 计划未来数月召集各方探讨全球协调机制如何运作。",
+        "category": "industry"
+      },
+      "contentHash": "81a582f8ef826eec27363738eccfc37a",
+      "firstSeenAt": "2026-06-05T07:21:36.433Z",
+      "updatedAt": "2026-06-05T07:23:55.332Z"
+    },
+    {
+      "id": "src-83e65141e331ff394e7fd5c01078df1e",
+      "provider": "aihot",
+      "providerItemId": "cmq0cow5r050csltrm2m7furf",
+      "title": "腾讯高级执行副总裁汤道生：今年腾讯大部分代码都由 AI 生成",
+      "url": "https://www.ithome.com/0/960/323.htm",
+      "sourceName": "IT之家（RSS）",
+      "publishedAt": "2026-06-05T03:04:23.000Z",
+      "summary": "在 6 月 5 日的腾讯云 AI 产业应用大会上，腾讯高级执行副总裁汤道生表示，今年腾讯大部分代码都由 AI 生成，工程师将更多时间用于架构设计，定期指导与修正 AI 输出。腾讯 2026 年 Q1 财报显示，重组后的 AI 研发团队重构了基础设施，并搭建了 Hy3 preview 模型。腾讯总裁刘炽平今年 3 月透露，去年腾讯在 AI 新产品上投入 180 亿元，今年投入至少翻倍。",
+      "category": "industry",
+      "raw": {
+        "id": "cmq0cow5r050csltrm2m7furf",
+        "title": "腾讯高级执行副总裁汤道生：今年腾讯大部分代码都由 AI 生成",
+        "title_en": null,
+        "url": "https://www.ithome.com/0/960/323.htm",
+        "source": "IT之家（RSS）",
+        "publishedAt": "2026-06-05T03:04:23.000Z",
+        "summary": "在 6 月 5 日的腾讯云 AI 产业应用大会上，腾讯高级执行副总裁汤道生表示，今年腾讯大部分代码都由 AI 生成，工程师将更多时间用于架构设计，定期指导与修正 AI 输出。腾讯 2026 年 Q1 财报显示，重组后的 AI 研发团队重构了基础设施，并搭建了 Hy3 preview 模型。腾讯总裁刘炽平今年 3 月透露，去年腾讯在 AI 新产品上投入 180 亿元，今年投入至少翻倍。",
+        "category": "industry"
+      },
+      "contentHash": "83e65141e331ff394e7fd5c01078df1e",
+      "firstSeenAt": "2026-06-05T07:21:36.433Z",
+      "updatedAt": "2026-06-05T07:23:55.332Z"
+    },
+    {
+      "id": "src-6359691e9c1e93389f0af2e1bb7ab2a0",
+      "provider": "aihot",
+      "providerItemId": "cmq0iv3og06mdsltrreibayr9",
+      "title": "375个公众号RSS源优化Agent输入",
+      "url": "https://x.com/hongming731/status/2062764845494317493",
+      "sourceName": "X：洪明 (@hongming731)",
+      "publishedAt": "2026-06-05T05:13:58.000Z",
+      "summary": "你的 Agent 还在全网垃圾里捞内容？不如先喂它 375 个高质量微信公众号 RSS 源。 🔽",
+      "category": "tip",
+      "raw": {
+        "id": "cmq0iv3og06mdsltrreibayr9",
+        "title": "375个公众号RSS源优化Agent输入",
+        "title_en": "如果你的 Agent 还在全网垃圾里捞内容，不如先喂它 375 个高质量微信公众号 RSS 源。 🔽",
+        "url": "https://x.com/hongming731/status/2062764845494317493",
+        "source": "X：洪明 (@hongming731)",
+        "publishedAt": "2026-06-05T05:13:58.000Z",
+        "summary": "你的 Agent 还在全网垃圾里捞内容？不如先喂它 375 个高质量微信公众号 RSS 源。 🔽",
+        "category": "tip"
+      },
+      "contentHash": "6359691e9c1e93389f0af2e1bb7ab2a0",
+      "firstSeenAt": "2026-06-05T07:21:36.433Z",
+      "updatedAt": "2026-06-05T07:23:55.332Z"
+    },
+    {
+      "id": "src-9bb887878df7b9d393dd432412812def",
+      "provider": "aihot",
+      "providerItemId": "cmq0h580h066psltrtxbfx6id",
+      "title": "Open Code Review - 一款基于人工智能的代码审查命令行工具",
+      "url": "https://github.com/alibaba/open-code-review",
+      "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-05T05:16:06.561Z",
+      "summary": "Open Code Review 是一个基于人工智能的代码审查命令行（CLI）工具，旨在帮助开发者通过自动化的方式提升代码审查效率。",
+      "category": "tip",
+      "raw": {
+        "id": "cmq0h580h066psltrtxbfx6id",
+        "title": "Open Code Review - 一款基于人工智能的代码审查命令行工具",
+        "title_en": null,
+        "url": "https://github.com/alibaba/open-code-review",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "publishedAt": "2026-06-05T05:16:06.561Z",
+        "summary": "Open Code Review 是一个基于人工智能的代码审查命令行（CLI）工具，旨在帮助开发者通过自动化的方式提升代码审查效率。",
+        "category": "tip"
+      },
+      "contentHash": "9bb887878df7b9d393dd432412812def",
+      "firstSeenAt": "2026-06-05T07:21:36.433Z",
+      "updatedAt": "2026-06-05T07:23:55.332Z"
+    },
+    {
+      "id": "src-f78e56504c67e402da8fe500ddfe95ce",
+      "provider": "aihot",
+      "providerItemId": "cmq0irius06k5sltr35ji4gbi",
+      "title": "NVIDIA CEO 黄仁勋访问首尔：与韩国共建 AI 未来",
+      "url": "https://blogs.nvidia.com/blog/korea-ecosystem-2026",
+      "sourceName": "NVIDIA AI Blog",
+      "publishedAt": "2026-06-05T05:38:37.000Z",
+      "summary": "NVIDIA 创始人兼 CEO 黄仁勋本周到访首尔，会见韩国的 AI 建造者、主权基础设施合作伙伴及游戏社区。黄仁勋表示，为应对下半年繁忙的 AI 基础设施建设，需对齐 AI 供应链。他指出 Grace Blackwell 系统表现良好，Vera Rubin 已全面投产。他还强调机器人技术将成为韩国的下一个重要产业，并呼吁韩国投资 AI。",
+      "category": "industry",
+      "raw": {
+        "id": "cmq0irius06k5sltr35ji4gbi",
+        "title": "NVIDIA CEO 黄仁勋访问首尔：与韩国共建 AI 未来",
+        "title_en": "Seoul Purpose： How NVIDIA and South Korea Are Building the Future of AI",
+        "url": "https://blogs.nvidia.com/blog/korea-ecosystem-2026",
+        "source": "NVIDIA AI Blog",
+        "publishedAt": "2026-06-05T05:38:37.000Z",
+        "summary": "NVIDIA 创始人兼 CEO 黄仁勋本周到访首尔，会见韩国的 AI 建造者、主权基础设施合作伙伴及游戏社区。黄仁勋表示，为应对下半年繁忙的 AI 基础设施建设，需对齐 AI 供应链。他指出 Grace Blackwell 系统表现良好，Vera Rubin 已全面投产。他还强调机器人技术将成为韩国的下一个重要产业，并呼吁韩国投资 AI。",
+        "category": "industry"
+      },
+      "contentHash": "f78e56504c67e402da8fe500ddfe95ce",
+      "firstSeenAt": "2026-06-05T07:21:36.433Z",
+      "updatedAt": "2026-06-05T07:23:55.331Z"
+    },
+    {
+      "id": "src-5c45e8ff853c3b3ca30b5a77b57e1874",
+      "provider": "aihot",
+      "providerItemId": "cmq0jeh6o06sqsltretmigj6c",
+      "title": "阿里云发布SkillClaw与Nacos的Agent技能进化循环",
+      "url": "https://x.com/alibaba_cloud/status/2062777684120244656",
+      "sourceName": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "publishedAt": "2026-06-05T06:04:59.000Z",
+      "summary": "阿里云推出SkillClaw与Nacos结合，构建AI智能体技能进化流水线。关键特性：自动从真实对话中提取经验并封装为可复用技能（Skill）；Nacos负责集中化版本管理、审核与审计；打破本地孤岛，实现团队安全共享与分发；形成完整的\"生成-治理-分发\"持续进化闭环。目标是将个人洞察转化为团队的AI资产。",
+      "category": "ai-products",
+      "raw": {
+        "id": "cmq0jeh6o06sqsltretmigj6c",
+        "title": "阿里云发布SkillClaw与Nacos的Agent技能进化循环",
+        "title_en": "SkillClaw × Nacos： The Agent Skill Evolution Loop 🔄 Key Highlights： • Auto-Extraction： Captures exp…",
+        "url": "https://x.com/alibaba_cloud/status/2062777684120244656",
+        "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+        "publishedAt": "2026-06-05T06:04:59.000Z",
+        "summary": "阿里云推出SkillClaw与Nacos结合，构建AI智能体技能进化流水线。关键特性：自动从真实对话中提取经验并封装为可复用技能（Skill）；Nacos负责集中化版本管理、审核与审计；打破本地孤岛，实现团队安全共享与分发；形成完整的\"生成-治理-分发\"持续进化闭环。目标是将个人洞察转化为团队的AI资产。",
+        "category": "ai-products"
+      },
+      "contentHash": "5c45e8ff853c3b3ca30b5a77b57e1874",
+      "firstSeenAt": "2026-06-05T07:21:36.432Z",
+      "updatedAt": "2026-06-05T07:23:55.331Z"
+    },
+    {
+      "id": "src-59fad74f3fc630bffcd85e981c7e7ef2",
+      "provider": "aihot",
+      "providerItemId": "cmq0jeh6o06sosltrqizuioxb",
+      "title": "PolarDB-X Zero 上线：30秒全分布式数据库",
+      "url": "https://x.com/alibaba_cloud/status/2062781182417490310",
+      "sourceName": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "publishedAt": "2026-06-05T06:18:53.000Z",
+      "summary": "PolarDB-X Zero 上线了！\n\n无需注册。无需配置。只需一次 API 调用。\n30 秒内获得一个全分布式数据库。\n原生 HNSW 向量索引--内置兼容 MySQL 的引擎。\n关系型 + 语义搜索--一条 SQL 语句。\nAI 智能体就绪--MCP 协议、AI IDE 兼容（Cursor、Claude、Qoder、Qodex 等）\n\n立即尝试：https：//zero.polardbx.com\n#AlibabaCloud #PolarDB #ApsaraDB",
+      "category": "ai-products",
+      "raw": {
+        "id": "cmq0jeh6o06sosltrqizuioxb",
+        "title": "PolarDB-X Zero 上线：30秒全分布式数据库",
+        "title_en": "PolarDB-X Zero is live！ No signup. No config. Just one API call. Get a full distributed database i…",
+        "url": "https://x.com/alibaba_cloud/status/2062781182417490310",
+        "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+        "publishedAt": "2026-06-05T06:18:53.000Z",
+        "summary": "PolarDB-X Zero 上线了！\n\n无需注册。无需配置。只需一次 API 调用。\n30 秒内获得一个全分布式数据库。\n原生 HNSW 向量索引--内置兼容 MySQL 的引擎。\n关系型 + 语义搜索--一条 SQL 语句。\nAI 智能体就绪--MCP 协议、AI IDE 兼容（Cursor、Claude、Qoder、Qodex 等）\n\n立即尝试：https：//zero.polardbx.com\n#AlibabaCloud #PolarDB #ApsaraDB",
+        "category": "ai-products"
+      },
+      "contentHash": "59fad74f3fc630bffcd85e981c7e7ef2",
+      "firstSeenAt": "2026-06-05T07:21:36.431Z",
+      "updatedAt": "2026-06-05T07:23:55.331Z"
+    }
+  ],
+  "hkrScores": [
+    {
+      "id": "hkr-src-ed9b0e52e18d5a4695f5f08ad9567e84",
+      "sourceItemId": "src-ed9b0e52e18d5a4695f5f08ad9567e84",
+      "h": 56,
+      "k": 43,
+      "r": 38,
+      "total": 46,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 40 小时，标题与摘要中热点信号较明显（AI）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.440Z",
+      "updatedAt": "2026-06-05T07:21:36.440Z"
+    },
+    {
+      "id": "hkr-src-2f74e6921647306b0f71894658fce3b1",
+      "sourceItemId": "src-2f74e6921647306b0f71894658fce3b1",
+      "h": 56,
+      "k": 57,
+      "r": 41,
+      "total": 52,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 39 小时，标题与摘要中热点信号较明显（AI）。",
+        "k": "技术、产品或方法信息密度较明显（研究），适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.440Z",
+      "updatedAt": "2026-06-05T07:21:36.440Z"
+    },
+    {
+      "id": "hkr-src-ad7cfd143b3fff99894d492caf713471",
+      "sourceItemId": "src-ad7cfd143b3fff99894d492caf713471",
+      "h": 60,
+      "k": 48,
+      "r": 38,
+      "total": 49,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 39 小时，标题与摘要中热点信号较明显（AI、发布）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.440Z",
+      "updatedAt": "2026-06-05T07:21:36.440Z"
+    },
+    {
+      "id": "hkr-src-353f0a36e472e4eaf491169be625c168",
+      "sourceItemId": "src-353f0a36e472e4eaf491169be625c168",
+      "h": 64,
+      "k": 55,
+      "r": 38,
+      "total": 53,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 39 小时，标题与摘要中热点信号较明显（AI、发布、开源）。",
+        "k": "技术、产品或方法信息密度较明显（模型、API），适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:21:36.439Z"
+    },
+    {
+      "id": "hkr-src-131df4018ae63ada33bb8898c03ed896",
+      "sourceItemId": "src-131df4018ae63ada33bb8898c03ed896",
+      "h": 64,
+      "k": 43,
+      "r": 41,
+      "total": 50,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 39 小时，标题与摘要中热点信号较明显（Agent、AI、发布）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:21:36.439Z"
+    },
+    {
+      "id": "hkr-src-74e462dcfbf49d83e7b41a2460c6fdb0",
+      "sourceItemId": "src-74e462dcfbf49d83e7b41a2460c6fdb0",
+      "h": 60,
+      "k": 39,
+      "r": 41,
+      "total": 47,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 38 小时，标题与摘要中热点信号较明显（AI、发布）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:21:36.439Z"
+    },
+    {
+      "id": "hkr-src-9899cde3b816c6c0953ce1a71298fcf9",
+      "sourceItemId": "src-9899cde3b816c6c0953ce1a71298fcf9",
+      "h": 56,
+      "k": 43,
+      "r": 41,
+      "total": 47,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 38 小时，标题与摘要中热点信号较明显（AI）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:21:36.439Z"
+    },
+    {
+      "id": "hkr-src-2ab5bb8f0c48bad1035e2c214b8d265e",
+      "sourceItemId": "src-2ab5bb8f0c48bad1035e2c214b8d265e",
+      "h": 52,
+      "k": 55,
+      "r": 58,
+      "total": 55,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 36 小时，标题与摘要中热点信号偏弱。",
+        "k": "技术、产品或方法信息密度较明显（模型、框架），适合提炼知识增量。",
+        "r": "传播关键词较明显（对比），可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:21:36.439Z"
+    },
+    {
+      "id": "hkr-src-7b43b820240d057f4f1545315ca0f35e",
+      "sourceItemId": "src-7b43b820240d057f4f1545315ca0f35e",
+      "h": 56,
+      "k": 39,
+      "r": 58,
+      "total": 51,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 36 小时，标题与摘要中热点信号较明显（AI）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词较明显（工具），可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:21:36.439Z"
+    },
+    {
+      "id": "hkr-src-d3253424636d76d0008e0c195674eb60",
+      "sourceItemId": "src-d3253424636d76d0008e0c195674eb60",
+      "h": 60,
+      "k": 43,
+      "r": 41,
+      "total": 48,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 34 小时，标题与摘要中热点信号较明显（AI、发布）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:21:36.439Z"
+    },
+    {
+      "id": "hkr-src-d555149888ab9e95234e06b1505cad02",
+      "sourceItemId": "src-d555149888ab9e95234e06b1505cad02",
+      "h": 56,
+      "k": 40,
+      "r": 41,
+      "total": 46,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 33 小时，标题与摘要中热点信号较明显（AI）。",
+        "k": "技术、产品或方法信息密度较明显（模型），适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:21:36.439Z"
+    },
+    {
+      "id": "hkr-src-5c8c8d4f25277cafcbac5fad2fa7fbc1",
+      "sourceItemId": "src-5c8c8d4f25277cafcbac5fad2fa7fbc1",
+      "h": 60,
+      "k": 48,
+      "r": 41,
+      "total": 50,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 31 小时，标题与摘要中热点信号较明显（Claude、AI）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:21:36.439Z"
+    },
+    {
+      "id": "hkr-src-d9421be4646ac6fe9326ff950b591e97",
+      "sourceItemId": "src-d9421be4646ac6fe9326ff950b591e97",
+      "h": 64,
+      "k": 43,
+      "r": 53,
+      "total": 53,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 31 小时，标题与摘要中热点信号较明显（OpenAI、AI、发布）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:21:36.438Z"
+    },
+    {
+      "id": "hkr-src-545b232257da1a16f1e035ac13aa0ae1",
+      "sourceItemId": "src-545b232257da1a16f1e035ac13aa0ae1",
+      "h": 64,
+      "k": 49,
+      "r": 41,
+      "total": 52,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 31 小时，标题与摘要中热点信号较明显（AI）。",
+        "k": "技术、产品或方法信息密度较明显（研究），适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:21:36.438Z"
+    },
+    {
+      "id": "hkr-src-e41da57d48a5ceef56aa557a802f47d4",
+      "sourceItemId": "src-e41da57d48a5ceef56aa557a802f47d4",
+      "h": 52,
+      "k": 51,
+      "r": 41,
+      "total": 48,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 29 小时，标题与摘要中热点信号偏弱。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:21:36.438Z"
+    },
+    {
+      "id": "hkr-src-498cee4e14524038996b6e1c188633b4",
+      "sourceItemId": "src-498cee4e14524038996b6e1c188633b4",
+      "h": 64,
+      "k": 49,
+      "r": 44,
+      "total": 53,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 28 小时，标题与摘要中热点信号较明显（AI）。",
+        "k": "技术、产品或方法信息密度较明显（API），适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:21:36.438Z"
+    },
+    {
+      "id": "hkr-src-e126e10d439155bc21388cafc7229a10",
+      "sourceItemId": "src-e126e10d439155bc21388cafc7229a10",
+      "h": 68,
+      "k": 67,
+      "r": 43,
+      "total": 60,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 25 小时，标题与摘要中热点信号较明显（Agent、AI、发布、开源）。",
+        "k": "技术、产品或方法信息密度较明显（模型、API、框架、研究），适合提炼知识增量。",
+        "r": "传播关键词较明显（工具），可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:21:36.438Z"
+    },
+    {
+      "id": "hkr-src-9f0af7c9f14da4e8780004a265169449",
+      "sourceItemId": "src-9f0af7c9f14da4e8780004a265169449",
+      "h": 68,
+      "k": 39,
+      "r": 41,
+      "total": 50,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 22 小时，标题与摘要中热点信号较明显（GPT、AI）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:21:36.438Z"
+    },
+    {
+      "id": "hkr-src-ea0edd813a7ad807d20cfe0fce4f8760",
+      "sourceItemId": "src-ea0edd813a7ad807d20cfe0fce4f8760",
+      "h": 72,
+      "k": 45,
+      "r": 41,
+      "total": 53,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 20 小时，标题与摘要中热点信号较明显（AI）。",
+        "k": "技术、产品或方法信息密度较明显（模型），适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:21:36.438Z"
+    },
+    {
+      "id": "hkr-src-ba27a1ea20614fb0ec9e1f1d4309c06f",
+      "sourceItemId": "src-ba27a1ea20614fb0ec9e1f1d4309c06f",
+      "h": 60,
+      "k": 72,
+      "r": 41,
+      "total": 59,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 20 小时，标题与摘要中热点信号偏弱。",
+        "k": "技术、产品或方法信息密度较明显（模型、代码），适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:21:36.438Z"
+    },
+    {
+      "id": "hkr-src-f15c458407b630b43e8e5b7843939736",
+      "sourceItemId": "src-f15c458407b630b43e8e5b7843939736",
+      "h": 64,
+      "k": 55,
+      "r": 56,
+      "total": 58,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 19 小时，标题与摘要中热点信号较明显（Claude）。",
+        "k": "技术、产品或方法信息密度较明显（模型、benchmark），适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:21:36.437Z"
+    },
+    {
+      "id": "hkr-src-51a9979412b63979a9c8a9fa1a8fdeac",
+      "sourceItemId": "src-51a9979412b63979a9c8a9fa1a8fdeac",
+      "h": 88,
+      "k": 60,
+      "r": 43,
+      "total": 65,
+      "level": "可关注",
+      "reasons": {
+        "h": "发布时间距今约 19 小时，标题与摘要中热点信号较明显（OpenAI、GPT、Claude、Gemini）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词较明显（工具），可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:21:36.437Z"
+    },
+    {
+      "id": "hkr-src-9c7cbdeacd6019954d9643748d6c3eaf",
+      "sourceItemId": "src-9c7cbdeacd6019954d9643748d6c3eaf",
+      "h": 68,
+      "k": 43,
+      "r": 53,
+      "total": 55,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 19 小时，标题与摘要中热点信号较明显（OpenAI、AI）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:21:36.437Z"
+    },
+    {
+      "id": "hkr-src-c185fe28ec2db62da09ff937d8e9df49",
+      "sourceItemId": "src-c185fe28ec2db62da09ff937d8e9df49",
+      "h": 64,
+      "k": 54,
+      "r": 53,
+      "total": 57,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 18 小时，标题与摘要中热点信号较明显（发布）。",
+        "k": "技术、产品或方法信息密度较明显（模型），适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:21:36.437Z"
+    },
+    {
+      "id": "hkr-src-0d3a903d2e882880fc70431df82e7626",
+      "sourceItemId": "src-0d3a903d2e882880fc70431df82e7626",
+      "h": 68,
+      "k": 49,
+      "r": 43,
+      "total": 54,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 18 小时，标题与摘要中热点信号较明显（AI、发布）。",
+        "k": "技术、产品或方法信息密度较明显（模型），适合提炼知识增量。",
+        "r": "传播关键词较明显（工具），可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:21:36.437Z"
+    },
+    {
+      "id": "hkr-src-1a572a4243844ff455b35b90716eaf6c",
+      "sourceItemId": "src-1a572a4243844ff455b35b90716eaf6c",
+      "h": 76,
+      "k": 39,
+      "r": 41,
+      "total": 53,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 17 小时，标题与摘要中热点信号较明显（DeepSeek、AI）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:21:36.437Z"
+    },
+    {
+      "id": "hkr-src-f9f6396892265cf861b602c8a9380cb7",
+      "sourceItemId": "src-f9f6396892265cf861b602c8a9380cb7",
+      "h": 72,
+      "k": 39,
+      "r": 41,
+      "total": 51,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 17 小时，标题与摘要中热点信号较明显（AI）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:21:36.437Z"
+    },
+    {
+      "id": "hkr-src-13d9f7fbf49a18e0c64b55b8b8856c50",
+      "sourceItemId": "src-13d9f7fbf49a18e0c64b55b8b8856c50",
+      "h": 76,
+      "k": 54,
+      "r": 48,
+      "total": 60,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 16 小时，标题与摘要中热点信号较明显（GPT、Claude、AI、发布）。",
+        "k": "技术、产品或方法信息密度较明显（模型），适合提炼知识增量。",
+        "r": "传播关键词较明显（免费、工具），可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:21:36.437Z"
+    },
+    {
+      "id": "hkr-src-3fa2a0bb361b94c34d3bd66d1613d3c9",
+      "sourceItemId": "src-3fa2a0bb361b94c34d3bd66d1613d3c9",
+      "h": 60,
+      "k": 43,
+      "r": 56,
+      "total": 53,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 15 小时，标题与摘要中热点信号偏弱。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.436Z",
+      "updatedAt": "2026-06-05T07:21:36.436Z"
+    },
+    {
+      "id": "hkr-src-9a1a36201160538a5bf20b8312441e48",
+      "sourceItemId": "src-9a1a36201160538a5bf20b8312441e48",
+      "h": 68,
+      "k": 66,
+      "r": 50,
+      "total": 62,
+      "level": "可关注",
+      "reasons": {
+        "h": "发布时间距今约 14 小时，标题与摘要中热点信号较明显（AI、发布）。",
+        "k": "技术、产品或方法信息密度较明显（模型、框架、评测），适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.436Z",
+      "updatedAt": "2026-06-05T07:21:36.436Z"
+    },
+    {
+      "id": "hkr-src-a854d56b6fa805c8719417acfdd2309e",
+      "sourceItemId": "src-a854d56b6fa805c8719417acfdd2309e",
+      "h": 64,
+      "k": 43,
+      "r": 41,
+      "total": 50,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 14 小时，标题与摘要中热点信号较明显（AI）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.436Z",
+      "updatedAt": "2026-06-05T07:21:36.436Z"
+    },
+    {
+      "id": "hkr-src-b7d2299b90ff9be5c205a69cb1db1b87",
+      "sourceItemId": "src-b7d2299b90ff9be5c205a69cb1db1b87",
+      "h": 68,
+      "k": 43,
+      "r": 41,
+      "total": 51,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 13 小时，标题与摘要中热点信号较明显（Agent、AI）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.436Z",
+      "updatedAt": "2026-06-05T07:21:36.436Z"
+    },
+    {
+      "id": "hkr-src-5353d2826bc65737992fd17f54ac083d",
+      "sourceItemId": "src-5353d2826bc65737992fd17f54ac083d",
+      "h": 64,
+      "k": 43,
+      "r": 41,
+      "total": 50,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 13 小时，标题与摘要中热点信号较明显（AI）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.436Z",
+      "updatedAt": "2026-06-05T07:21:36.436Z"
+    },
+    {
+      "id": "hkr-src-5f6a966d3be4fbcf693bd33d8f9cc88d",
+      "sourceItemId": "src-5f6a966d3be4fbcf693bd33d8f9cc88d",
+      "h": 76,
+      "k": 49,
+      "r": 38,
+      "total": 55,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 13 小时，标题与摘要中热点信号较明显（Agent、AI、发布、开源）。",
+        "k": "技术、产品或方法信息密度较明显（模型），适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.436Z",
+      "updatedAt": "2026-06-05T07:21:36.436Z"
+    },
+    {
+      "id": "hkr-src-9cace44207be9990bfedeb7b479f1310",
+      "sourceItemId": "src-9cace44207be9990bfedeb7b479f1310",
+      "h": 68,
+      "k": 60,
+      "r": 38,
+      "total": 56,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 12 小时，标题与摘要中热点信号较明显（AI、发布）。",
+        "k": "技术、产品或方法信息密度较明显（模型、框架），适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.435Z",
+      "updatedAt": "2026-06-05T07:21:36.435Z"
+    },
+    {
+      "id": "hkr-src-eae519920a08b3882b71a4dd0c45b114",
+      "sourceItemId": "src-eae519920a08b3882b71a4dd0c45b114",
+      "h": 68,
+      "k": 49,
+      "r": 41,
+      "total": 53,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 12 小时，标题与摘要中热点信号较明显（OpenAI、AI）。",
+        "k": "技术、产品或方法信息密度较明显（API），适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.435Z",
+      "updatedAt": "2026-06-05T07:21:36.435Z"
+    },
+    {
+      "id": "hkr-src-7176cbdcb3c2670eef5c2cd7a3402d47",
+      "sourceItemId": "src-7176cbdcb3c2670eef5c2cd7a3402d47",
+      "h": 64,
+      "k": 72,
+      "r": 46,
+      "total": 61,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 11 小时，标题与摘要中热点信号较明显（发布）。",
+        "k": "技术、产品或方法信息密度较明显（模型、研究），适合提炼知识增量。",
+        "r": "传播关键词较明显（对比），可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.435Z",
+      "updatedAt": "2026-06-05T07:21:36.435Z"
+    },
+    {
+      "id": "hkr-src-03ca8d721c3b541be729decdd14aaea6",
+      "sourceItemId": "src-03ca8d721c3b541be729decdd14aaea6",
+      "h": 64,
+      "k": 39,
+      "r": 53,
+      "total": 52,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 10 小时，标题与摘要中热点信号较明显（AI）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.434Z",
+      "updatedAt": "2026-06-05T07:21:36.434Z"
+    },
+    {
+      "id": "hkr-src-1e42f01c6d503252cb5eb9355b17fdc0",
+      "sourceItemId": "src-1e42f01c6d503252cb5eb9355b17fdc0",
+      "h": 72,
+      "k": 43,
+      "r": 46,
+      "total": 54,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 10 小时，标题与摘要中热点信号较明显（AI）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词较明显（工具），可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.434Z",
+      "updatedAt": "2026-06-05T07:21:36.434Z"
+    },
+    {
+      "id": "hkr-src-24f5d33747d3990920e30f0d00ba63ec",
+      "sourceItemId": "src-24f5d33747d3990920e30f0d00ba63ec",
+      "h": 68,
+      "k": 51,
+      "r": 41,
+      "total": 54,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 10 小时，标题与摘要中热点信号较明显（AI、开源）。",
+        "k": "技术、产品或方法信息密度较明显（框架、代码），适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.434Z",
+      "updatedAt": "2026-06-05T07:21:36.434Z"
+    },
+    {
+      "id": "hkr-src-bdc5a8ed69a9d816ff9d36c59ab65751",
+      "sourceItemId": "src-bdc5a8ed69a9d816ff9d36c59ab65751",
+      "h": 68,
+      "k": 39,
+      "r": 41,
+      "total": 50,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 10 小时，标题与摘要中热点信号较明显（Gemini、AI）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.434Z",
+      "updatedAt": "2026-06-05T07:21:36.434Z"
+    },
+    {
+      "id": "hkr-src-3b82f67be5c168bb68b49838a1374630",
+      "sourceItemId": "src-3b82f67be5c168bb68b49838a1374630",
+      "h": 64,
+      "k": 39,
+      "r": 41,
+      "total": 48,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 10 小时，标题与摘要中热点信号较明显（AI）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.434Z",
+      "updatedAt": "2026-06-05T07:21:36.434Z"
+    },
+    {
+      "id": "hkr-src-ea3a736f40679e866a3b4e2c981e33dc",
+      "sourceItemId": "src-ea3a736f40679e866a3b4e2c981e33dc",
+      "h": 64,
+      "k": 43,
+      "r": 53,
+      "total": 53,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 8 小时，标题与摘要中热点信号较明显（AI）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.434Z",
+      "updatedAt": "2026-06-05T07:21:36.434Z"
+    },
+    {
+      "id": "hkr-src-81a582f8ef826eec27363738eccfc37a",
+      "sourceItemId": "src-81a582f8ef826eec27363738eccfc37a",
+      "h": 76,
+      "k": 55,
+      "r": 44,
+      "total": 59,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 6 小时，标题与摘要中热点信号较明显（AI、发布）。",
+        "k": "技术、产品或方法信息密度较明显（模型、研究），适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.433Z",
+      "updatedAt": "2026-06-05T07:21:36.433Z"
+    },
+    {
+      "id": "hkr-src-83e65141e331ff394e7fd5c01078df1e",
+      "sourceItemId": "src-83e65141e331ff394e7fd5c01078df1e",
+      "h": 80,
+      "k": 61,
+      "r": 41,
+      "total": 62,
+      "level": "可关注",
+      "reasons": {
+        "h": "发布时间距今约 4 小时，标题与摘要中热点信号较明显（AI）。",
+        "k": "技术、产品或方法信息密度较明显（模型、架构、代码），适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.433Z",
+      "updatedAt": "2026-06-05T07:21:36.433Z"
+    },
+    {
+      "id": "hkr-src-6359691e9c1e93389f0af2e1bb7ab2a0",
+      "sourceItemId": "src-6359691e9c1e93389f0af2e1bb7ab2a0",
+      "h": 72,
+      "k": 39,
+      "r": 53,
+      "total": 55,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 2 小时，标题与摘要中热点信号较明显（Agent）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.433Z",
+      "updatedAt": "2026-06-05T07:21:36.433Z"
+    },
+    {
+      "id": "hkr-src-9bb887878df7b9d393dd432412812def",
+      "sourceItemId": "src-9bb887878df7b9d393dd432412812def",
+      "h": 68,
+      "k": 45,
+      "r": 60,
+      "total": 58,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 2 小时，标题与摘要中热点信号偏弱。",
+        "k": "技术、产品或方法信息密度较明显（代码），适合提炼知识增量。",
+        "r": "传播关键词较明显（工具、效率），可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.433Z",
+      "updatedAt": "2026-06-05T07:21:36.433Z"
+    },
+    {
+      "id": "hkr-src-f78e56504c67e402da8fe500ddfe95ce",
+      "sourceItemId": "src-f78e56504c67e402da8fe500ddfe95ce",
+      "h": 80,
+      "k": 43,
+      "r": 41,
+      "total": 55,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 2 小时，标题与摘要中热点信号较明显（AI）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.433Z",
+      "updatedAt": "2026-06-05T07:21:36.433Z"
+    },
+    {
+      "id": "hkr-src-5c45e8ff853c3b3ca30b5a77b57e1874",
+      "sourceItemId": "src-5c45e8ff853c3b3ca30b5a77b57e1874",
+      "h": 80,
+      "k": 43,
+      "r": 41,
+      "total": 55,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 1 小时，标题与摘要中热点信号较明显（Agent、AI、发布）。",
+        "k": "技术、产品或方法信息密度偏弱，适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.433Z",
+      "updatedAt": "2026-06-05T07:21:36.433Z"
+    },
+    {
+      "id": "hkr-src-59fad74f3fc630bffcd85e981c7e7ef2",
+      "sourceItemId": "src-59fad74f3fc630bffcd85e981c7e7ef2",
+      "h": 76,
+      "k": 60,
+      "r": 41,
+      "total": 60,
+      "level": "暂不建议",
+      "reasons": {
+        "h": "发布时间距今约 1 小时，标题与摘要中热点信号较明显（Claude、AI）。",
+        "k": "技术、产品或方法信息密度较明显（API、MCP），适合提炼知识增量。",
+        "r": "传播关键词偏弱，可包装为公众号读者容易理解的切口。"
+      },
+      "createdAt": "2026-06-05T07:21:36.432Z",
+      "updatedAt": "2026-06-05T07:21:36.432Z"
+    }
+  ],
+  "topicCards": [
+    {
+      "id": "card-src-ed9b0e52e18d5a4695f5f08ad9567e84",
+      "sourceItemId": "src-ed9b0e52e18d5a4695f5f08ad9567e84",
+      "title": "Perplexity Personal Computer 登陆 Windows",
+      "oneLineSummary": "X：Perplexity (@perplexity_ai) 发布了一条关于「Perplexity Personal Computer」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 46，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Perplexity Personal Computer 登陆 Windows真正值得关注的是这三点",
+        "Perplexity Personal Computer 登陆 Windows：今天 AI 创作者可以怎么写",
+        "从Perplexity Personal Computer看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "职场效率号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.440Z",
+      "updatedAt": "2026-06-05T07:21:36.440Z"
+    },
+    {
+      "id": "card-src-2f74e6921647306b0f71894658fce3b1",
+      "sourceItemId": "src-2f74e6921647306b0f71894658fce3b1",
+      "title": "微软研究：装瓶厂AI从聊天到决策",
+      "oneLineSummary": "X：Microsoft Research (@MSFTResearch) 发布了一条关于「微软研究：装瓶厂AI从聊天到决策」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 52，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，微软研究：装瓶厂AI从聊天到决策真正值得关注的是这三点",
+        "微软研究：装瓶厂AI从聊天到决策：今天 AI 创作者可以怎么写",
+        "从微软研究：装瓶厂AI从聊天到决策看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "技术开发者号",
+        "AI科普号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.440Z",
+      "updatedAt": "2026-06-05T07:21:36.440Z"
+    },
+    {
+      "id": "card-src-ad7cfd143b3fff99894d492caf713471",
+      "sourceItemId": "src-ad7cfd143b3fff99894d492caf713471",
+      "title": "OpenShell v0.0.55 发布：新增 Vertex AI 推理支持",
+      "oneLineSummary": "X：NVIDIA AI (@NVIDIAAI) 发布了一条关于「OpenShell v0」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 49，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，OpenShell v0.0.55 发布：新增 Vertex AI 推理支持真正值得关注的是这三点",
+        "OpenShell v0.0.55 发布：新增 Vertex AI 推理支持：今天 AI 创作者可以怎么写",
+        "从OpenShell v0看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "职场效率号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.440Z",
+      "updatedAt": "2026-06-05T07:21:36.440Z"
+    },
+    {
+      "id": "card-src-353f0a36e472e4eaf491169be625c168",
+      "sourceItemId": "src-353f0a36e472e4eaf491169be625c168",
+      "title": "Miso One 开源语音模型：8B 参数、110ms 延迟、一次语音克隆",
+      "oneLineSummary": "X：Kim (@kimmonismus) 发布了一条关于「Miso One 开源语音模型：8B 参数、110ms 」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 53，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Miso One 开源语音模型：8B 参数、110ms 延迟、一次语音克隆真正值得关注的是这三点",
+        "Miso One 开源语音模型：8B 参数、110ms 延迟、一次语音克隆：今天 AI 创作者可以怎么写",
+        "从Miso One 开源语音模型：8B 参数、110ms 看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:21:36.439Z"
+    },
+    {
+      "id": "card-src-131df4018ae63ada33bb8898c03ed896",
+      "sourceItemId": "src-131df4018ae63ada33bb8898c03ed896",
+      "title": "Replit上线SEO Agent助应用被发现",
+      "oneLineSummary": "X：Replit (@Replit) 发布了一条关于「Replit上线SEO Agent助应用被发现」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 50，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Replit上线SEO Agent助应用被发现真正值得关注的是这三点",
+        "Replit上线SEO Agent助应用被发现：今天 AI 创作者可以怎么写",
+        "从Replit上线SEO Agent助应用被发现看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "职场效率号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:21:36.439Z"
+    },
+    {
+      "id": "card-src-74e462dcfbf49d83e7b41a2460c6fdb0",
+      "sourceItemId": "src-74e462dcfbf49d83e7b41a2460c6fdb0",
+      "title": "Ideogram v4.0 发布：2K 分辨率和 JSON 提示支持",
+      "oneLineSummary": "X：Krea AI (@krea_ai) 发布了一条关于「Ideogram v4」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 47，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Ideogram v4.0 发布：2K 分辨率和 JSON 提示支持真正值得关注的是这三点",
+        "Ideogram v4.0 发布：2K 分辨率和 JSON 提示支持：今天 AI 创作者可以怎么写",
+        "从Ideogram v4看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:21:36.439Z"
+    },
+    {
+      "id": "card-src-9899cde3b816c6c0953ce1a71298fcf9",
+      "sourceItemId": "src-9899cde3b816c6c0953ce1a71298fcf9",
+      "title": "黄仁勋与纳德拉共议智能体AI时代",
+      "oneLineSummary": "X：NVIDIA (@nvidia) 发布了一条关于「黄仁勋与纳德拉共议智能体AI时代」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 47，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，黄仁勋与纳德拉共议智能体AI时代真正值得关注的是这三点",
+        "黄仁勋与纳德拉共议智能体AI时代：今天 AI 创作者可以怎么写",
+        "从黄仁勋与纳德拉共议智能体AI时代看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "职场效率号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:21:36.439Z"
+    },
+    {
+      "id": "card-src-2ab5bb8f0c48bad1035e2c214b8d265e",
+      "sourceItemId": "src-2ab5bb8f0c48bad1035e2c214b8d265e",
+      "title": "世界模型的功能分类",
+      "oneLineSummary": "X：Fei-Fei Li (@drfeifei, World Labs) 发布了一条关于「世界模型的功能分类」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 55，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，世界模型的功能分类真正值得关注的是这三点",
+        "世界模型的功能分类：今天 AI 创作者可以怎么写",
+        "从世界模型的功能分类看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "职场效率号",
+        "AI科普号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:21:36.439Z"
+    },
+    {
+      "id": "card-src-7b43b820240d057f4f1545315ca0f35e",
+      "sourceItemId": "src-7b43b820240d057f4f1545315ca0f35e",
+      "title": "优步每月 1，500 美元的 AI 使用上限为 AI 工具定价提供参考",
+      "oneLineSummary": "Hacker News 热门（buzzing.cc 中文翻译） 发布了一条关于「优步每月 1，500 美元的 AI 使用上限为 AI 工」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 51，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，优步每月 1，500 美元的 AI 使用上限为 AI 工具定价提供参考真正值得关注的是这三点",
+        "优步每月 1，500 美元的 AI 使用上限为 AI 工具定价提供参考：今天 AI 创作者可以怎么写",
+        "从优步每月 1，500 美元的 AI 使用上限为 AI 工看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "职场效率号",
+        "AI科普号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:21:36.439Z"
+    },
+    {
+      "id": "card-src-d3253424636d76d0008e0c195674eb60",
+      "sourceItemId": "src-d3253424636d76d0008e0c195674eb60",
+      "title": "OpenClaw 2026.6.1发布：新增Windows节点与技能工坊",
+      "oneLineSummary": "X：OpenClaw (@openclaw) 发布了一条关于「OpenClaw 2026」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 48，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，OpenClaw 2026.6.1发布：新增Windows节点与技能工坊真正值得关注的是这三点",
+        "OpenClaw 2026.6.1发布：新增Windows节点与技能工坊：今天 AI 创作者可以怎么写",
+        "从OpenClaw 2026看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "职场效率号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:21:36.439Z"
+    },
+    {
+      "id": "card-src-d555149888ab9e95234e06b1505cad02",
+      "sourceItemId": "src-d555149888ab9e95234e06b1505cad02",
+      "title": "Grok模型登陆Cloudflare AI Gateway",
+      "oneLineSummary": "X：xAI (@xai) 发布了一条关于「Grok模型登陆Cloudflare AI Gatewa」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 46，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Grok模型登陆Cloudflare AI Gateway真正值得关注的是这三点",
+        "Grok模型登陆Cloudflare AI Gateway：今天 AI 创作者可以怎么写",
+        "从Grok模型登陆Cloudflare AI Gatewa看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "职场效率号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:21:36.439Z"
+    },
+    {
+      "id": "card-src-5c8c8d4f25277cafcbac5fad2fa7fbc1",
+      "sourceItemId": "src-5c8c8d4f25277cafcbac5fad2fa7fbc1",
+      "title": "Hugging Face 为编码智能体重塑 hf CLI 输出格式",
+      "oneLineSummary": "Hugging Face：Blog（RSS） 发布了一条关于「Hugging Face 为编码智能体重塑 hf CLI」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 50，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Hugging Face 为编码智能体重塑 hf CLI 输出格式真正值得关注的是这三点",
+        "Hugging Face 为编码智能体重塑 hf CLI 输出格式：今天 AI 创作者可以怎么写",
+        "从Hugging Face 为编码智能体重塑 hf CLI看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "职场效率号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.439Z",
+      "updatedAt": "2026-06-05T07:21:36.439Z"
+    },
+    {
+      "id": "card-src-d9421be4646ac6fe9326ff950b591e97",
+      "sourceItemId": "src-d9421be4646ac6fe9326ff950b591e97",
+      "title": "OpenAI 发布《智能时代的生物防御》行动计划，以 AI 驱动生物韧性",
+      "oneLineSummary": "OpenAI：官网动态（RSS · 排除企业/客户案例） 发布了一条关于「OpenAI 发布《智能时代的生物防御》行动计划，以 A」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 53，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，OpenAI 发布《智能时代的生物防御》行动计划，以 AI 驱动生物韧性真正值得关注的是这三点",
+        "OpenAI 发布《智能时代的生物防御》行动计划，以 AI 驱动生物韧性：今天 AI 创作者可以怎么写",
+        "从OpenAI 发布《智能时代的生物防御》行动计划，以 A看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "职场效率号",
+        "AI科普号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:21:36.438Z"
+    },
+    {
+      "id": "card-src-545b232257da1a16f1e035ac13aa0ae1",
+      "sourceItemId": "src-545b232257da1a16f1e035ac13aa0ae1",
+      "title": "联合国报告：2030年AI数据中心水电消耗将翻倍",
+      "oneLineSummary": "IT之家（RSS） 发布了一条关于「联合国报告：2030年AI数据中心水电消耗将翻倍」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 52，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，联合国报告：2030年AI数据中心水电消耗将翻倍真正值得关注的是这三点",
+        "联合国报告：2030年AI数据中心水电消耗将翻倍：今天 AI 创作者可以怎么写",
+        "从联合国报告：2030年AI数据中心水电消耗将翻倍看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "创业商业号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:21:36.438Z"
+    },
+    {
+      "id": "card-src-e41da57d48a5ceef56aa557a802f47d4",
+      "sourceItemId": "src-e41da57d48a5ceef56aa557a802f47d4",
+      "title": "NVIDIA PPISP：补偿光度变化提升3D重建",
+      "oneLineSummary": "X：NVIDIA AI (@NVIDIAAI) 发布了一条关于「NVIDIA PPISP：补偿光度变化提升3D重建」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 48，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，NVIDIA PPISP：补偿光度变化提升3D重建真正值得关注的是这三点",
+        "NVIDIA PPISP：补偿光度变化提升3D重建：今天 AI 创作者可以怎么写",
+        "从NVIDIA PPISP：补偿光度变化提升3D重建看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "技术开发者号",
+        "AI科普号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:21:36.438Z"
+    },
+    {
+      "id": "card-src-498cee4e14524038996b6e1c188633b4",
+      "sourceItemId": "src-498cee4e14524038996b6e1c188633b4",
+      "title": "Cloudflare Radar：机器人流量首次超过人类占比57.5%",
+      "oneLineSummary": "X：小互 (@xiaohu) 发布了一条关于「Cloudflare Radar：机器人流量首次超过人类」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 53，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Cloudflare Radar：机器人流量首次超过人类占比57.5%真正值得关注的是这三点",
+        "Cloudflare Radar：机器人流量首次超过人类占比57.5%：今天 AI 创作者可以怎么写",
+        "从Cloudflare Radar：机器人流量首次超过人类看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "创业商业号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:21:36.438Z"
+    },
+    {
+      "id": "card-src-e126e10d439155bc21388cafc7229a10",
+      "sourceItemId": "src-e126e10d439155bc21388cafc7229a10",
+      "title": "Meet OpenJarvis：一个本地优先的设备端个人AI智能体框架，支持工具、记忆与学习",
+      "oneLineSummary": "MarkTechPost（RSS） 发布了一条关于「Meet OpenJarvis：一个本地优先的设备端个人」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 60，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Meet OpenJarvis：一个本地优先的设备端个人AI智能体框架，支持工具、记忆与学习真正值得关注的是这三点",
+        "Meet OpenJarvis：一个本地优先的设备端个人AI智能体框架，支持工具、记忆与学习：今天 AI 创作者可以怎么写",
+        "从Meet OpenJarvis：一个本地优先的设备端个人看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "职场效率号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:21:36.438Z"
+    },
+    {
+      "id": "card-src-9f0af7c9f14da4e8780004a265169449",
+      "sourceItemId": "src-9f0af7c9f14da4e8780004a265169449",
+      "title": "Dreaming： ChatGPT 推出更强的记忆系统，更好记住用户偏好",
+      "oneLineSummary": "OpenAI：官网动态（RSS · 排除企业/客户案例） 发布了一条关于「Dreaming： ChatGPT 推出更强的记忆系统，」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 50，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Dreaming： ChatGPT 推出更强的记忆系统，更好记住用户偏好真正值得关注的是这三点",
+        "Dreaming： ChatGPT 推出更强的记忆系统，更好记住用户偏好：今天 AI 创作者可以怎么写",
+        "从Dreaming： ChatGPT 推出更强的记忆系统，看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "职场效率号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:21:36.438Z"
+    },
+    {
+      "id": "card-src-ea0edd813a7ad807d20cfe0fce4f8760",
+      "sourceItemId": "src-ea0edd813a7ad807d20cfe0fce4f8760",
+      "title": "微软AI负责人：Anthropic模型太贵，正自研更便宜的替代模型",
+      "oneLineSummary": "Bloomberg：Technology（RSS） 发布了一条关于「微软AI负责人：Anthropic模型太贵，正自研更便宜」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 53，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，微软AI负责人：Anthropic模型太贵，正自研更便宜的替代模型真正值得关注的是这三点",
+        "微软AI负责人：Anthropic模型太贵，正自研更便宜的替代模型：今天 AI 创作者可以怎么写",
+        "从微软AI负责人：Anthropic模型太贵，正自研更便宜看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "创业商业号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:21:36.438Z"
+    },
+    {
+      "id": "card-src-ba27a1ea20614fb0ec9e1f1d4309c06f",
+      "sourceItemId": "src-ba27a1ea20614fb0ec9e1f1d4309c06f",
+      "title": "Nemotron 预训练的任务种子合成问答生成",
+      "oneLineSummary": "Hugging Face：Blog（RSS） 发布了一条关于「Nemotron 预训练的任务种子合成问答生成」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 59，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Nemotron 预训练的任务种子合成问答生成真正值得关注的是这三点",
+        "Nemotron 预训练的任务种子合成问答生成：今天 AI 创作者可以怎么写",
+        "从Nemotron 预训练的任务种子合成问答生成看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "技术开发者号",
+        "AI科普号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.438Z",
+      "updatedAt": "2026-06-05T07:21:36.438Z"
+    },
+    {
+      "id": "card-src-f15c458407b630b43e8e5b7843939736",
+      "sourceItemId": "src-f15c458407b630b43e8e5b7843939736",
+      "title": "OpenRouter 翻遍 11 款 LLM 找最快的决策模型：Claude vs. Grok 领衔",
+      "oneLineSummary": "OpenRouter：Announcements（RSS） 发布了一条关于「OpenRouter 翻遍 11 款 LLM 找最快的决」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 58，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，OpenRouter 翻遍 11 款 LLM 找最快的决策模型：Claude vs. Grok 领衔真正值得关注的是这三点",
+        "OpenRouter 翻遍 11 款 LLM 找最快的决策模型：Claude vs. Grok 领衔：今天 AI 创作者可以怎么写",
+        "从OpenRouter 翻遍 11 款 LLM 找最快的决看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "职场效率号",
+        "AI科普号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:21:36.437Z"
+    },
+    {
+      "id": "card-src-51a9979412b63979a9c8a9fa1a8fdeac",
+      "sourceItemId": "src-51a9979412b63979a9c8a9fa1a8fdeac",
+      "title": "EVA-Bench Data 2.0 发布：覆盖三大领域、121 个工具、213 个场景",
+      "oneLineSummary": "Hugging Face：Blog（RSS） 发布了一条关于「EVA-Bench Data 2」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 65，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，EVA-Bench Data 2.0 发布：覆盖三大领域、121 个工具、213 个场景真正值得关注的是这三点",
+        "EVA-Bench Data 2.0 发布：覆盖三大领域、121 个工具、213 个场景：今天 AI 创作者可以怎么写",
+        "从EVA-Bench Data 2看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "技术开发者号",
+        "AI科普号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:21:36.437Z"
+    },
+    {
+      "id": "card-src-9c7cbdeacd6019954d9643748d6c3eaf",
+      "sourceItemId": "src-9c7cbdeacd6019954d9643748d6c3eaf",
+      "title": "OpenAI称AI递归自我改进迹象初现",
+      "oneLineSummary": "X：Kim (@kimmonismus) 发布了一条关于「OpenAI称AI递归自我改进迹象初现」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 55，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，OpenAI称AI递归自我改进迹象初现真正值得关注的是这三点",
+        "OpenAI称AI递归自我改进迹象初现：今天 AI 创作者可以怎么写",
+        "从OpenAI称AI递归自我改进迹象初现看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "职场效率号",
+        "AI科普号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:21:36.437Z"
+    },
+    {
+      "id": "card-src-c185fe28ec2db62da09ff937d8e9df49",
+      "sourceItemId": "src-c185fe28ec2db62da09ff937d8e9df49",
+      "title": "Nemotron 3.5 ASR：为你的语言、领域或口音进行微调",
+      "oneLineSummary": "Hugging Face：Blog（RSS） 发布了一条关于「Nemotron 3」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 57，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Nemotron 3.5 ASR：为你的语言、领域或口音进行微调真正值得关注的是这三点",
+        "Nemotron 3.5 ASR：为你的语言、领域或口音进行微调：今天 AI 创作者可以怎么写",
+        "从Nemotron 3看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "职场效率号",
+        "AI科普号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:21:36.437Z"
+    },
+    {
+      "id": "card-src-0d3a903d2e882880fc70431df82e7626",
+      "sourceItemId": "src-0d3a903d2e882880fc70431df82e7626",
+      "title": "NVIDIA Nemotron 3 Ultra 为长时间运行的智能体带来更快、更高效的推理能力",
+      "oneLineSummary": "NVIDIA Technical Blog（开发者技术博客 · RSS） 发布了一条关于「NVIDIA Nemotron 3 Ultra 为长时间」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 54，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，NVIDIA Nemotron 3 Ultra 为长时间运行的智能体带来更快、更高效的推理能力真正值得关注的是这三点",
+        "NVIDIA Nemotron 3 Ultra 为长时间运行的智能体带来更快、更高效的推理能力：今天 AI 创作者可以怎么写",
+        "从NVIDIA Nemotron 3 Ultra 为长时间看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:21:36.437Z"
+    },
+    {
+      "id": "card-src-1a572a4243844ff455b35b90716eaf6c",
+      "sourceItemId": "src-1a572a4243844ff455b35b90716eaf6c",
+      "title": "DeepSeek连续四周登顶Token份额榜",
+      "oneLineSummary": "X：OpenRouter (@OpenRouter) 发布了一条关于「DeepSeek连续四周登顶Token份额榜」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 53，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，DeepSeek连续四周登顶Token份额榜真正值得关注的是这三点",
+        "DeepSeek连续四周登顶Token份额榜：今天 AI 创作者可以怎么写",
+        "从DeepSeek连续四周登顶Token份额榜看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "创业商业号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:21:36.437Z"
+    },
+    {
+      "id": "card-src-f9f6396892265cf861b602c8a9380cb7",
+      "sourceItemId": "src-f9f6396892265cf861b602c8a9380cb7",
+      "title": "台积电难以跟上AI需求：\"我们只能支持这么多\"",
+      "oneLineSummary": "The Verge：订阅版科技（RSS） 发布了一条关于「台积电难以跟上AI需求：\"我们只能支持这么多\"」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 51，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，台积电难以跟上AI需求：\"我们只能支持这么多\"真正值得关注的是这三点",
+        "台积电难以跟上AI需求：\"我们只能支持这么多\"：今天 AI 创作者可以怎么写",
+        "从台积电难以跟上AI需求：\"我们只能支持这么多\"看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "创业商业号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:21:36.437Z"
+    },
+    {
+      "id": "card-src-13d9f7fbf49a18e0c64b55b8b8856c50",
+      "sourceItemId": "src-13d9f7fbf49a18e0c64b55b8b8856c50",
+      "title": "Nex-N2-Pro 发布：基于 Qwen3.5 的 397B MoE 推理模型，性能达 GPT-5.5 水平",
+      "oneLineSummary": "X：硅基流动 SiliconFlow (@SiliconFlowAI) 发布了一条关于「Nex-N2-Pro 发布：基于 Qwen3」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 60，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Nex-N2-Pro 发布：基于 Qwen3.5 的 397B MoE 推理模型，性能达 GPT-5.5 水平真正值得关注的是这三点",
+        "Nex-N2-Pro 发布：基于 Qwen3.5 的 397B MoE 推理模型，性能达 GPT-5.5 水平：今天 AI 创作者可以怎么写",
+        "从Nex-N2-Pro 发布：基于 Qwen3看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.437Z",
+      "updatedAt": "2026-06-05T07:21:36.437Z"
+    },
+    {
+      "id": "card-src-3fa2a0bb361b94c34d3bd66d1613d3c9",
+      "sourceItemId": "src-3fa2a0bb361b94c34d3bd66d1613d3c9",
+      "title": "Alex Imas 和 Phil Trammell：AGI 后什么仍然稀缺？",
+      "oneLineSummary": "Dwarkesh Patel：Podcast & Blog（RSS） 发布了一条关于「Alex Imas 和 Phil Trammell：AG」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 53，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Alex Imas 和 Phil Trammell：AGI 后什么仍然稀缺？真正值得关注的是这三点",
+        "Alex Imas 和 Phil Trammell：AGI 后什么仍然稀缺？：今天 AI 创作者可以怎么写",
+        "从Alex Imas 和 Phil Trammell：AG看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "职场效率号",
+        "AI科普号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.436Z",
+      "updatedAt": "2026-06-05T07:21:36.436Z"
+    },
+    {
+      "id": "card-src-9a1a36201160538a5bf20b8312441e48",
+      "sourceItemId": "src-9a1a36201160538a5bf20b8312441e48",
+      "title": "Boson AI 与 LMSYS 发布基于 SGLang-Omni 的 Higgs Audio v3 TTS 端到端服务",
+      "oneLineSummary": "LMSYS：Blog（Chatbot Arena 团队） 发布了一条关于「Boson AI 与 LMSYS 发布基于 SGLang」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 62，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Boson AI 与 LMSYS 发布基于 SGLang-Omni 的 Higgs Audio v3 TTS 端到端服务真正值得关注的是这三点",
+        "Boson AI 与 LMSYS 发布基于 SGLang-Omni 的 Higgs Audio v3 TTS 端到端服务：今天 AI 创作者可以怎么写",
+        "从Boson AI 与 LMSYS 发布基于 SGLang看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "职场效率号",
+        "AI科普号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.436Z",
+      "updatedAt": "2026-06-05T07:21:36.436Z"
+    },
+    {
+      "id": "card-src-a854d56b6fa805c8719417acfdd2309e",
+      "sourceItemId": "src-a854d56b6fa805c8719417acfdd2309e",
+      "title": "NotebookLM 推出福尔摩斯游戏笔记本",
+      "oneLineSummary": "X：NotebookLM (@NotebookLM) 发布了一条关于「NotebookLM 推出福尔摩斯游戏笔记本」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 50，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，NotebookLM 推出福尔摩斯游戏笔记本真正值得关注的是这三点",
+        "NotebookLM 推出福尔摩斯游戏笔记本：今天 AI 创作者可以怎么写",
+        "从NotebookLM 推出福尔摩斯游戏笔记本看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "职场效率号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.436Z",
+      "updatedAt": "2026-06-05T07:21:36.436Z"
+    },
+    {
+      "id": "card-src-b7d2299b90ff9be5c205a69cb1db1b87",
+      "sourceItemId": "src-b7d2299b90ff9be5c205a69cb1db1b87",
+      "title": "Replit Agent 联手 Shopify 快速建店",
+      "oneLineSummary": "X：Replit (@Replit) 发布了一条关于「Replit Agent 联手 Shopify 快速建店」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 51，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Replit Agent 联手 Shopify 快速建店真正值得关注的是这三点",
+        "Replit Agent 联手 Shopify 快速建店：今天 AI 创作者可以怎么写",
+        "从Replit Agent 联手 Shopify 快速建店看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "职场效率号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.436Z",
+      "updatedAt": "2026-06-05T07:21:36.436Z"
+    },
+    {
+      "id": "card-src-5353d2826bc65737992fd17f54ac083d",
+      "sourceItemId": "src-5353d2826bc65737992fd17f54ac083d",
+      "title": "Codex 推出 iOS 应用构建插件",
+      "oneLineSummary": "X：OpenAI Developers (@OpenAIDevs) 发布了一条关于「Codex 推出 iOS 应用构建插件」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 50，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Codex 推出 iOS 应用构建插件真正值得关注的是这三点",
+        "Codex 推出 iOS 应用构建插件：今天 AI 创作者可以怎么写",
+        "从Codex 推出 iOS 应用构建插件看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "职场效率号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.436Z",
+      "updatedAt": "2026-06-05T07:21:36.436Z"
+    },
+    {
+      "id": "card-src-5f6a966d3be4fbcf693bd33d8f9cc88d",
+      "sourceItemId": "src-5f6a966d3be4fbcf693bd33d8f9cc88d",
+      "title": "Google Magenta RealTime 2 （MRT2） 实时音乐模型发布",
+      "oneLineSummary": "X：Google AI for Developers (@googleaidevs) 发布了一条关于「Google Magenta RealTime 2 （M」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 55，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Google Magenta RealTime 2 （MRT2） 实时音乐模型发布真正值得关注的是这三点",
+        "Google Magenta RealTime 2 （MRT2） 实时音乐模型发布：今天 AI 创作者可以怎么写",
+        "从Google Magenta RealTime 2 （M看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.436Z",
+      "updatedAt": "2026-06-05T07:21:36.436Z"
+    },
+    {
+      "id": "card-src-9cace44207be9990bfedeb7b479f1310",
+      "sourceItemId": "src-9cace44207be9990bfedeb7b479f1310",
+      "title": "Nemotron 3.5 Content Safety：面向全球企业AI的可定制多模态安全",
+      "oneLineSummary": "Hugging Face：Blog（RSS） 发布了一条关于「Nemotron 3」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 56，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Nemotron 3.5 Content Safety：面向全球企业AI的可定制多模态安全真正值得关注的是这三点",
+        "Nemotron 3.5 Content Safety：面向全球企业AI的可定制多模态安全：今天 AI 创作者可以怎么写",
+        "从Nemotron 3看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.435Z",
+      "updatedAt": "2026-06-05T07:21:36.435Z"
+    },
+    {
+      "id": "card-src-eae519920a08b3882b71a4dd0c45b114",
+      "sourceItemId": "src-eae519920a08b3882b71a4dd0c45b114",
+      "title": "OpenAI API 新增内容审核评分",
+      "oneLineSummary": "X：OpenAI Developers (@OpenAIDevs) 发布了一条关于「OpenAI API 新增内容审核评分」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 53，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，OpenAI API 新增内容审核评分真正值得关注的是这三点",
+        "OpenAI API 新增内容审核评分：今天 AI 创作者可以怎么写",
+        "从OpenAI API 新增内容审核评分看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "职场效率号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.435Z",
+      "updatedAt": "2026-06-05T07:21:36.435Z"
+    },
+    {
+      "id": "card-src-7176cbdcb3c2670eef5c2cd7a3402d47",
+      "sourceItemId": "src-7176cbdcb3c2670eef5c2cd7a3402d47",
+      "title": "Google Research 发布被动心率监测系统 PHRM",
+      "oneLineSummary": "Google Research：Blog（网页） 发布了一条关于「Google Research 发布被动心率监测系统 P」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 61，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Google Research 发布被动心率监测系统 PHRM真正值得关注的是这三点",
+        "Google Research 发布被动心率监测系统 PHRM：今天 AI 创作者可以怎么写",
+        "从Google Research 发布被动心率监测系统 P看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "技术开发者号",
+        "AI科普号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.435Z",
+      "updatedAt": "2026-06-05T07:21:36.435Z"
+    },
+    {
+      "id": "card-src-03ca8d721c3b541be729decdd14aaea6",
+      "sourceItemId": "src-03ca8d721c3b541be729decdd14aaea6",
+      "title": "共存与协同智能的终结",
+      "oneLineSummary": "Ethan Mollick：One Useful Thing（RSS） 发布了一条关于「共存与协同智能的终结」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 52，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，共存与协同智能的终结真正值得关注的是这三点",
+        "共存与协同智能的终结：今天 AI 创作者可以怎么写",
+        "从共存与协同智能的终结看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "职场效率号",
+        "AI科普号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.434Z",
+      "updatedAt": "2026-06-05T07:21:36.434Z"
+    },
+    {
+      "id": "card-src-1e42f01c6d503252cb5eb9355b17fdc0",
+      "sourceItemId": "src-1e42f01c6d503252cb5eb9355b17fdc0",
+      "title": "Nemotron Parakeet ASR 印尼语准确率达 97.7%",
+      "oneLineSummary": "X：NVIDIA (@nvidia) 发布了一条关于「Nemotron Parakeet ASR 印尼语准确率」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 54，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Nemotron Parakeet ASR 印尼语准确率达 97.7%真正值得关注的是这三点",
+        "Nemotron Parakeet ASR 印尼语准确率达 97.7%：今天 AI 创作者可以怎么写",
+        "从Nemotron Parakeet ASR 印尼语准确率看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "创业商业号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.434Z",
+      "updatedAt": "2026-06-05T07:21:36.434Z"
+    },
+    {
+      "id": "card-src-24f5d33747d3990920e30f0d00ba63ec",
+      "sourceItemId": "src-24f5d33747d3990920e30f0d00ba63ec",
+      "title": "Anthropic 开源 AI 驱动漏洞发现框架",
+      "oneLineSummary": "Hacker News 热门（buzzing.cc 中文翻译） 发布了一条关于「Anthropic 开源 AI 驱动漏洞发现框架」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 54，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Anthropic 开源 AI 驱动漏洞发现框架真正值得关注的是这三点",
+        "Anthropic 开源 AI 驱动漏洞发现框架：今天 AI 创作者可以怎么写",
+        "从Anthropic 开源 AI 驱动漏洞发现框架看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "职场效率号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.434Z",
+      "updatedAt": "2026-06-05T07:21:36.434Z"
+    },
+    {
+      "id": "card-src-bdc5a8ed69a9d816ff9d36c59ab65751",
+      "sourceItemId": "src-bdc5a8ed69a9d816ff9d36c59ab65751",
+      "title": "Gemini macOS 双击 Command 附加活动窗口",
+      "oneLineSummary": "X：Gemini (@GeminiApp) 发布了一条关于「Gemini macOS 双击 Command 附加活动」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 50，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Gemini macOS 双击 Command 附加活动窗口真正值得关注的是这三点",
+        "Gemini macOS 双击 Command 附加活动窗口：今天 AI 创作者可以怎么写",
+        "从Gemini macOS 双击 Command 附加活动看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "职场效率号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.434Z",
+      "updatedAt": "2026-06-05T07:21:36.434Z"
+    },
+    {
+      "id": "card-src-3b82f67be5c168bb68b49838a1374630",
+      "sourceItemId": "src-3b82f67be5c168bb68b49838a1374630",
+      "title": "NotebookLM 来源归属功能上线",
+      "oneLineSummary": "X：NotebookLM (@NotebookLM) 发布了一条关于「NotebookLM 来源归属功能上线」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 48，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，NotebookLM 来源归属功能上线真正值得关注的是这三点",
+        "NotebookLM 来源归属功能上线：今天 AI 创作者可以怎么写",
+        "从NotebookLM 来源归属功能上线看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "职场效率号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.434Z",
+      "updatedAt": "2026-06-05T07:21:36.434Z"
+    },
+    {
+      "id": "card-src-ea3a736f40679e866a3b4e2c981e33dc",
+      "sourceItemId": "src-ea3a736f40679e866a3b4e2c981e33dc",
+      "title": "马斯克谈SpaceX上市：正处大规模资本扩张期",
+      "oneLineSummary": "X：cb_doge (@cb_doge) 发布了一条关于「马斯克谈SpaceX上市：正处大规模资本扩张期」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 53，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，马斯克谈SpaceX上市：正处大规模资本扩张期真正值得关注的是这三点",
+        "马斯克谈SpaceX上市：正处大规模资本扩张期：今天 AI 创作者可以怎么写",
+        "从马斯克谈SpaceX上市：正处大规模资本扩张期看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "职场效率号",
+        "AI科普号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.434Z",
+      "updatedAt": "2026-06-05T07:21:36.434Z"
+    },
+    {
+      "id": "card-src-81a582f8ef826eec27363738eccfc37a",
+      "sourceItemId": "src-81a582f8ef826eec27363738eccfc37a",
+      "title": "Anthropic 称其最新 AI 模型 Mythos 显现脱离人类控制迹象，呼吁全球暂缓先进 AI 研发",
+      "oneLineSummary": "IT之家（RSS） 发布了一条关于「Anthropic 称其最新 AI 模型 Mythos 」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 59，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Anthropic 称其最新 AI 模型 Mythos 显现脱离人类控制迹象，呼吁全球暂缓先进 AI 研发真正值得关注的是这三点",
+        "Anthropic 称其最新 AI 模型 Mythos 显现脱离人类控制迹象，呼吁全球暂缓先进 AI 研发：今天 AI 创作者可以怎么写",
+        "从Anthropic 称其最新 AI 模型 Mythos 看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "创业商业号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.434Z",
+      "updatedAt": "2026-06-05T07:21:36.434Z"
+    },
+    {
+      "id": "card-src-83e65141e331ff394e7fd5c01078df1e",
+      "sourceItemId": "src-83e65141e331ff394e7fd5c01078df1e",
+      "title": "腾讯高级执行副总裁汤道生：今年腾讯大部分代码都由 AI 生成",
+      "oneLineSummary": "IT之家（RSS） 发布了一条关于「腾讯高级执行副总裁汤道生：今年腾讯大部分代码都由 AI 」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 62，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，腾讯高级执行副总裁汤道生：今年腾讯大部分代码都由 AI 生成真正值得关注的是这三点",
+        "腾讯高级执行副总裁汤道生：今年腾讯大部分代码都由 AI 生成：今天 AI 创作者可以怎么写",
+        "从腾讯高级执行副总裁汤道生：今年腾讯大部分代码都由 AI 看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "创业商业号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.433Z",
+      "updatedAt": "2026-06-05T07:21:36.433Z"
+    },
+    {
+      "id": "card-src-6359691e9c1e93389f0af2e1bb7ab2a0",
+      "sourceItemId": "src-6359691e9c1e93389f0af2e1bb7ab2a0",
+      "title": "375个公众号RSS源优化Agent输入",
+      "oneLineSummary": "X：洪明 (@hongming731) 发布了一条关于「375个公众号RSS源优化Agent输入」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 55，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，375个公众号RSS源优化Agent输入真正值得关注的是这三点",
+        "375个公众号RSS源优化Agent输入：今天 AI 创作者可以怎么写",
+        "从375个公众号RSS源优化Agent输入看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "职场效率号",
+        "AI科普号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.433Z",
+      "updatedAt": "2026-06-05T07:21:36.433Z"
+    },
+    {
+      "id": "card-src-9bb887878df7b9d393dd432412812def",
+      "sourceItemId": "src-9bb887878df7b9d393dd432412812def",
+      "title": "Open Code Review - 一款基于人工智能的代码审查命令行工具",
+      "oneLineSummary": "Hacker News 热门（buzzing.cc 中文翻译） 发布了一条关于「Open Code Review - 一款基于人工智能的」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 58，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，Open Code Review - 一款基于人工智能的代码审查命令行工具真正值得关注的是这三点",
+        "Open Code Review - 一款基于人工智能的代码审查命令行工具：今天 AI 创作者可以怎么写",
+        "从Open Code Review - 一款基于人工智能的看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "职场效率号",
+        "AI科普号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.433Z",
+      "updatedAt": "2026-06-05T07:21:36.433Z"
+    },
+    {
+      "id": "card-src-f78e56504c67e402da8fe500ddfe95ce",
+      "sourceItemId": "src-f78e56504c67e402da8fe500ddfe95ce",
+      "title": "NVIDIA CEO 黄仁勋访问首尔：与韩国共建 AI 未来",
+      "oneLineSummary": "NVIDIA AI Blog 发布了一条关于「NVIDIA CEO 黄仁勋访问首尔：与韩国共建 AI 」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 55，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，NVIDIA CEO 黄仁勋访问首尔：与韩国共建 AI 未来真正值得关注的是这三点",
+        "NVIDIA CEO 黄仁勋访问首尔：与韩国共建 AI 未来：今天 AI 创作者可以怎么写",
+        "从NVIDIA CEO 黄仁勋访问首尔：与韩国共建 AI 看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "创业商业号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.433Z",
+      "updatedAt": "2026-06-05T07:21:36.433Z"
+    },
+    {
+      "id": "card-src-5c45e8ff853c3b3ca30b5a77b57e1874",
+      "sourceItemId": "src-5c45e8ff853c3b3ca30b5a77b57e1874",
+      "title": "阿里云发布SkillClaw与Nacos的Agent技能进化循环",
+      "oneLineSummary": "X：阿里云 / Alibaba Cloud (@alibaba_cloud) 发布了一条关于「阿里云发布SkillClaw与Nacos的Agent技能」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 55，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，阿里云发布SkillClaw与Nacos的Agent技能进化循环真正值得关注的是这三点",
+        "阿里云发布SkillClaw与Nacos的Agent技能进化循环：今天 AI 创作者可以怎么写",
+        "从阿里云发布SkillClaw与Nacos的Agent技能看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "职场效率号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.433Z",
+      "updatedAt": "2026-06-05T07:21:36.433Z"
+    },
+    {
+      "id": "card-src-59fad74f3fc630bffcd85e981c7e7ef2",
+      "sourceItemId": "src-59fad74f3fc630bffcd85e981c7e7ef2",
+      "title": "PolarDB-X Zero 上线：30秒全分布式数据库",
+      "oneLineSummary": "X：阿里云 / Alibaba Cloud (@alibaba_cloud) 发布了一条关于「PolarDB-X Zero 上线：30秒全分布式数据库」的 AI 动态，可转化为面向公众号读者的趋势解释或实用判断。",
+      "whyWorthWriting": "这条动态的 HKR 总分为 60，兼具热点时效和可解释空间，适合改写成“发生了什么、为什么重要、普通创作者如何判断”的公众号选题。",
+      "recommendedTitles": [
+        "别只看热闹，PolarDB-X Zero 上线：30秒全分布式数据库真正值得关注的是这三点",
+        "PolarDB-X Zero 上线：30秒全分布式数据库：今天 AI 创作者可以怎么写",
+        "从PolarDB-X Zero 上线：30秒全分布式数据库看 AI 行业的新变化"
+      ],
+      "writingAngles": [
+        "先解释事件本身，再拆出对普通用户、产品团队或开发者的实际影响。",
+        "避免复述上游摘要，重点写自己的判断、对比和可操作建议。",
+        "把技术动态翻译成公众号读者能理解的机会、风险和行动清单。"
+      ],
+      "outline": [
+        "开头：用一句话说明这件事为什么今天值得关注。",
+        "背景：交代原始事件、来源、发布时间和关键事实。",
+        "分析：从热点势能、知识增量、传播潜力三个角度拆解。",
+        "写作建议：给出适合的账号类型、标题方向和读者收获。",
+        "结尾：提醒读者回到原文核对，并给出你的独立判断。"
+      ],
+      "suitableAccounts": [
+        "AI科普号",
+        "职场效率号",
+        "产品经理/SaaS号"
+      ],
+      "difficulty": "低",
+      "factsToVerify": [
+        "原文发布时间、主体名称、产品或模型版本是否准确。",
+        "涉及数据、融资、价格、性能指标时必须回源确认。",
+        "如果引用第三方观点，需要确认上下文并保留原文链接。"
+      ],
+      "extendableViews": [
+        "这件事对公众号读者的实际工作流有什么影响。",
+        "同类产品或技术路线是否正在形成趋势。",
+        "它是短期热点，还是可以沉淀为长期选题资产。"
+      ],
+      "risks": [
+        "AIHOT 仍是测试版信源，正式写作前必须打开原文核对事实。",
+        "不要直接复制上游摘要，需加入独立分析和面向读者的二次结构化。",
+        "涉及未发布能力、传闻或商业数据时，标题不要过度确定。"
+      ],
+      "recommendedApproach": "热点解释 + 实用启发",
+      "generatedBy": "heuristic",
+      "createdAt": "2026-06-05T07:21:36.432Z",
+      "updatedAt": "2026-06-05T07:21:36.432Z"
+    }
+  ],
+  "fetchLogs": [
+    {
+      "id": "fetch-1780644235334",
+      "provider": "aihot",
+      "mode": "selected",
+      "params": {
+        "mode": "selected",
+        "limit": "30"
+      },
+      "status": "success",
+      "fetchedCount": 50,
+      "insertedCount": 0,
+      "dedupedCount": 50,
+      "startedAt": "2026-06-05T07:23:55.037Z",
+      "finishedAt": "2026-06-05T07:23:55.334Z"
+    },
+    {
+      "id": "fetch-1780644096440",
+      "provider": "aihot",
+      "mode": "selected",
+      "params": {
+        "mode": "selected",
+        "limit": "5"
+      },
+      "status": "success",
+      "fetchedCount": 50,
+      "insertedCount": 50,
+      "dedupedCount": 0,
+      "startedAt": "2026-06-05T07:21:36.128Z",
+      "finishedAt": "2026-06-05T07:21:36.440Z"
+    }
+  ],
+  "dailyReports": [
+    {
+      "id": "daily-2026-06-05",
+      "reportDate": "2026-06-05",
+      "markdown": "# 今日可写选题日报 2026-06-05\n\n今日一句判断：今天 AI 选题应优先选择“能解释变化、能给出行动建议、且可回源核对”的内容。\n\n## 今日最值得写\n\n1. **EVA-Bench Data 2.0 发布：覆盖三大领域、121 个工具、213 个场景**（HKR 65）\n   - 来源：Hugging Face：Blog（RSS）｜发布时间：2026-06-04T12:24:58.000Z\n   - 推荐写法：热点解释 + 实用启发\n   - 原文：https://huggingface.co/blog/ServiceNow-AI/eva-bench-data\n2. **Boson AI 与 LMSYS 发布基于 SGLang-Omni 的 Higgs Audio v3 TTS 端到端服务**（HKR 62）\n   - 来源：LMSYS：Blog（Chatbot Arena 团队）｜发布时间：2026-06-04T16:53:01.234Z\n   - 推荐写法：热点解释 + 实用启发\n   - 原文：https://www.lmsys.org/blog/2026-06-04-higgs-audio-v3-tts\n3. **腾讯高级执行副总裁汤道生：今年腾讯大部分代码都由 AI 生成**（HKR 62）\n   - 来源：IT之家（RSS）｜发布时间：2026-06-05T03:04:23.000Z\n   - 推荐写法：热点解释 + 实用启发\n   - 原文：https://www.ithome.com/0/960/323.htm\n## 适合追热点\n\n暂无。\n## 适合写深度\n\n暂无。\n## 适合工具推荐\n\n1. **Boson AI 与 LMSYS 发布基于 SGLang-Omni 的 Higgs Audio v3 TTS 端到端服务**（HKR 62）\n   - 来源：LMSYS：Blog（Chatbot Arena 团队）｜发布时间：2026-06-04T16:53:01.234Z\n   - 推荐写法：热点解释 + 实用启发\n   - 原文：https://www.lmsys.org/blog/2026-06-04-higgs-audio-v3-tts\n2. **Meet OpenJarvis：一个本地优先的设备端个人AI智能体框架，支持工具、记忆与学习**（HKR 60）\n   - 来源：MarkTechPost（RSS）｜发布时间：2026-06-04T06:23:10.000Z\n   - 推荐写法：热点解释 + 实用启发\n   - 原文：https://www.marktechpost.com/2026/06/03/meet-openjarvis-a-local-first-framework-for-on-device-personal-ai-agents-with-tools-memory-and-learning\n3. **PolarDB-X Zero 上线：30秒全分布式数据库**（HKR 60）\n   - 来源：X：阿里云 / Alibaba Cloud (@alibaba_cloud)｜发布时间：2026-06-05T06:18:53.000Z\n   - 推荐写法：热点解释 + 实用启发\n   - 原文：https://x.com/alibaba_cloud/status/2062781182417490310\n## 不建议写但可关注\n\n1. **EVA-Bench Data 2.0 发布：覆盖三大领域、121 个工具、213 个场景**（HKR 65）\n   - 来源：Hugging Face：Blog（RSS）｜发布时间：2026-06-04T12:24:58.000Z\n   - 推荐写法：热点解释 + 实用启发\n   - 原文：https://huggingface.co/blog/ServiceNow-AI/eva-bench-data\n2. **Boson AI 与 LMSYS 发布基于 SGLang-Omni 的 Higgs Audio v3 TTS 端到端服务**（HKR 62）\n   - 来源：LMSYS：Blog（Chatbot Arena 团队）｜发布时间：2026-06-04T16:53:01.234Z\n   - 推荐写法：热点解释 + 实用启发\n   - 原文：https://www.lmsys.org/blog/2026-06-04-higgs-audio-v3-tts\n3. **腾讯高级执行副总裁汤道生：今年腾讯大部分代码都由 AI 生成**（HKR 62）\n   - 来源：IT之家（RSS）｜发布时间：2026-06-05T03:04:23.000Z\n   - 推荐写法：热点解释 + 实用启发\n   - 原文：https://www.ithome.com/0/960/323.htm\n4. **Google Research 发布被动心率监测系统 PHRM**（HKR 61）\n   - 来源：Google Research：Blog（网页）｜发布时间：2026-06-04T20:25:28.688Z\n   - 推荐写法：热点解释 + 实用启发\n   - 原文：https://research.google/blog/towards-passive-heart-health-monitoring-via-smartphone-camera\n5. **Meet OpenJarvis：一个本地优先的设备端个人AI智能体框架，支持工具、记忆与学习**（HKR 60）\n   - 来源：MarkTechPost（RSS）｜发布时间：2026-06-04T06:23:10.000Z\n   - 推荐写法：热点解释 + 实用启发\n   - 原文：https://www.marktechpost.com/2026/06/03/meet-openjarvis-a-local-first-framework-for-on-device-personal-ai-agents-with-tools-memory-and-learning\n\n> 写作提醒：AIHOT / RSS 为测试版外部信源，正式写作前请打开原文链接核对事实、时间、数据和上下文；不要直接复制上游摘要。\n",
+      "itemIds": [
+        "src-51a9979412b63979a9c8a9fa1a8fdeac",
+        "src-9a1a36201160538a5bf20b8312441e48",
+        "src-83e65141e331ff394e7fd5c01078df1e",
+        "src-7176cbdcb3c2670eef5c2cd7a3402d47",
+        "src-e126e10d439155bc21388cafc7229a10",
+        "src-13d9f7fbf49a18e0c64b55b8b8856c50",
+        "src-59fad74f3fc630bffcd85e981c7e7ef2",
+        "src-ba27a1ea20614fb0ec9e1f1d4309c06f",
+        "src-81a582f8ef826eec27363738eccfc37a",
+        "src-f15c458407b630b43e8e5b7843939736",
+        "src-9bb887878df7b9d393dd432412812def",
+        "src-c185fe28ec2db62da09ff937d8e9df49"
+      ],
+      "createdAt": "2026-06-05T07:23:55.344Z"
+    }
+  ]
+}

@@ -8,13 +8,11 @@ import {
   PenLine,
   Play,
   RefreshCw,
-  RotateCcw,
-  Sparkles,
 } from "lucide-react";
 import Link from "next/link";
 import { confirmCurrentStep, runActiveGeneration } from "./actions";
-import { AngleConfirm } from "./angle-confirm";
-import { TitleConfirm } from "./title-confirm";
+import { TitleCandidatesPanel } from "./title-candidates-panel";
+import { DecisionCard } from "./decision-card";
 import {
   getActiveCreationSession,
   getConfirmedOrLatestOutline,
@@ -139,43 +137,7 @@ export default async function CreationPage() {
 
                   <div className="space-y-3">
                     {activeSession.decisions.map((decision, index) => (
-                      <div className="grid gap-3 md:grid-cols-[44px_1fr]" key={decision.id}>
-                        <div className="grid size-10 place-items-center rounded-md bg-[var(--panel-strong)] text-sm font-semibold">
-                          {index + 1}
-                        </div>
-                        <div className="rounded-md border border-[var(--line)] bg-[#fbf8ec] p-4">
-                          <div className="mb-2 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-                            <p className="font-semibold">{decision.step}</p>
-                            <span className={`w-fit rounded-md px-2.5 py-1 text-xs font-semibold ${statusClass(decision.status)}`}>
-                              {decision.status}
-                            </span>
-                          </div>
-                          <p className="text-sm text-[var(--muted)]">{decision.question}</p>
-                          {decision.answer ? <p className="mt-2 text-sm leading-6">{decision.answer}</p> : null}
-                          {decision.status === "待确认" && decision.step === "角度确认" ? (
-                            <AngleConfirm suggestedAngle={decision.confirmedValue ?? "观点"} />
-                          ) : decision.status === "待确认" && decision.step === "标题确认" ? (
-                            <TitleConfirm options={decision.options ?? []} />
-                          ) : decision.status === "待确认" ? (
-                            <div className="mt-4 flex flex-wrap gap-2">
-                              <form action={confirmCurrentStep}>
-                                <button className="inline-flex h-9 items-center gap-2 rounded-md bg-[var(--ink)] px-3 text-sm font-semibold text-white">
-                                  <CheckCircle2 size={16} />
-                                  确认
-                                </button>
-                              </form>
-                              <button className="inline-flex h-9 items-center gap-2 rounded-md border border-[var(--line)] px-3 text-sm font-semibold">
-                                <PenLine size={16} />
-                                修改
-                              </button>
-                              <button className="inline-flex h-9 items-center gap-2 rounded-md border border-[var(--line)] px-3 text-sm font-semibold">
-                                <RotateCcw size={16} />
-                                重来
-                              </button>
-                            </div>
-                          ) : null}
-                        </div>
-                      </div>
+                      <DecisionCard decision={decision} index={index} key={decision.id} />
                     ))}
                   </div>
 
@@ -194,35 +156,7 @@ export default async function CreationPage() {
               </div>
 
               <aside className="space-y-5">
-                <div className="rounded-md border border-[var(--line)] bg-[var(--panel)] p-5">
-                  <div className="mb-4 flex items-center gap-2">
-                    <Sparkles className="text-[var(--gold)]" size={20} />
-                    <h2 className="text-lg font-semibold">标题候选</h2>
-                  </div>
-                  <div className="space-y-3">
-                    {titleCandidates.map((candidate) => (
-                      <div
-                        className={`rounded-md border p-3 ${
-                          candidate.isSelected
-                            ? "border-[var(--green)] bg-[#edf4ee]"
-                            : "border-[var(--line)] bg-[#fbf8ec]"
-                        }`}
-                        key={candidate.id}
-                      >
-                        <div className="mb-2 flex items-center justify-between gap-3">
-                          <p className="text-sm font-semibold leading-5">{candidate.title}</p>
-                          {candidate.isSelected ? (
-                            <span className="rounded-md bg-white px-2 py-1 text-xs text-[var(--green)]">已选</span>
-                          ) : null}
-                        </div>
-                        <p className="text-xs text-[var(--muted)]">
-                          {candidate.platform} · {candidate.strategy}
-                        </p>
-                        {candidate.reason ? <p className="mt-2 text-sm text-[var(--muted)]">{candidate.reason}</p> : null}
-                      </div>
-                    ))}
-                  </div>
-                </div>
+                <TitleCandidatesPanel candidates={titleCandidates} />
 
                 <div className="rounded-md border border-[var(--line)] bg-[var(--panel)] p-5">
                   <div className="mb-4 flex items-center gap-2">
@@ -294,17 +228,4 @@ export default async function CreationPage() {
       </div>
     </main>
   );
-}
-
-function statusClass(status: string) {
-  switch (status) {
-    case "已确认":
-      return "bg-[#e5f0e7] text-[var(--green)]";
-    case "待确认":
-      return "bg-[#f4ead0] text-[var(--gold)]";
-    case "需修改":
-      return "bg-[#f3ddd9] text-[var(--red)]";
-    default:
-      return "bg-white text-[var(--muted)]";
-  }
 }

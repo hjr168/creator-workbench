@@ -139,8 +139,8 @@
         "createdAt": "2026-06-03T08:58:08.778Z",
         "updatedAt": "2026-06-03T08:58:08.778Z"
       },
-      "currentStep": "内容生成",
-      "status": "进行中",
+      "currentStep": "大纲确认",
+      "status": "已暂停",
       "targetPlatform": "公众号",
       "targetContentType": "长文",
       "decisions": [
@@ -150,7 +150,7 @@
           "status": "已确认",
           "question": "是否把「Satya Nadella 谈微软 Build 大会主旨演讲」作为当前要推进的选题？",
           "createdAt": "2026-06-03T08:58:08.778Z",
-          "updatedAt": "2026-06-03T08:58:12.300Z",
+          "updatedAt": "2026-06-03T09:30:22.689Z",
           "answer": "已确认作为当前推进选题。"
         },
         {
@@ -167,10 +167,10 @@
             "个人实验",
             "趋势观察"
           ],
-          "confirmedValue": "趋势观察",
+          "confirmedValue": "观点",
           "createdAt": "2026-06-03T08:58:12.300Z",
-          "updatedAt": "2026-06-03T08:58:37.630Z",
-          "answer": "按「趋势观察」推进，后续可在大纲里继续调整。"
+          "updatedAt": "2026-06-03T09:30:25.946Z",
+          "answer": "按「观点」推进，后续可在大纲里继续调整。"
         },
         {
           "id": "decision-title-1780477092301",
@@ -183,33 +183,31 @@
             "Satya Nadella 谈微软 Build 大会主旨演讲：从想法到稳定流程"
           ],
           "createdAt": "2026-06-03T08:58:12.300Z",
-          "updatedAt": "2026-06-03T08:58:51.116Z",
-          "answer": "选择「Satya Nadella 谈微软 Build 大会主旨演讲：从想法到稳定流程」作为标题。",
-          "confirmedValue": "Satya Nadella 谈微软 Build 大会主旨演讲：从想法到稳定流程"
+          "updatedAt": "2026-06-03T09:30:29.695Z",
+          "confirmedValue": "我是如何理解：Satya Nadella 谈微软 Build 大会主旨演讲",
+          "answer": "选择「我是如何理解：Satya Nadella 谈微软 Build 大会主旨演讲」作为标题。"
         },
         {
           "id": "decision-outline-1780477131119",
           "step": "大纲确认",
-          "status": "已确认",
+          "status": "待确认",
           "question": "是否确认当前大纲并准备生成公众号草稿？",
           "createdAt": "2026-06-03T08:58:51.116Z",
-          "updatedAt": "2026-06-03T08:59:03.491Z",
-          "answer": "已确认当前大纲，可以进入工具调用准备。"
+          "updatedAt": "2026-06-03T09:30:16.270Z"
         },
         {
           "id": "decision-tool-call-001",
           "step": "工具调用确认",
-          "status": "已确认",
+          "status": "待确认",
           "question": "是否将已确认标题和大纲整理为公众号推文生成输入？",
           "createdAt": "2026-06-03T08:59:03.491Z",
-          "updatedAt": "2026-06-03T08:59:08.396Z",
-          "answer": "已确认工具调用输入。"
+          "updatedAt": "2026-06-03T09:30:16.270Z"
         }
       ],
       "createdAt": "2026-06-03T08:58:08.778Z",
-      "updatedAt": "2026-06-03T08:59:08.396Z",
-      "confirmedAngle": "趋势观察",
-      "confirmedTitleId": "title-1780477092301-3",
+      "updatedAt": "2026-06-05T06:27:21.453Z",
+      "confirmedAngle": "观点",
+      "confirmedTitleId": "title-1780477092301-2",
       "confirmedOutlineId": "outline-1780477092301-session-1780477088779"
     },
     {
@@ -232,7 +230,7 @@
         "updatedAt": "2026-06-03T08:54:44.381Z"
       },
       "currentStep": "角度确认",
-      "status": "已暂停",
+      "status": "进行中",
       "targetPlatform": "公众号",
       "targetContentType": "长文",
       "decisions": [
@@ -274,7 +272,8 @@
             "消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投：从想法到稳定流程"
           ],
           "createdAt": "2026-06-03T08:54:46.953Z",
-          "updatedAt": "2026-06-03T08:54:46.953Z"
+          "updatedAt": "2026-06-05T06:27:26.466Z",
+          "confirmedValue": "消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投：从想法到稳定流程"
         },
         {
           "id": "decision-outline-1780476886954",
@@ -286,7 +285,8 @@
         }
       ],
       "createdAt": "2026-06-03T08:54:44.381Z",
-      "updatedAt": "2026-06-03T08:55:55.764Z"
+      "updatedAt": "2026-06-05T06:27:26.466Z",
+      "confirmedTitleId": "title-1780476886954-3"
     },
     {
       "id": "session-1780475819955",
@@ -439,7 +439,7 @@
         }
       ],
       "createdAt": "2026-06-03T08:17:20.758Z",
-      "updatedAt": "2026-06-03T08:36:59.954Z",
+      "updatedAt": "2026-06-03T09:34:39.491Z",
       "confirmedAngle": "方法论",
       "confirmedTitleId": "title-1780474650343-1",
       "confirmedOutlineId": "outline-1780474650343-session-1780474640759"
@@ -724,7 +724,7 @@
       "title": "消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投",
       "strategy": "原题推进",
       "reason": "保留选题原始判断，适合先进入大纲确认。",
-      "isSelected": true,
+      "isSelected": false,
       "createdAt": "2026-06-03T08:54:46.953Z"
     },
     {
@@ -744,7 +744,7 @@
       "title": "消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投：从想法到稳定流程",
       "strategy": "方法论沉淀",
       "reason": "强调可复用流程，适合后续生成长文草稿。",
-      "isSelected": false,
+      "isSelected": true,
       "createdAt": "2026-06-03T08:54:46.953Z"
     },
     {
@@ -764,7 +764,7 @@
       "title": "我是如何理解：Satya Nadella 谈微软 Build 大会主旨演讲",
       "strategy": "经验拆解",
       "reason": "更适合个人 IP 的第一人称经验表达。",
-      "isSelected": false,
+      "isSelected": true,
       "createdAt": "2026-06-03T08:58:12.300Z"
     },
     {
@@ -774,7 +774,7 @@
       "title": "Satya Nadella 谈微软 Build 大会主旨演讲：从想法到稳定流程",
       "strategy": "方法论沉淀",
       "reason": "强调可复用流程，适合后续生成长文草稿。",
-      "isSelected": true,
+      "isSelected": false,
       "createdAt": "2026-06-03T08:58:12.300Z"
     }
   ],

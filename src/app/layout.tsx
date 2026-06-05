@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "个人IP内容工作台",
-  description: "本地优先的交互式内容生产编排台",
+  title: "今日可写",
+  description: "面向公众号创作者的 AI 选题雷达",
   icons: {
     icon: "/favicon.svg",
   },
