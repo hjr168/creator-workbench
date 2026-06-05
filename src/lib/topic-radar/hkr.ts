@@ -1,6 +1,6 @@
 import type { AccountType, HKRScore, RecommendationLevel, SourceItem } from "@/types/topic-radar";
 
-const accountWeights: Record<AccountType, { h: number; k: number; r: number }> = {
+export const accountWeights: Record<AccountType, { h: number; k: number; r: number }> = {
   AI科普号: { h: 0.32, k: 0.36, r: 0.32 },
   "产品经理/SaaS号": { h: 0.28, k: 0.42, r: 0.3 },
   职场效率号: { h: 0.28, k: 0.28, r: 0.44 },
@@ -52,6 +52,13 @@ export function scoreForAccount(score: HKRScore, accountType: AccountType) {
 }
 
 export const accountTypeOptions = Object.keys(accountWeights) as AccountType[];
+
+export const hkrFormulaNotes = {
+  h: "H = 38 + 时效分 + 热点关键词分 + 行业分类加成，衡量这条动态现在是否处在注意力窗口内。",
+  k: "K = 34 + 知识关键词分 + 摘要信息密度分 + 论文分类加成，衡量它能不能写出新知识、新方法或新判断。",
+  r: "R = 36 + 传播关键词分 + 标题传播结构分 + 技巧分类加成，衡量它是否容易被公众号读者点击、转发和收藏。",
+  total: "默认总分 = H * 0.35 + K * 0.35 + R * 0.30；选择账号类型后，会按该账号的权重重新计算展示分。",
+};
 
 function keywordScore(text: string, words: string[], points: number) {
   return words.reduce((sum, word) => sum + (text.toLowerCase().includes(word.toLowerCase()) ? points : 0), 0);

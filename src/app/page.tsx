@@ -1,6 +1,7 @@
 import { BarChart3, Database, ExternalLink, Gauge, Library, PenLine, Settings, Sparkles } from "lucide-react";
 import Link from "next/link";
 import { runAIHotFetch } from "@/app/admin/actions";
+import { HkrScoreDialog } from "@/app/hkr-score-dialog";
 import { accountTypeOptions, scoreForAccount } from "@/lib/topic-radar/hkr";
 import { getTopicRadarData, getTopicRadarItems } from "@/lib/topic-radar/storage";
 import type { AccountType, TopicRadarItem } from "@/types/topic-radar";
@@ -10,6 +11,7 @@ export const dynamic = "force-dynamic";
 const navItems = [
   { label: "今日可写", href: "/", icon: Sparkles, active: true },
   { label: "选题库", href: "/topics", icon: Library },
+  { label: "HKR评分方法", href: "/hkr", icon: Gauge },
   { label: "管理后台", href: "/admin", icon: Settings },
 ];
 
@@ -153,10 +155,7 @@ function TopicCardPreview({ item, account }: { item: TopicRadarItem; account: Ac
     <article className="rounded-md border border-[var(--line)] bg-[#fbf8ec] p-4">
       <div className="mb-3 flex items-center justify-between gap-3">
         <span className="rounded-md bg-white px-2 py-1 text-xs text-[var(--green)]">{item.score.level}</span>
-        <span className="inline-flex items-center gap-1 text-sm font-semibold text-[var(--blue)]">
-          <Gauge size={15} />
-          HKR {scoreForAccount(item.score, account)}
-        </span>
+        <HkrScoreDialog account={account} compact score={item.score} />
       </div>
       <h3 className="line-clamp-2 text-lg font-semibold leading-snug">{item.card.title}</h3>
       <p className="mt-2 line-clamp-2 text-sm leading-6 text-[var(--muted)]">{item.card.oneLineSummary}</p>

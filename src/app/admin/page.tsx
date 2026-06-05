@@ -1,4 +1,4 @@
-import { Database, Library, PenLine, RefreshCw, Settings, Sparkles } from "lucide-react";
+import { Bot, Database, Gauge, Library, PenLine, RefreshCw, Settings, Sparkles } from "lucide-react";
 import Link from "next/link";
 import { refreshDailyReportAction, rescoreAction, runAIHotFetch } from "@/app/admin/actions";
 import { getTopicRadarData } from "@/lib/topic-radar/storage";
@@ -8,6 +8,13 @@ export const dynamic = "force-dynamic";
 export default async function AdminPage() {
   const data = await getTopicRadarData();
   const latestScores = data.hkrScores.slice(0, 20);
+  const llmEnabled = Boolean(process.env.OPENAI_API_KEY);
+  const llmModel = process.env.TOPIC_RADAR_LLM_MODEL ?? "gpt-4o-mini";
+  const llmCards = data.topicCards.filter((card) => card.generatedBy === "llm");
+  const heuristicCards = data.topicCards.filter((card) => card.generatedBy === "heuristic");
+  const latestLlmCard = llmCards
+    .slice()
+    .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())[0];
 
   return (
     <main className="min-h-screen px-5 py-5 text-[var(--foreground)] md:px-8">
@@ -26,6 +33,7 @@ export default async function AdminPage() {
             {[
               { label: "今日可写", href: "/", icon: Sparkles },
               { label: "选题库", href: "/topics", icon: Library },
+              { label: "HKR评分方法", href: "/hkr", icon: Gauge },
               { label: "管理后台", href: "/admin", icon: Settings, active: true },
             ].map((item) => (
               <Link
@@ -47,6 +55,39 @@ export default async function AdminPage() {
             <p className="mb-2 text-sm font-semibold text-[var(--green)]">数据源 / 拉取日志 / 评分结果</p>
             <h1 className="text-3xl font-semibold md:text-4xl">管理后台</h1>
           </header>
+
+          <section className="mb-5 rounded-md border border-[var(--line)] bg-[var(--panel)]">
+            <div className="border-b border-[var(--line)] px-5 py-4">
+              <div className="flex items-center gap-2">
+                <Bot className="text-[var(--blue)]" size={20} />
+                <h2 className="text-lg font-semibold">生成模型状态</h2>
+              </div>
+              <p className="text-sm text-[var(--muted)]">用于判断选题卡生成当前是否启用大模型，以及历史选题卡的生成来源。</p>
+            </div>
+            <div className="grid gap-3 p-5 lg:grid-cols-4">
+              <StatusCell
+                label="当前状态"
+                tone={llmEnabled ? "green" : "gold"}
+                value={llmEnabled ? "已启用大模型" : "未启用大模型"}
+              />
+              <StatusCell label="模型" value={llmEnabled ? llmModel : "本地启发式规则"} />
+              <StatusCell label="LLM 生成" value={`${llmCards.length} 张`} />
+              <StatusCell label="规则兜底" value={`${heuristicCards.length} 张`} />
+            </div>
+            <div className="border-t border-[var(--line)] px-5 py-4 text-sm leading-6 text-[var(--muted)]">
+              {llmEnabled ? (
+                <p>
+                  已检测到 `OPENAI_API_KEY`，后续拉取或重新评分时会优先调用 OpenAI Chat Completions，模型为
+                  {" "}{llmModel}，要求返回 JSON 结构化选题卡；如果接口失败、超时或返回异常，会自动回退到本地启发式生成器。
+                  {latestLlmCard ? ` 最近一次 LLM 生成时间：${formatDate(latestLlmCard.createdAt)}。` : " 当前还没有历史选题卡标记为 LLM 生成。"}
+                </p>
+              ) : (
+                <p>
+                  当前未配置 `OPENAI_API_KEY`，系统会使用本地启发式规则生成选题卡。配置 `.env.local` 后重启 dev server，新拉取或手动重新评分的选题会优先尝试大模型生成。
+                </p>
+              )}
+            </div>
+          </section>
 
           <section className="mb-5 rounded-md border border-[var(--line)] bg-[var(--panel)]">
             <div className="border-b border-[var(--line)] px-5 py-4">
@@ -162,4 +203,22 @@ export default async function AdminPage() {
 
 function formatDate(value: string) {
   return new Intl.DateTimeFormat("zh-CN", { month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" }).format(new Date(value));
+}
+
+function StatusCell({
+  label,
+  value,
+  tone,
+}: {
+  label: string;
+  value: string;
+  tone?: "green" | "gold";
+}) {
+  const toneClass = tone === "green" ? "text-[var(--green)]" : tone === "gold" ? "text-[var(--gold)]" : "text-[var(--foreground)]";
+  return (
+    <div className="rounded-md border border-[var(--line)] bg-[#fbf8ec] p-4">
+      <p className="text-sm text-[var(--muted)]">{label}</p>
+      <p className={`mt-2 text-xl font-semibold ${toneClass}`}>{value}</p>
+    </div>
+  );
 }
