@@ -60,7 +60,7 @@ export function HkrScoreDialog({ score, account, compact = false }: HkrScoreDial
                   </div>
                 </div>
                 <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
-                  原始总分 {score.total}，推荐级别「{score.level}」。账号加权分用于排序，原始总分用于判断整体推荐级别。
+                  原始总分 {score.total}，推荐级别「{score.level}」。账号加权分用于排序，推荐级别会结合原始总分和最近 72 小时内容池做每日精选校准。
                 </p>
               </div>
 

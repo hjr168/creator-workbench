@@ -1,5 +1,5 @@
-import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { readJsonDocument, writeJsonDocument } from "@/lib/storage/json-document-store";
 import type {
   Outline,
   PublishRecord,
@@ -30,14 +30,14 @@ export interface DashboardStats {
 }
 
 const dataFilePath = path.join(process.cwd(), "src/data/workbench.json");
+const dataDocumentKey = "workbench";
 
 export async function getWorkbenchData(): Promise<WorkbenchData> {
-  const raw = await readFile(dataFilePath, "utf-8");
-  return JSON.parse(raw) as WorkbenchData;
+  return readJsonDocument<WorkbenchData>(dataDocumentKey, dataFilePath);
 }
 
 export async function saveWorkbenchData(data: WorkbenchData) {
-  await writeFile(dataFilePath, `${JSON.stringify(data, null, 2)}\n`, "utf-8");
+  await writeJsonDocument(dataDocumentKey, dataFilePath, data);
 }
 
 export function getActiveCreationSession(data: WorkbenchData) {

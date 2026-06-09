@@ -4,19 +4,24 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "start": "HOSTNAME=127.0.0.1 PORT=3000 node .next/standalone/server.js",
+    "build": "next build && npm run standalone:prepare",
+    "standalone:prepare": "node scripts/prepare-standalone.mjs",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "db:migrate": "node scripts/migrate-json-to-postgres.mjs"
   },
   "dependencies": {
     "lucide-react": "latest",
     "next": "latest",
+    "pg": "^8.21.0",
     "react": "latest",
     "react-dom": "latest"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "latest",
     "@types/node": "latest",
+    "@types/pg": "^8.20.0",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "eslint": "latest",

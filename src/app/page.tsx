@@ -1,7 +1,8 @@
-import { BarChart3, Database, ExternalLink, Gauge, Library, PenLine, Settings, Sparkles } from "lucide-react";
+import { Database, ExternalLink, Gauge, Library, PenLine, Settings, Sparkles } from "lucide-react";
 import Link from "next/link";
 import { runAIHotFetch } from "@/app/admin/actions";
 import { HkrScoreDialog } from "@/app/hkr-score-dialog";
+import { MarkdownDailyReport } from "@/app/markdown-daily-report";
 import { accountTypeOptions, scoreForAccount } from "@/lib/topic-radar/hkr";
 import { getTopicRadarData, getTopicRadarItems } from "@/lib/topic-radar/storage";
 import type { AccountType, TopicRadarItem } from "@/types/topic-radar";
@@ -95,15 +96,7 @@ export default async function Home({
           </section>
 
           {latestReport ? (
-            <section className="rounded-md border border-[var(--line)] bg-[var(--panel)] p-5">
-              <div className="mb-3 flex items-center gap-2">
-                <BarChart3 className="text-[var(--blue)]" size={20} />
-                <h2 className="text-lg font-semibold">今日 Markdown 日报</h2>
-              </div>
-              <pre className="max-h-[420px] overflow-auto whitespace-pre-wrap rounded-md bg-[var(--ink)] p-4 text-xs leading-6 text-[var(--panel)]">
-                {latestReport.markdown}
-              </pre>
-            </section>
+            <MarkdownDailyReport markdown={latestReport.markdown} />
           ) : null}
         </section>
       </div>

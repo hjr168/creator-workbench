@@ -2,9 +2,9 @@ import { fetchAIHotItems, type AIHotItem, type FetchAIHotOptions } from "@/lib/a
 import { generateTopicCard } from "@/lib/topic-radar/card-generator";
 import { buildDailyReportMarkdown } from "@/lib/topic-radar/daily-report";
 import { contentHash, normalizeUrl } from "@/lib/topic-radar/hash";
-import { scoreSourceItem } from "@/lib/topic-radar/hkr";
-import { getTopicRadarData, getTopicRadarItems, saveTopicRadarData } from "@/lib/topic-radar/storage";
-import type { FetchLog, SourceItem } from "@/types/topic-radar";
+import { calibrateTopicRadarScores, scoreSourceItem } from "@/lib/topic-radar/hkr";
+import { getTopicRadarData, saveTopicRadarData } from "@/lib/topic-radar/storage";
+import type { FetchLog, SourceItem, TopicRadarItem } from "@/types/topic-radar";
 
 export async function fetchAIHotJob(options: FetchAIHotOptions = {}) {
   const data = await getTopicRadarData();
@@ -62,6 +62,7 @@ export async function fetchAIHotJob(options: FetchAIHotOptions = {}) {
       finishedAt: new Date().toISOString(),
     };
     data.fetchLogs.unshift(log);
+    calibrateTopicRadarScores(data);
     await saveTopicRadarData(data);
     await refreshDailyReport();
     return log;
@@ -92,7 +93,9 @@ export async function rescoreSourceItem(sourceItemId: string) {
 
   const score = scoreSourceItem(source);
   data.hkrScores = [score, ...data.hkrScores.filter((item) => item.sourceItemId !== sourceItemId)];
-  const card = await generateTopicCard(source, score);
+  calibrateTopicRadarScores(data);
+  const calibratedScore = data.hkrScores.find((item) => item.sourceItemId === sourceItemId) ?? score;
+  const card = await generateTopicCard(source, calibratedScore);
   data.topicCards = [card, ...data.topicCards.filter((item) => item.sourceItemId !== sourceItemId)];
   await saveTopicRadarData(data);
   await refreshDailyReport();
@@ -100,7 +103,16 @@ export async function rescoreSourceItem(sourceItemId: string) {
 
 export async function refreshDailyReport() {
   const data = await getTopicRadarData();
-  const items = await getTopicRadarItems();
+  calibrateTopicRadarScores(data);
+  const items = data.topicCards
+    .map((card) => {
+      const source = data.sourceItems.find((item) => item.id === card.sourceItemId);
+      const score = data.hkrScores.find((item) => item.sourceItemId === card.sourceItemId);
+      if (!source || !score) return null;
+      return { source, score, card };
+    })
+    .filter((item): item is TopicRadarItem => Boolean(item))
+    .sort((a, b) => b.score.total - a.score.total);
   const reportDate = new Date().toISOString().slice(0, 10);
   const markdown = buildDailyReportMarkdown(items);
   data.dailyReports = [

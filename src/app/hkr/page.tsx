@@ -42,7 +42,7 @@ export default function HkrPage() {
             <p className="mb-2 text-sm font-semibold text-[var(--green)]">HKR 评分方法</p>
             <h1 className="max-w-3xl text-3xl font-semibold md:text-4xl">用写作价值，而不是资讯热度，判断今天该写什么。</h1>
             <p className="mt-3 max-w-3xl text-sm leading-6 text-[var(--muted)]">
-              HKR 是「今日可写」用来筛选公众号选题的三维评分：H 看热点势能，K 看知识增量，R 看阅读传播潜力。
+              HKR 是「今日可写」用来筛选公众号选题的三维评分：H 看热点势能，K 看知识增量，R 看阅读传播潜力。强烈推荐采用每日精选口径，从最近内容池里挑出最值得优先写的 1-3 条。
             </p>
           </header>
 
@@ -79,7 +79,7 @@ export default function HkrPage() {
           <section className="mb-5 rounded-md border border-[var(--line)] bg-[var(--panel)] p-5">
             <h2 className="text-xl font-semibold">怎么用</h2>
             <div className="mt-4 grid gap-3 lg:grid-cols-2">
-              <Usage title="先看推荐级别" text="原始总分用于判断整体推荐级别：强烈推荐、适合追热点、适合写深度、可关注、暂不建议。" />
+              <Usage title="先看推荐级别" text="原始总分用于判断基础质量，强烈推荐会在最近 72 小时内容池里做每日精选校准。" />
               <Usage title="再看账号加权分" text="首页和选题库会按账号类型重新计算展示分。这个分数用于排序，帮助不同账号找到更适合自己的选题。" />
               <Usage title="点开 HKR 看细节" text="首页和选题库的 HKR 分数都可以点击，弹窗会显示 H/K/R 分项、命中原因、公式和当前账号权重。" />
               <Usage title="回源核对事实" text="HKR 只帮助做选题判断，不替代事实核查。正式写作前仍然要打开原文核对发布时间、数据和上下文。" />
@@ -107,7 +107,7 @@ export default function HkrPage() {
               <ExampleScore label="H 热点势能" score={86} text="刚发布，处在讨论窗口内，且涉及热门 AI 工具和功能更新。" />
               <ExampleScore label="K 知识增量" score={74} text="能解释工具能力、使用场景和方法，但技术深度不是特别高。" />
               <ExampleScore label="R 阅读传播潜力" score={88} text="普通人能理解，标题容易写成教程、清单或效率提升案例。" />
-              <ExampleScore label="总分" score={82} text="按 H/K/R 加权后超过 80，属于值得优先考虑的选题。" highlight />
+              <ExampleScore label="总分" score={82} text="按 H/K/R 加权后质量很高，进入最近内容池时通常会被优先标为强烈推荐。" highlight />
             </div>
 
             <div className="mt-4 rounded-md border border-[var(--line)] p-4 text-sm leading-6">
@@ -121,7 +121,7 @@ export default function HkrPage() {
           <section className="mb-5 rounded-md border border-[var(--line)] bg-[var(--panel)] p-5">
             <h2 className="text-xl font-semibold">推荐等级对应分数</h2>
             <p className="mt-2 max-w-3xl text-sm leading-6 text-[var(--muted)]">
-              推荐等级主要根据原始 HKR 总分判断；当某一项特别突出时，也会进入更具体的写作类型判断。
+              推荐等级先看原始 HKR 总分和 H/K/R 分项，再把最近 72 小时的高分内容做每日精选校准。
             </p>
             <div className="mt-4 overflow-x-auto">
               <table className="w-full min-w-[760px] border-collapse text-left text-sm">
@@ -137,31 +137,31 @@ export default function HkrPage() {
                   {[
                     {
                       level: "强烈推荐",
-                      range: "总分 >= 82",
-                      meaning: "热点、知识增量和传播潜力都比较均衡，今天优先级最高。",
+                      range: "最近 72 小时且总分 >= 64 的 Top 1-3 条",
+                      meaning: "在当天内容池里最值得优先写，不再要求绝对高分到 82。",
                       action: "可以当天写，适合作为头条或重点文章。",
                     },
                     {
                       level: "适合追热点",
-                      range: "H >= 78 且 R >= 70",
-                      meaning: "热度和传播性强，但未必适合长篇深挖。",
+                      range: "H >= 76 且总分 >= 58",
+                      meaning: "热度足够强，但未必适合长篇深挖。",
                       action: "适合快速解释、观点短文、热点跟进。",
                     },
                     {
                       level: "适合写深度",
-                      range: "K >= 78",
+                      range: "K >= 70 且总分 >= 58",
                       meaning: "知识密度高，适合拆解背景、技术、方法或趋势。",
                       action: "适合做深度分析、教程、对比评测。",
                     },
                     {
                       level: "可关注",
-                      range: "总分 62-81",
+                      range: "总分 >= 52",
                       meaning: "有一定选题价值，但需要找好角度，不能直接照搬新闻。",
                       action: "可以放入备选池，等待更多信息或结合账号定位再写。",
                     },
                     {
                       level: "暂不建议",
-                      range: "总分 < 62",
+                      range: "总分 < 52",
                       meaning: "当前写作价值偏低，可能热度弱、信息少或读者收益不清晰。",
                       action: "先不写，除非它和你的账号定位高度相关。",
                     },

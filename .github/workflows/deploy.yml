@@ -1,0 +1,141 @@
+name: Deploy creator workbench
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: creator-workbench-production
+  cancel-in-progress: false
+
+env:
+  APP_DOMAIN: workbench.huangjiarong.top
+  EXPECTED_PUBLIC_IP: 8.138.148.239
+  REMOTE_APP_DIR: /opt/creator-workbench
+  REMOTE_ENV_FILE: /etc/creator-workbench/creator-workbench.env
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Build
+        run: npm run build
+
+      - name: Validate deployment secrets
+        env:
+          ALIYUN_HOST: ${{ secrets.ALIYUN_HOST }}
+          ALIYUN_USER: ${{ secrets.ALIYUN_USER }}
+          SSH_PRIVATE_KEY: ${{ secrets.ALIYUN_SSH_PRIVATE_KEY }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          set -euo pipefail
+          test -n "$ALIYUN_HOST"
+          test -n "$ALIYUN_USER"
+          test -n "$SSH_PRIVATE_KEY"
+          test -n "$DATABASE_URL"
+
+      - name: Configure SSH
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.ALIYUN_SSH_PRIVATE_KEY }}
+          ALIYUN_HOST: ${{ secrets.ALIYUN_HOST }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/aliyun_ecs
+          chmod 600 ~/.ssh/aliyun_ecs
+          ssh-keyscan -H "$ALIYUN_HOST" >> ~/.ssh/known_hosts
+
+      - name: Bootstrap server
+        env:
+          ALIYUN_HOST: ${{ secrets.ALIYUN_HOST }}
+          ALIYUN_USER: ${{ secrets.ALIYUN_USER }}
+          CERTBOT_EMAIL: ${{ secrets.CERTBOT_EMAIL }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          set -euo pipefail
+          bootstrap_env="$(mktemp)"
+          {
+            printf 'DATABASE_URL=%q\n' "$DATABASE_URL"
+            printf 'APP_DOMAIN=%q\n' "$APP_DOMAIN"
+            printf 'EXPECTED_PUBLIC_IP=%q\n' "$EXPECTED_PUBLIC_IP"
+            printf 'CERTBOT_EMAIL=%q\n' "${CERTBOT_EMAIL:-}"
+          } > "$bootstrap_env"
+          scp -i ~/.ssh/aliyun_ecs "$bootstrap_env" "${ALIYUN_USER}@${ALIYUN_HOST}:/tmp/creator-workbench-bootstrap.env"
+          ssh -i ~/.ssh/aliyun_ecs "${ALIYUN_USER}@${ALIYUN_HOST}" \
+            "set -a && . /tmp/creator-workbench-bootstrap.env && set +a && bash -s" \
+            < scripts/bootstrap-server.sh
+
+      - name: Write production environment
+        env:
+          ALIYUN_HOST: ${{ secrets.ALIYUN_HOST }}
+          ALIYUN_USER: ${{ secrets.ALIYUN_USER }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          AIHOT_BASE_URL: ${{ secrets.AIHOT_BASE_URL }}
+          AIHOT_TIMEOUT_MS: ${{ secrets.AIHOT_TIMEOUT_MS }}
+          AIHOT_MIN_INTERVAL_MS: ${{ secrets.AIHOT_MIN_INTERVAL_MS }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TOPIC_RADAR_LLM_MODEL: ${{ secrets.TOPIC_RADAR_LLM_MODEL }}
+          TOPIC_RADAR_JOB_SECRET: ${{ secrets.TOPIC_RADAR_JOB_SECRET }}
+        run: |
+          set -euo pipefail
+          env_file="$(mktemp)"
+          {
+            printf 'NODE_ENV=production\n'
+            printf 'DATABASE_URL=%q\n' "$DATABASE_URL"
+            printf 'AIHOT_BASE_URL=%q\n' "${AIHOT_BASE_URL:-https://aihot.virxact.com/api/public}"
+            printf 'AIHOT_TIMEOUT_MS=%q\n' "${AIHOT_TIMEOUT_MS:-10000}"
+            printf 'AIHOT_MIN_INTERVAL_MS=%q\n' "${AIHOT_MIN_INTERVAL_MS:-1200}"
+            printf 'OPENAI_API_KEY=%q\n' "${OPENAI_API_KEY:-}"
+            printf 'TOPIC_RADAR_LLM_MODEL=%q\n' "${TOPIC_RADAR_LLM_MODEL:-gpt-4o-mini}"
+            printf 'TOPIC_RADAR_JOB_SECRET=%q\n' "${TOPIC_RADAR_JOB_SECRET:-}"
+          } > "$env_file"
+          scp -i ~/.ssh/aliyun_ecs "$env_file" "${ALIYUN_USER}@${ALIYUN_HOST}:/tmp/creator-workbench.env"
+          ssh -i ~/.ssh/aliyun_ecs "${ALIYUN_USER}@${ALIYUN_HOST}" \
+            "mkdir -p /etc/creator-workbench && mv /tmp/creator-workbench.env '${REMOTE_ENV_FILE}' && chmod 600 '${REMOTE_ENV_FILE}'"
+
+      - name: Sync source to server
+        env:
+          ALIYUN_HOST: ${{ secrets.ALIYUN_HOST }}
+          ALIYUN_USER: ${{ secrets.ALIYUN_USER }}
+        run: |
+          set -euo pipefail
+          rsync -az --delete \
+            --exclude '.git' \
+            --exclude '.next' \
+            --exclude 'node_modules' \
+            --exclude 'coverage' \
+            --exclude 'generated' \
+            --exclude '.env' \
+            --exclude '.env.*' \
+            -e "ssh -i ~/.ssh/aliyun_ecs" \
+            ./ "${ALIYUN_USER}@${ALIYUN_HOST}:${REMOTE_APP_DIR}/"
+
+      - name: Deploy on server
+        env:
+          ALIYUN_HOST: ${{ secrets.ALIYUN_HOST }}
+          ALIYUN_USER: ${{ secrets.ALIYUN_USER }}
+        run: |
+          set -euo pipefail
+          ssh -i ~/.ssh/aliyun_ecs "${ALIYUN_USER}@${ALIYUN_HOST}" "bash '${REMOTE_APP_DIR}/scripts/deploy-remote.sh'"

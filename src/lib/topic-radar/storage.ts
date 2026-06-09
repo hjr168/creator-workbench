@@ -1,8 +1,10 @@
-import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { readJsonDocument, writeJsonDocument } from "@/lib/storage/json-document-store";
+import { calibrateTopicRadarScores } from "@/lib/topic-radar/hkr";
 import type { TopicRadarData, TopicRadarItem } from "@/types/topic-radar";
 
 const dataFilePath = path.join(process.cwd(), "src/data/topic-radar.json");
+const dataDocumentKey = "topic_radar";
 
 const emptyData: TopicRadarData = {
   sourceItems: [],
@@ -13,16 +15,12 @@ const emptyData: TopicRadarData = {
 };
 
 export async function getTopicRadarData(): Promise<TopicRadarData> {
-  try {
-    const raw = await readFile(dataFilePath, "utf-8");
-    return { ...emptyData, ...(JSON.parse(raw) as TopicRadarData) };
-  } catch {
-    return emptyData;
-  }
+  const data = await readJsonDocument<TopicRadarData>(dataDocumentKey, dataFilePath, emptyData);
+  return calibrateTopicRadarScores({ ...emptyData, ...data });
 }
 
 export async function saveTopicRadarData(data: TopicRadarData) {
-  await writeFile(dataFilePath, `${JSON.stringify(data, null, 2)}\n`, "utf-8");
+  await writeJsonDocument(dataDocumentKey, dataFilePath, data);
 }
 
 export async function getTopicRadarItems(): Promise<TopicRadarItem[]> {
