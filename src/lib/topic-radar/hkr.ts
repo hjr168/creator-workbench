@@ -166,5 +166,5 @@ function getFallbackLevel(total: number, h: number, k: number): RecommendationLe
   if (h >= 76 && total >= 58) return "适合追热点";
   if (k >= 70 && total >= 58) return "适合写深度";
   if (total >= 52) return "可关注";
-  return "暂不建议";
+  return "暂不建议";//test
 }
