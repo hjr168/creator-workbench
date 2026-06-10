@@ -15,6 +15,7 @@ env:
   EXPECTED_PUBLIC_IP: 8.138.148.239
   REMOTE_APP_DIR: /opt/creator-workbench
   REMOTE_ENV_FILE: /etc/creator-workbench/creator-workbench.env
+  SSH_OPTIONS: -o ServerAliveInterval=20 -o ServerAliveCountMax=6 -o TCPKeepAlive=yes -o ConnectTimeout=30
 
 jobs:
   deploy:
@@ -82,8 +83,8 @@ jobs:
             printf 'EXPECTED_PUBLIC_IP=%q\n' "$EXPECTED_PUBLIC_IP"
             printf 'CERTBOT_EMAIL=%q\n' "${CERTBOT_EMAIL:-}"
           } > "$bootstrap_env"
-          scp -i ~/.ssh/aliyun_ecs "$bootstrap_env" "${ALIYUN_USER}@${ALIYUN_HOST}:/tmp/creator-workbench-bootstrap.env"
-          ssh -i ~/.ssh/aliyun_ecs "${ALIYUN_USER}@${ALIYUN_HOST}" \
+          scp $SSH_OPTIONS -i ~/.ssh/aliyun_ecs "$bootstrap_env" "${ALIYUN_USER}@${ALIYUN_HOST}:/tmp/creator-workbench-bootstrap.env"
+          ssh $SSH_OPTIONS -i ~/.ssh/aliyun_ecs "${ALIYUN_USER}@${ALIYUN_HOST}" \
             "set -a && . /tmp/creator-workbench-bootstrap.env && set +a && bash -s" \
             < scripts/bootstrap-server.sh
 
@@ -111,8 +112,8 @@ jobs:
             printf 'TOPIC_RADAR_LLM_MODEL=%q\n' "${TOPIC_RADAR_LLM_MODEL:-gpt-4o-mini}"
             printf 'TOPIC_RADAR_JOB_SECRET=%q\n' "${TOPIC_RADAR_JOB_SECRET:-}"
           } > "$env_file"
-          scp -i ~/.ssh/aliyun_ecs "$env_file" "${ALIYUN_USER}@${ALIYUN_HOST}:/tmp/creator-workbench.env"
-          ssh -i ~/.ssh/aliyun_ecs "${ALIYUN_USER}@${ALIYUN_HOST}" \
+          scp $SSH_OPTIONS -i ~/.ssh/aliyun_ecs "$env_file" "${ALIYUN_USER}@${ALIYUN_HOST}:/tmp/creator-workbench.env"
+          ssh $SSH_OPTIONS -i ~/.ssh/aliyun_ecs "${ALIYUN_USER}@${ALIYUN_HOST}" \
             "mkdir -p /etc/creator-workbench && mv /tmp/creator-workbench.env '${REMOTE_ENV_FILE}' && chmod 600 '${REMOTE_ENV_FILE}'"
 
       - name: Sync source to server
@@ -129,7 +130,7 @@ jobs:
             --exclude 'generated' \
             --exclude '.env' \
             --exclude '.env.*' \
-            -e "ssh -i ~/.ssh/aliyun_ecs" \
+            -e "ssh $SSH_OPTIONS -i ~/.ssh/aliyun_ecs" \
             ./ "${ALIYUN_USER}@${ALIYUN_HOST}:${REMOTE_APP_DIR}/"
 
       - name: Deploy on server
@@ -138,4 +139,4 @@ jobs:
           ALIYUN_USER: ${{ secrets.ALIYUN_USER }}
         run: |
           set -euo pipefail
-          ssh -i ~/.ssh/aliyun_ecs "${ALIYUN_USER}@${ALIYUN_HOST}" "bash '${REMOTE_APP_DIR}/scripts/deploy-remote.sh'"
+          ssh $SSH_OPTIONS -i ~/.ssh/aliyun_ecs "${ALIYUN_USER}@${ALIYUN_HOST}" "bash '${REMOTE_APP_DIR}/scripts/deploy-remote.sh'"
