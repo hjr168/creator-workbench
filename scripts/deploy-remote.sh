@@ -25,7 +25,12 @@ else
 fi
 
 log "Installing dependencies"
-npm ci
+NPM_REGISTRY="${NPM_REGISTRY:-https://registry.npmmirror.com}"
+log "Using npm registry: ${NPM_REGISTRY}"
+if ! npm ci --registry="$NPM_REGISTRY" --prefer-offline --no-audit --no-fund; then
+  log "npm ci failed. Retrying once with default registry..."
+  npm ci --no-audit --no-fund || { log "npm ci failed again. Aborting."; exit 1; }
+fi
 
 log "Running lint"
 npm run lint
