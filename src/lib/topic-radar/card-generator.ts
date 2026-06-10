@@ -1,3 +1,4 @@
+import { accountTypeOptions } from "@/lib/topic-radar/hkr";
 import type { AccountType, HKRScore, SourceItem, TopicCard } from "@/types/topic-radar";
 
 const categoryAccounts: Record<string, AccountType[]> = {
@@ -65,9 +66,15 @@ export function generateHeuristicTopicCard(source: SourceItem, score: HKRScore):
   };
 }
 
+const LLM_TIMEOUT_MS = 15_000;
+const VALID_ACCOUNTS = new Set<string>(accountTypeOptions);
+
 async function tryGenerateWithLLM(source: SourceItem, score: HKRScore): Promise<TopicCard | null> {
   const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) return null;
+
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), LLM_TIMEOUT_MS);
 
   try {
     const res = await fetch("https://api.openai.com/v1/chat/completions", {
@@ -76,6 +83,7 @@ async function tryGenerateWithLLM(source: SourceItem, score: HKRScore): Promise<
         Authorization: `Bearer ${apiKey}`,
         "Content-Type": "application/json",
       },
+      signal: controller.signal,
       body: JSON.stringify({
         model: process.env.TOPIC_RADAR_LLM_MODEL ?? "gpt-4o-mini",
         response_format: { type: "json_object" },
@@ -102,12 +110,16 @@ async function tryGenerateWithLLM(source: SourceItem, score: HKRScore): Promise<
         ],
       }),
     });
-    if (!res.ok) return null;
+    if (!res.ok) {
+      console.error(`[card-generator] LLM returned ${res.status}: ${await res.text().catch(() => "")}`);
+      return null;
+    }
     const json = await res.json();
     const content = json.choices?.[0]?.message?.content;
     if (!content) return null;
     const parsed = JSON.parse(content);
     const now = new Date().toISOString();
+    const rawAccounts = asStringArray(parsed.suitableAccounts).filter((a: string) => VALID_ACCOUNTS.has(a)) as AccountType[];
     return {
       id: `card-${source.id}`,
       sourceItemId: source.id,
@@ -117,7 +129,7 @@ async function tryGenerateWithLLM(source: SourceItem, score: HKRScore): Promise<
       recommendedTitles: asStringArray(parsed.recommendedTitles),
       writingAngles: asStringArray(parsed.writingAngles),
       outline: asStringArray(parsed.outline),
-      suitableAccounts: asStringArray(parsed.suitableAccounts) as AccountType[],
+      suitableAccounts: rawAccounts.length ? rawAccounts : categoryAccounts[source.category ?? ""] ?? ["AI科普号"],
       difficulty: ["低", "中", "高"].includes(parsed.difficulty) ? parsed.difficulty : "中",
       factsToVerify: asStringArray(parsed.factsToVerify),
       extendableViews: asStringArray(parsed.extendableViews),
@@ -127,8 +139,15 @@ async function tryGenerateWithLLM(source: SourceItem, score: HKRScore): Promise<
       createdAt: now,
       updatedAt: now,
     };
-  } catch {
+  } catch (e) {
+    if (e instanceof DOMException && e.name === "AbortError") {
+      console.error(`[card-generator] LLM request timed out after ${LLM_TIMEOUT_MS}ms for source ${source.id}`);
+    } else {
+      console.error(`[card-generator] LLM generation failed for source ${source.id}:`, e instanceof Error ? e.message : e);
+    }
     return null;
+  } finally {
+    clearTimeout(timer);
   }
 }
 

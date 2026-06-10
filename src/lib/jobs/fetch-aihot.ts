@@ -4,7 +4,15 @@ import { buildDailyReportMarkdown } from "@/lib/topic-radar/daily-report";
 import { contentHash, normalizeUrl } from "@/lib/topic-radar/hash";
 import { calibrateTopicRadarScores, scoreSourceItem } from "@/lib/topic-radar/hkr";
 import { getTopicRadarData, saveTopicRadarData } from "@/lib/topic-radar/storage";
-import type { FetchLog, SourceItem, TopicRadarItem } from "@/types/topic-radar";
+import type { FetchLog, SourceItem, TopicRadarData, TopicRadarItem } from "@/types/topic-radar";
+
+const MAX_FETCH_LOGS = 50;
+const MAX_DAILY_REPORTS = 30;
+
+function trimDataArrays(data: TopicRadarData) {
+  if (data.fetchLogs.length > MAX_FETCH_LOGS) data.fetchLogs = data.fetchLogs.slice(0, MAX_FETCH_LOGS);
+  if (data.dailyReports.length > MAX_DAILY_REPORTS) data.dailyReports = data.dailyReports.slice(0, MAX_DAILY_REPORTS);
+}
 
 export async function fetchAIHotJob(options: FetchAIHotOptions = {}) {
   const data = await getTopicRadarData();
@@ -28,19 +36,21 @@ export async function fetchAIHotJob(options: FetchAIHotOptions = {}) {
 
     let insertedCount = 0;
     let dedupedCount = 0;
+    const seenProviderIds = new Set(data.sourceItems.map((s) => s.providerItemId));
+    const seenUrls = new Set(data.sourceItems.map((s) => s.url));
+    const seenHashes = new Set(data.sourceItems.map((s) => s.contentHash));
     for (const item of result.items) {
       const normalized = normalizeAIHotItem(item);
-      const duplicate = data.sourceItems.find(
-        (source) =>
-          source.providerItemId === normalized.providerItemId ||
-          source.url === normalized.url ||
-          source.contentHash === normalized.contentHash,
-      );
-      if (duplicate) {
+      const isDuplicate = seenProviderIds.has(normalized.providerItemId) || seenUrls.has(normalized.url) || seenHashes.has(normalized.contentHash);
+      if (isDuplicate) {
         dedupedCount += 1;
-        duplicate.updatedAt = new Date().toISOString();
+        const existing = data.sourceItems.find((s) => s.providerItemId === normalized.providerItemId);
+        if (existing) existing.updatedAt = new Date().toISOString();
         continue;
       }
+      seenProviderIds.add(normalized.providerItemId);
+      seenUrls.add(normalized.url);
+      seenHashes.add(normalized.contentHash);
 
       data.sourceItems.unshift(normalized);
       const score = scoreSourceItem(normalized);
@@ -63,6 +73,7 @@ export async function fetchAIHotJob(options: FetchAIHotOptions = {}) {
     };
     data.fetchLogs.unshift(log);
     calibrateTopicRadarScores(data);
+    trimDataArrays(data);
     await saveTopicRadarData(data);
     await refreshDailyReport();
     return log;
@@ -81,6 +92,7 @@ export async function fetchAIHotJob(options: FetchAIHotOptions = {}) {
       finishedAt: new Date().toISOString(),
     };
     data.fetchLogs.unshift(log);
+    trimDataArrays(data);
     await saveTopicRadarData(data);
     return log;
   }
