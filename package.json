@@ -9,6 +9,7 @@
     "standalone:prepare": "node scripts/prepare-standalone.mjs",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
+    "check:deploy": "node scripts/check-deploy-env.mjs",
     "db:migrate": "node scripts/migrate-json-to-postgres.mjs",
     "miniapp:install": "npm install --prefix miniapp",
     "miniapp:dev": "npm run dev:weapp --prefix miniapp",

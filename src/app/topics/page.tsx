@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { accountTypeOptions, scoreForAccount } from "@/lib/topic-radar/hkr";
 import { getTopicRadarData, getTopicRadarItems } from "@/lib/topic-radar/storage";
 import { formatUpdatedAt, getLatestDataUpdatedAt } from "@/lib/topic-radar/metadata";
@@ -7,6 +8,11 @@ import type { AccountType, TopicRadarItem } from "@/types/topic-radar";
 import { TopicCardList } from "./topic-card-list";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = {
+  title: "选题库 - 今日可写",
+  description: "AI 选题库，按账号类型和推荐级别筛选，支持关键词搜索，找到今天值得写的选题。",
+};
 
 export default async function TopicsPage({
   searchParams,

@@ -2,6 +2,7 @@ import { Bot, Database, Gauge, Library, PenLine, RefreshCw, Settings, Sparkles }
 import Link from "next/link";
 import { refreshDailyReportAction, rescoreAction, runAIHotFetch } from "@/app/admin/actions";
 import { logoutAction } from "@/app/admin/logout-action";
+import { getTopicFeedbacks } from "@/lib/feedback/storage";
 import { getTopicRadarData } from "@/lib/topic-radar/storage";
 
 export const dynamic = "force-dynamic";
@@ -16,6 +17,16 @@ export default async function AdminPage() {
   const latestLlmCard = llmCards
     .slice()
     .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())[0];
+
+  const feedbacks = await getTopicFeedbacks();
+  const feedbackStats = {
+    total: feedbacks.length,
+    useful: feedbacks.filter((item) => item.type === "useful").length,
+    notUseful: feedbacks.filter((item) => item.type === "not_useful").length,
+    factIssue: feedbacks.filter((item) => item.type === "fact_issue").length,
+  };
+  const cardTitleById = new Map(data.topicCards.map((card) => [card.id, card.title]));
+  const recentFeedbacks = feedbacks.slice(0, 10);
 
   return (
     <main className="min-h-screen px-5 py-5 text-[var(--foreground)] md:px-8">
@@ -203,10 +214,58 @@ export default async function AdminPage() {
               })}
             </div>
           </section>
+
+          <section className="rounded-md border border-[var(--line)] bg-[var(--panel)]">
+            <div className="border-b border-[var(--line)] px-5 py-4">
+              <h2 className="text-lg font-semibold">选题反馈</h2>
+              <p className="text-sm text-[var(--muted)]">普通用户在选题详情页提交的轻量反馈统计。</p>
+            </div>
+            <div className="grid gap-3 p-5 lg:grid-cols-4">
+              <StatusCell label="总反馈数" value={`${feedbackStats.total} 条`} />
+              <StatusCell label="有用" value={`${feedbackStats.useful} 条`} tone="green" />
+              <StatusCell label="没用" value={`${feedbackStats.notUseful} 条`} />
+              <StatusCell label="事实可能有误" value={`${feedbackStats.factIssue} 条`} tone="gold" />
+            </div>
+            <div className="border-t border-[var(--line)] px-5 py-4">
+              <h3 className="mb-3 text-sm font-semibold">最近 10 条反馈</h3>
+              {recentFeedbacks.length ? (
+                <div className="overflow-x-auto">
+                  <table className="w-full min-w-[640px] text-left text-sm">
+                    <thead className="border-b border-[var(--line)] text-[var(--muted)]">
+                      <tr>
+                        <th className="px-3 py-2 font-medium">时间</th>
+                        <th className="px-3 py-2 font-medium">反馈类型</th>
+                        <th className="px-3 py-2 font-medium">选题标题</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {recentFeedbacks.map((feedback) => (
+                        <tr className="border-b border-[var(--line)] last:border-b-0" key={feedback.id}>
+                          <td className="px-3 py-2 text-[var(--muted)]">{formatDate(feedback.createdAt)}</td>
+                          <td className="px-3 py-2">{feedbackTypeLabel(feedback.type)}</td>
+                          <td className="px-3 py-2">{cardTitleById.get(feedback.topicCardId) ?? feedback.topicCardId}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              ) : (
+                <p className="rounded-md border border-dashed border-[var(--line)] bg-[#fbf8ec] p-4 text-center text-sm text-[var(--muted)]">
+                  暂无反馈。
+                </p>
+              )}
+            </div>
+          </section>
         </section>
       </div>
     </main>
   );
+}
+
+function feedbackTypeLabel(type: "useful" | "not_useful" | "fact_issue") {
+  if (type === "useful") return "有用";
+  if (type === "not_useful") return "没用";
+  return "事实可能有误";
 }
 
 function formatDate(value: string) {

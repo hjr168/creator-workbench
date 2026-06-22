@@ -1,4 +1,4 @@
-import { Gauge, Library, PenLine, Sparkles } from "lucide-react";
+import { FileText, Gauge, Library, PenLine, Sparkles } from "lucide-react";
 import Link from "next/link";
 
 type NavItem = {
@@ -7,11 +7,12 @@ type NavItem = {
   icon: typeof Sparkles;
 };
 
-// 面向普通用户的侧边栏：只保留今日可写 / 选题库 / HKR评分方法。
+// 面向普通用户的侧边栏：今日可写 / 选题库 / 每日选题日报 / HKR评分方法。
 // 故意不含「管理后台」入口——后台仅限授权访问，不向普通用户暴露。
 const navItems: NavItem[] = [
   { label: "今日可写", href: "/", icon: Sparkles },
   { label: "选题库", href: "/topics", icon: Library },
+  { label: "每日选题日报", href: "/daily", icon: FileText },
   { label: "HKR评分方法", href: "/hkr", icon: Gauge },
 ];
 

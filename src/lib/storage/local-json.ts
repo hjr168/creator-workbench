@@ -8,6 +8,7 @@ import type {
   Topic,
   VideoScript,
 } from "@/types/content";
+import type { TopicFeedback } from "@/types/feedback";
 import type { ToolRun } from "@/types/tool";
 import type { CreationSession } from "@/types/workflow";
 
@@ -20,6 +21,7 @@ export interface WorkbenchData {
   toolRuns: ToolRun[];
   publishRecords: PublishRecord[];
   reviewRecords: ReviewRecord[];
+  topicFeedbacks: TopicFeedback[];
 }
 
 export interface DashboardStats {
@@ -32,8 +34,22 @@ export interface DashboardStats {
 const dataFilePath = path.join(process.cwd(), "src/data/workbench.json");
 const dataDocumentKey = "workbench";
 
+const emptyData: WorkbenchData = {
+  topics: [],
+  creationSessions: [],
+  titleCandidates: [],
+  outlines: [],
+  videoScripts: [],
+  toolRuns: [],
+  publishRecords: [],
+  reviewRecords: [],
+  topicFeedbacks: [],
+};
+
 export async function getWorkbenchData(): Promise<WorkbenchData> {
-  return readJsonDocument<WorkbenchData>(dataDocumentKey, dataFilePath);
+  const data = await readJsonDocument<Partial<WorkbenchData>>(dataDocumentKey, dataFilePath);
+  // 兼容历史 workbench.json：补齐可能缺失的 topicFeedbacks 字段。
+  return { ...emptyData, ...data };
 }
 
 export async function saveWorkbenchData(data: WorkbenchData) {

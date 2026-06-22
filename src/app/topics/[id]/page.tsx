@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { findTopicRadarItem } from "@/lib/topic-radar/storage";
 import { SiteSidebar } from "@/app/_components/site-sidebar";
 import { CopyTopicActions } from "./copy-topic-actions";
+import { TopicFeedbackActions } from "./topic-feedback-actions";
 
 export const dynamic = "force-dynamic";
 
@@ -33,6 +34,10 @@ export default async function TopicDetailPage({ params }: { params: Promise<{ id
 
           <div className="mb-5">
             <CopyTopicActions item={item} />
+          </div>
+
+          <div className="mb-5">
+            <TopicFeedbackActions topicCardId={item.card.id} />
           </div>
 
           <section className="grid gap-5 xl:grid-cols-[1.1fr_0.9fr]">

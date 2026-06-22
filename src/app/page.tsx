@@ -1,4 +1,5 @@
 import { ExternalLink } from "lucide-react";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { HkrScoreDialog } from "@/app/hkr-score-dialog";
 import { MarkdownDailyReport } from "@/app/markdown-daily-report";
@@ -10,6 +11,11 @@ import { getTopicRadarData, getTopicRadarItems } from "@/lib/topic-radar/storage
 import type { AccountType, TopicRadarItem } from "@/types/topic-radar";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = {
+  title: "今日可写 - AI 自媒体选题雷达",
+  description: "每天帮公众号和自媒体创作者判断 AI 圈什么最值得写、为什么值得写、怎么写。",
+};
 
 export default async function Home({
   searchParams,

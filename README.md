@@ -114,6 +114,32 @@ docs/database-schema.sql
 - `ADMIN_PASSWORD` — 保护 `/admin`，缺失则后台锁定
 - `ADMIN_COOKIE_SECRET` — 管理员会话 cookie 哈希盐，更换它会让所有已登录会话失效
 
+### 公开试用建议
+
+- 普通用户只能查看选题、复制选题卡、提交轻量反馈（有用 / 没用 / 事实可能有误）。
+- 管理员才可以拉取 AIHOT、重新评分、生成日报。
+- 生产环境必须配置 `DATABASE_URL`，否则后台写操作会被拒绝。
+- LLM 未配置 `OPENAI_API_KEY` 时会使用本地启发式规则兜底生成选题卡。
+
+### 上线前检查
+
+```bash
+NODE_ENV=production npm run check:deploy   # 检查生产环境必需变量，缺失则退出码 1
+npm run lint
+npm run typecheck
+npm run build
+```
+
+### 反馈功能
+
+用户可以在选题详情页对选题卡反馈：有用 / 没用 / 事实可能有误。反馈匿名提交，无需登录，不记录用户身份或 IP。后台 `/admin` 的「选题反馈」模块可查看反馈统计与最近 10 条反馈。
+
+### 小程序 API token
+
+`MINIAPP_API_TOKEN` 用于保护 `/api/miniapp/*` 只读接口：
+
+- 为空时，接口公开可读，适合公开免费 MVP（内容与普通网页端一致）。
+- 如果希望只允许小程序访问、避免第三方直接调用，请配置 `MINIAPP_API_TOKEN`，并在小程序构建时注入 `TARO_APP_MINIAPP_TOKEN`（见 `miniapp/.env.example`）。
 
 ## LLM Generation
 

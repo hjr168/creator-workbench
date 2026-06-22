@@ -1,5 +1,11 @@
+import type { Metadata } from "next";
 import { accountWeights, hkrFormulaNotes } from "@/lib/topic-radar/hkr";
 import { SiteSidebar } from "@/app/_components/site-sidebar";
+
+export const metadata: Metadata = {
+  title: "HKR 评分方法 - 今日可写",
+  description: "HKR 三维评分：H 热点势能、K 知识增量、R 阅读传播潜力，用写作价值而非资讯热度判断今天该写什么。",
+};
 
 export default function HkrPage() {
   return (
