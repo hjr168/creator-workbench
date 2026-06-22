@@ -83,6 +83,19 @@ CI 流水线执行顺序：`lint → typecheck → build`（见 `.github/workflo
 - 域名：`workbench.huangjiarong.top`
 - Node 22
 
+### 运行时环境变量必须双写
+
+生产环境变量有两个来源，缺一不可：
+
+1. **服务器 env 文件** `/etc/creator-workbench/creator-workbench.env`（由 CI `deploy.yml` 的「Write production environment」步骤从 GitHub Secrets 写入，值在 GitHub Secrets 配置）
+2. **`ecosystem.config.cjs`** 的 `env` 字段里显式声明该变量名
+
+⚠️ **坑**：`deploy-remote.sh` 启动 PM2 前会 `source` env 文件，但 PM2 fork 模式下 `startOrReload --update-env` **不保证**把未声明的 shell 环境变量注入进程。结果：env 文件里有值，但 `process.env.XXX` 在运行进程里是 `undefined`（曾导致 `ADMIN_PASSWORD` 部署后后台无法登录）。
+
+**结论**：新增任何运行时环境变量时，必须同时：
+- 在 `.github/workflows/deploy.yml` 的「Validate deployment secrets」（必需的话）和「Write production environment」步骤加上 secret 和 `printf` 写入行
+- 在 `ecosystem.config.cjs` 的 `creator-workbench` app `env` 字段里加 `XXX: process.env.XXX || ""`
+
 ## Content Production Rule
 
 选题卡生成不能全自动化。必须遵循确认流程：
