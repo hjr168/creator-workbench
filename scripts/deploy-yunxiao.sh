@@ -19,12 +19,24 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 log() { printf '\n[%s] %s\n' "$(date -Is)" "$*"; }
 
-# ─── [1/7] 解压构建产物 ───
+# ─── [1/7] 解压构建产物（兼容云效"tar 套 tar"结构）───
 log "[1/7] 解压构建产物: ${PKG_PATH}"
 DEPLOY_DIR="$(mktemp -d -t cw-deploy-XXXXXX)"
-cp "${PKG_PATH}" "${DEPLOY_DIR}/deploy-package.tar.gz"
 cd "${DEPLOY_DIR}"
-tar xzf deploy-package.tar.gz
+# 先拷贝原始包
+cp "${PKG_PATH}" "${DEPLOY_DIR}/pkg.tgz"
+# 解第一层（外层包，可能是 pkg.tgz / package.tgz / deploy-package.tar.gz）
+tar xzf pkg.tgz
+# 如果解出来还是个 deploy-package.tar.gz（套娃），再解一层
+if [ -f "deploy-package.tar.gz" ]; then
+  log "检测到套娃结构，解第二层"
+  mkdir -p inner && cd inner
+  tar xzf ../deploy-package.tar.gz
+  # 把内层内容移到 DEPLOY_DIR 根（用 find 兼容所有 shell）
+  find . -mindepth 1 -maxdepth 1 -exec mv {} ../ \; 2>/dev/null || true
+  cd ..
+  rmdir inner 2>/dev/null || true
+fi
 echo "包内容:" && ls -la "${DEPLOY_DIR}"
 
 # ─── [2/7] 备份当前版本（最多保留 3 个）───
