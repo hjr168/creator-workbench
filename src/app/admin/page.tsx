@@ -1,6 +1,7 @@
 import { Bot, Database, Gauge, Library, PenLine, RefreshCw, Settings, Sparkles } from "lucide-react";
 import Link from "next/link";
 import { refreshDailyReportAction, rescoreAction, runAIHotFetch } from "@/app/admin/actions";
+import { logoutAction } from "@/app/admin/logout-action";
 import { getTopicRadarData } from "@/lib/topic-radar/storage";
 
 export const dynamic = "force-dynamic";
@@ -51,9 +52,16 @@ export default async function AdminPage() {
         </aside>
 
         <section className="min-w-0 flex-1">
-          <header className="mb-5 border-b border-[var(--line)] pb-5">
-            <p className="mb-2 text-sm font-semibold text-[var(--green)]">数据源 / 拉取日志 / 评分结果</p>
-            <h1 className="text-3xl font-semibold md:text-4xl">管理后台</h1>
+          <header className="mb-5 flex items-end justify-between border-b border-[var(--line)] pb-5">
+            <div>
+              <p className="mb-2 text-sm font-semibold text-[var(--green)]">数据源 / 拉取日志 / 评分结果</p>
+              <h1 className="text-3xl font-semibold md:text-4xl">管理后台</h1>
+            </div>
+            <form action={logoutAction}>
+              <button className="inline-flex h-9 items-center rounded-md border border-[var(--line)] px-3 text-sm font-semibold text-[var(--muted)] hover:bg-[var(--panel-strong)]" type="submit">
+                退出登录
+              </button>
+            </form>
           </header>
 
           <section className="mb-5 rounded-md border border-[var(--line)] bg-[var(--panel)]">
