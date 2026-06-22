@@ -1,6 +1,5 @@
-import { Database, ExternalLink } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import Link from "next/link";
-import { runAIHotFetch } from "@/app/admin/actions";
 import { HkrScoreDialog } from "@/app/hkr-score-dialog";
 import { MarkdownDailyReport } from "@/app/markdown-daily-report";
 import { SiteSidebar } from "@/app/_components/site-sidebar";
@@ -31,7 +30,7 @@ export default async function Home({
       <div className="mx-auto flex w-full max-w-7xl gap-5">
         <SiteSidebar activeHref="/" />
         <section className="min-w-0 flex-1">
-          <header className="mb-5 flex flex-col gap-4 border-b border-[var(--line)] pb-5 lg:flex-row lg:items-end lg:justify-between">
+          <header className="mb-5 flex flex-col gap-4 border-b border-[var(--line)] pb-5">
             <div>
               <p className="mb-2 text-sm font-semibold text-[var(--green)]">AI 选题雷达 · MVP</p>
               <h1 className="max-w-3xl text-3xl font-semibold md:text-4xl">今日可写</h1>
@@ -39,14 +38,6 @@ export default async function Home({
                 从 AIHOT 拉取 AI 热点，去重入库后进行 HKR 评分，并生成公众号选题卡。
               </p>
             </div>
-            <form action={runAIHotFetch}>
-              <input name="mode" type="hidden" value="selected" />
-              <input name="limit" type="hidden" value="30" />
-              <button className="inline-flex h-11 items-center justify-center gap-2 rounded-md bg-[var(--green)] px-4 text-sm font-semibold text-white">
-                <Database size={18} />
-                拉取 AIHOT 精选
-              </button>
-            </form>
           </header>
 
           <section className="mb-5 grid gap-3 md:grid-cols-4">
@@ -84,7 +75,7 @@ export default async function Home({
               </div>
             ) : (
               <div className="rounded-md border border-dashed border-[var(--line)] bg-[#fbf8ec] p-8 text-center text-sm text-[var(--muted)]">
-                暂无选题数据。先点击右上角拉取 AIHOT 精选。
+                暂无选题数据。稍后在每日更新后会出现今天的选题。
               </div>
             )}
           </section>
