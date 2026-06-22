@@ -1,0 +1,86 @@
+.report-page {
+  min-height: 100vh;
+  padding: 24px 0 48px;
+}
+
+.report-header,
+.markdown-card {
+  margin: 0 24px 20px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+}
+
+.report-header__eyebrow,
+.report-header__title,
+.report-header__meta,
+.markdown-card__heading,
+.markdown-card__subheading,
+.markdown-card__list-item,
+.markdown-card__line {
+  display: block;
+}
+
+.report-header__eyebrow {
+  color: var(--green);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.report-header__title {
+  margin-top: 12px;
+  color: var(--ink);
+  font-size: 46px;
+  font-weight: 900;
+}
+
+.report-header__meta {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 24px;
+}
+
+.copy-button {
+  display: flex;
+  height: 74px;
+  margin-top: 22px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: var(--ink);
+  color: var(--panel);
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.markdown-card__heading {
+  margin: 20px 0 12px;
+  color: var(--green);
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1.4;
+}
+
+.markdown-card__subheading {
+  margin: 16px 0 10px;
+  color: var(--ink);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.markdown-card__list-item {
+  margin-bottom: 10px;
+  padding-left: 8px;
+  color: #3f4741;
+  font-size: 26px;
+  line-height: 1.6;
+}
+
+.markdown-card__line {
+  margin-bottom: 12px;
+  color: #3f4741;
+  font-size: 26px;
+  line-height: 1.65;
+}

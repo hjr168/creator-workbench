@@ -1,0 +1,84 @@
+.page {
+  min-height: 100vh;
+  padding: 24px 0 48px;
+}
+
+.hero {
+  margin: 0 24px 20px;
+  padding: 32px 28px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--ink);
+  color: var(--panel);
+}
+
+.eyebrow,
+.hero__title,
+.hero__desc,
+.hero__api {
+  display: block;
+}
+
+.eyebrow {
+  color: #9bd4b6;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.hero__title {
+  margin-top: 14px;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.hero__desc {
+  margin-top: 14px;
+  font-size: 27px;
+  line-height: 1.6;
+  color: #e8dfcf;
+}
+
+.hero__api {
+  margin-top: 18px;
+  color: #b8b2a7;
+  font-size: 21px;
+  line-height: 1.4;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin: 0 24px 22px;
+}
+
+.picker,
+.toolbar__button {
+  height: 72px;
+  border: 1px solid var(--line-soft);
+  border-radius: 10px;
+  background: var(--panel);
+  color: var(--ink);
+  font-size: 26px;
+  line-height: 72px;
+}
+
+.picker {
+  min-width: 400px;
+  padding: 0 22px;
+}
+
+.toolbar__button {
+  display: flex;
+  width: 190px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-weight: 700;
+}
+
+.list {
+  padding-bottom: 16px;
+}

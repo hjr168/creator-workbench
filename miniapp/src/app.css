@@ -1,0 +1,44 @@
+page {
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  /**
+   * 设计 token，与 Web 端 globals.css 的变量体系对齐。
+   * 改主题色只需改这里一处，避免硬编码颜色散落各文件。
+   */
+  --bg: #f7f3e8;
+  --ink: #17211c;
+  --panel: #fffaf0;
+  --panel-alt: #f3eee2;
+  --line: #ded6c7;
+  --line-soft: #d8d0bf;
+  --green: #2f6f50;
+  --green-soft: #e8f3ec;
+  --gold: #b17414;
+  --muted: #69706a;
+  --muted-soft: #7b817b;
+  --danger: #a34327;
+  --danger-bg: #fff4ef;
+}
+
+view,
+text,
+button,
+input {
+  box-sizing: border-box;
+}
+
+button {
+  margin: 0;
+}
+
+/* 公共卡片样式，替代各组件里重复的 border/background/padding 组合 */
+.card {
+  margin: 0 24px 20px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+}

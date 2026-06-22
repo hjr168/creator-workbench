@@ -9,7 +9,11 @@
     "standalone:prepare": "node scripts/prepare-standalone.mjs",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "db:migrate": "node scripts/migrate-json-to-postgres.mjs"
+    "db:migrate": "node scripts/migrate-json-to-postgres.mjs",
+    "miniapp:install": "npm install --prefix miniapp",
+    "miniapp:dev": "npm run dev:weapp --prefix miniapp",
+    "miniapp:build": "npm run build:weapp --prefix miniapp",
+    "miniapp:typecheck": "npm run typecheck --prefix miniapp"
   },
   "dependencies": {
     "lucide-react": "latest",

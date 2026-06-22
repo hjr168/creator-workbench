@@ -1,0 +1,44 @@
+.skeleton-card {
+  margin: 0 24px 20px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+}
+
+.skeleton-card__meta {
+  display: flex;
+  gap: 12px;
+}
+
+.skeleton-card__pill {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.skeleton-card__line {
+  height: 28px;
+  margin-top: 18px;
+  border-radius: 6px;
+}
+
+.skeleton-card__line--short {
+  width: 60%;
+}
+
+/* 微信小程序支持的 shimmer 渐变动画 */
+.skeleton-shimmer {
+  background: linear-gradient(90deg, #efe9da 25%, #f7f3e8 37%, #efe9da 63%);
+  background-size: 400% 100%;
+  animation: skeleton-shimmer 1.4s ease infinite;
+}
+
+@keyframes skeleton-shimmer {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}

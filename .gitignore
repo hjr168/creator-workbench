@@ -1,15 +1,48 @@
+# Dependencies
 node_modules
+
+# Next.js
 .next
-.playwright-cli
 out
+
+# Build output
+generated
 dist
-coverage
+standalone
+
+# TypeScript
 tsconfig.tsbuildinfo
+
+# Environment
 .env
 .env.*
 !.env.example
-.DS_Store
+
+# Runtime data (local JSON storage)
+src/data/*.json
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage
+.playwright-cli
+
+# Sisyphus agent
+.sisyphus/
+
+# Documentation (local only)
+docs/

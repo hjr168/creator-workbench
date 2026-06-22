@@ -1,0 +1,39 @@
+.state-view {
+  margin: 28px 24px;
+  padding: 36px 28px;
+  border: 1px dashed var(--line-soft);
+  border-radius: 12px;
+  background: var(--panel);
+  text-align: center;
+}
+
+.state-view__title {
+  display: block;
+  color: var(--ink);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.state-view__desc {
+  display: block;
+  margin-top: 12px;
+  color: #6f756f;
+  font-size: 26px;
+  line-height: 1.6;
+}
+
+.state-view__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 76px;
+  margin-top: 24px;
+  padding: 0 32px;
+  border-radius: 10px;
+  background: var(--green);
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
