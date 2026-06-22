@@ -1,7 +1,8 @@
-import { ExternalLink, Library, PenLine, Settings, Sparkles } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { findTopicRadarItem } from "@/lib/topic-radar/storage";
+import { SiteSidebar } from "@/app/_components/site-sidebar";
 
 export const dynamic = "force-dynamic";
 
@@ -13,35 +14,7 @@ export default async function TopicDetailPage({ params }: { params: Promise<{ id
   return (
     <main className="min-h-screen px-5 py-5 text-[var(--foreground)] md:px-8">
       <div className="mx-auto flex w-full max-w-7xl gap-5">
-        <aside className="hidden w-60 shrink-0 border-r border-[var(--line)] pr-5 lg:block">
-          <div className="mb-8 flex items-center gap-3">
-            <div className="grid size-10 place-items-center rounded-md bg-[var(--ink)] text-[var(--panel)]">
-              <PenLine size={20} />
-            </div>
-            <div>
-              <p className="text-sm font-semibold">今日可写</p>
-              <p className="text-xs text-[var(--muted)]">选题详情</p>
-            </div>
-          </div>
-          <nav className="space-y-1">
-            {[
-              { label: "今日可写", href: "/", icon: Sparkles },
-              { label: "选题库", href: "/topics", icon: Library, active: true },
-              { label: "管理后台", href: "/admin", icon: Settings },
-            ].map((nav) => (
-              <Link
-                className={`flex h-10 items-center gap-3 rounded-md px-3 text-sm ${
-                  nav.active ? "bg-[var(--ink)] text-[var(--panel)]" : "text-[var(--muted)] hover:bg-[var(--panel-strong)]"
-                }`}
-                href={nav.href}
-                key={nav.label}
-              >
-                <nav.icon size={17} />
-                {nav.label}
-              </Link>
-            ))}
-          </nav>
-        </aside>
+        <SiteSidebar activeHref="/topics" />
 
         <article className="min-w-0 flex-1">
           <header className="mb-5 border-b border-[var(--line)] pb-5">

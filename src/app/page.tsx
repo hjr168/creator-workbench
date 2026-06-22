@@ -1,20 +1,14 @@
-import { Database, ExternalLink, Gauge, Library, PenLine, Settings, Sparkles } from "lucide-react";
+import { Database, ExternalLink } from "lucide-react";
 import Link from "next/link";
 import { runAIHotFetch } from "@/app/admin/actions";
 import { HkrScoreDialog } from "@/app/hkr-score-dialog";
 import { MarkdownDailyReport } from "@/app/markdown-daily-report";
+import { SiteSidebar } from "@/app/_components/site-sidebar";
 import { accountTypeOptions, scoreForAccount } from "@/lib/topic-radar/hkr";
 import { getTopicRadarData, getTopicRadarItems } from "@/lib/topic-radar/storage";
 import type { AccountType, TopicRadarItem } from "@/types/topic-radar";
 
 export const dynamic = "force-dynamic";
-
-const navItems = [
-  { label: "今日可写", href: "/", icon: Sparkles, active: true },
-  { label: "选题库", href: "/topics", icon: Library },
-  { label: "HKR评分方法", href: "/hkr", icon: Gauge },
-  { label: "管理后台", href: "/admin", icon: Settings },
-];
 
 export default async function Home({
   searchParams,
@@ -35,7 +29,7 @@ export default async function Home({
   return (
     <main className="min-h-screen px-5 py-5 text-[var(--foreground)] md:px-8">
       <div className="mx-auto flex w-full max-w-7xl gap-5">
-        <Sidebar />
+        <SiteSidebar activeHref="/" />
         <section className="min-w-0 flex-1">
           <header className="mb-5 flex flex-col gap-4 border-b border-[var(--line)] pb-5 lg:flex-row lg:items-end lg:justify-between">
             <div>
@@ -101,36 +95,6 @@ export default async function Home({
         </section>
       </div>
     </main>
-  );
-}
-
-function Sidebar() {
-  return (
-    <aside className="hidden w-60 shrink-0 border-r border-[var(--line)] pr-5 lg:block">
-      <div className="mb-8 flex items-center gap-3">
-        <div className="grid size-10 place-items-center rounded-md bg-[var(--ink)] text-[var(--panel)]">
-          <PenLine size={20} />
-        </div>
-        <div>
-          <p className="text-sm font-semibold">今日可写</p>
-          <p className="text-xs text-[var(--muted)]">公众号 AI 选题雷达</p>
-        </div>
-      </div>
-      <nav className="space-y-1">
-        {navItems.map((item) => (
-          <Link
-            className={`flex h-10 items-center gap-3 rounded-md px-3 text-sm ${
-              item.active ? "bg-[var(--ink)] text-[var(--panel)]" : "text-[var(--muted)] hover:bg-[var(--panel-strong)]"
-            }`}
-            href={item.href}
-            key={item.label}
-          >
-            <item.icon size={17} />
-            {item.label}
-          </Link>
-        ))}
-      </nav>
-    </aside>
   );
 }
 

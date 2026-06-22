@@ -1,8 +1,7 @@
-import { Gauge, Library, PenLine, Settings, Sparkles } from "lucide-react";
-import Link from "next/link";
 import { accountTypeOptions, scoreForAccount } from "@/lib/topic-radar/hkr";
 import { getTopicRadarItems } from "@/lib/topic-radar/storage";
 import type { AccountType } from "@/types/topic-radar";
+import { SiteSidebar } from "@/app/_components/site-sidebar";
 import { TopicCardList } from "./topic-card-list";
 
 export const dynamic = "force-dynamic";
@@ -24,36 +23,7 @@ export default async function TopicsPage({
   return (
     <main className="min-h-screen px-5 py-5 text-[var(--foreground)] md:px-8">
       <div className="mx-auto flex w-full max-w-7xl gap-5">
-        <aside className="hidden w-60 shrink-0 border-r border-[var(--line)] pr-5 lg:block">
-          <div className="mb-8 flex items-center gap-3">
-            <div className="grid size-10 place-items-center rounded-md bg-[var(--ink)] text-[var(--panel)]">
-              <PenLine size={20} />
-            </div>
-            <div>
-              <p className="text-sm font-semibold">今日可写</p>
-              <p className="text-xs text-[var(--muted)]">选题库</p>
-            </div>
-          </div>
-          <nav className="space-y-1">
-            {[
-              { label: "今日可写", href: "/", icon: Sparkles },
-              { label: "选题库", href: "/topics", icon: Library, active: true },
-              { label: "HKR评分方法", href: "/hkr", icon: Gauge },
-              { label: "管理后台", href: "/admin", icon: Settings },
-            ].map((item) => (
-              <Link
-                className={`flex h-10 items-center gap-3 rounded-md px-3 text-sm ${
-                  item.active ? "bg-[var(--ink)] text-[var(--panel)]" : "text-[var(--muted)] hover:bg-[var(--panel-strong)]"
-                }`}
-                href={item.href}
-                key={item.label}
-              >
-                <item.icon size={17} />
-                {item.label}
-              </Link>
-            ))}
-          </nav>
-        </aside>
+        <SiteSidebar activeHref="/topics" />
 
         <section className="min-w-0 flex-1">
           <header className="mb-5 border-b border-[var(--line)] pb-5">
