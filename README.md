@@ -84,6 +84,45 @@ curl -X POST http://localhost:3000/api/jobs/fetch-aihot \
   -d '{"mode":"selected","limit":30}'
 ```
 
+### 自动定时抓取
+
+生产部署会由 PM2 同时启动 `creator-workbench-scheduler` 调度进程。默认每天北京时间 **09:00** 和 **18:00** 调用上面的受保护接口，抓取成功后会继续完成去重、HKR 评分、选题卡生成和当日日报刷新。时区由调度器显式指定，不依赖 ECS 系统时区。
+
+可选配置：
+
+| 环境变量 | 默认值 | 作用 |
+|---|---|---|
+| `AIHOT_SCHEDULE_TIMES` | `09:00,18:00` | 每日执行时刻，使用零补齐的 `HH:mm`，逗号分隔 |
+| `AIHOT_SCHEDULE_TIME_ZONE` | `Asia/Shanghai` | 调度时区 |
+| `AIHOT_JOB_URL` | `http://127.0.0.1:3000/api/jobs/fetch-aihot` | 本机任务接口 |
+| `AIHOT_JOB_TIMEOUT_MS` | `600000` | 单次抓取总超时 |
+| `AIHOT_SCHEDULE_LIMIT` | `30` | 每次抓取上限 |
+
+常用运维命令：
+
+```bash
+# 不发起抓取，只检查下一次执行时间
+npm run scheduler:show-next
+
+# 在已加载 TOPIC_RADAR_JOB_SECRET 的环境中立即执行一次
+npm run scheduler:run-once
+
+# 查看调度状态和最近日志
+pm2 status
+pm2 logs creator-workbench-scheduler --lines 100
+```
+
+修改服务器 `/etc/creator-workbench/creator-workbench.env` 中的调度配置后，需重新加载 PM2 环境：
+
+```bash
+set -a
+. /etc/creator-workbench/creator-workbench.env
+set +a
+cd /opt/creator-workbench
+pm2 startOrReload ecosystem.config.cjs --update-env
+pm2 save
+```
+
 ## Data
 
 本地开发默认可使用 `src/data/topic-radar.json` 作为 fallback（无需配置 `DATABASE_URL`）。

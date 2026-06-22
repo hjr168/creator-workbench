@@ -50,12 +50,14 @@ jobs:
           ALIYUN_USER: ${{ secrets.ALIYUN_USER }}
           SSH_PRIVATE_KEY: ${{ secrets.ALIYUN_SSH_PRIVATE_KEY }}
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          TOPIC_RADAR_JOB_SECRET: ${{ secrets.TOPIC_RADAR_JOB_SECRET }}
         run: |
           set -euo pipefail
           test -n "$ALIYUN_HOST"
           test -n "$ALIYUN_USER"
           test -n "$SSH_PRIVATE_KEY"
           test -n "$DATABASE_URL"
+          test -n "$TOPIC_RADAR_JOB_SECRET"
 
       - name: Configure SSH
         env:
@@ -111,6 +113,11 @@ jobs:
             printf 'OPENAI_API_KEY=%q\n' "${OPENAI_API_KEY:-}"
             printf 'TOPIC_RADAR_LLM_MODEL=%q\n' "${TOPIC_RADAR_LLM_MODEL:-gpt-4o-mini}"
             printf 'TOPIC_RADAR_JOB_SECRET=%q\n' "${TOPIC_RADAR_JOB_SECRET:-}"
+            printf 'AIHOT_SCHEDULE_TIMES=%q\n' '09:00,18:00'
+            printf 'AIHOT_SCHEDULE_TIME_ZONE=%q\n' 'Asia/Shanghai'
+            printf 'AIHOT_JOB_URL=%q\n' 'http://127.0.0.1:3000/api/jobs/fetch-aihot'
+            printf 'AIHOT_JOB_TIMEOUT_MS=%q\n' '600000'
+            printf 'AIHOT_SCHEDULE_LIMIT=%q\n' '30'
           } > "$env_file"
           scp $SSH_OPTIONS -i ~/.ssh/aliyun_ecs "$env_file" "${ALIYUN_USER}@${ALIYUN_HOST}:/tmp/creator-workbench.env"
           ssh $SSH_OPTIONS -i ~/.ssh/aliyun_ecs "${ALIYUN_USER}@${ALIYUN_HOST}" \

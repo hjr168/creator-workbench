@@ -24,6 +24,11 @@ const OPTIONAL = [
   { key: "AIHOT_BASE_URL", hint: "AIHOT API 地址，有默认值" },
   { key: "AIHOT_TIMEOUT_MS", hint: "AIHOT 请求超时" },
   { key: "AIHOT_MIN_INTERVAL_MS", hint: "AIHOT 请求最小间隔" },
+  { key: "AIHOT_SCHEDULE_TIMES", hint: "默认 09:00,18:00" },
+  { key: "AIHOT_SCHEDULE_TIME_ZONE", hint: "默认 Asia/Shanghai" },
+  { key: "AIHOT_JOB_URL", hint: "默认调用本机 127.0.0.1:3000" },
+  { key: "AIHOT_JOB_TIMEOUT_MS", hint: "默认 600000ms" },
+  { key: "AIHOT_SCHEDULE_LIMIT", hint: "默认每次抓取 30 条" },
 ];
 
 const lines = [];

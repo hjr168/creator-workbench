@@ -1,5 +1,4 @@
 import { cookies } from "next/headers";
-import { createHash } from "node:crypto";
 
 /**
  * 轻量级管理员会话（零依赖，适合单人 MVP）。
@@ -12,6 +11,11 @@ import { createHash } from "node:crypto";
  *   校验一律返回 false，登录页提示未配置。
  *
  * 这不是用户系统，只是保护单人后台的门槛。
+ *
+ * 实现说明：使用 Web Crypto API（crypto.subtle）而非 node:crypto，
+ * 因为本模块会被 middleware.ts（Edge Runtime）导入，而 Edge Runtime 不支持
+ * node: 原生模块（Next.js 16 + Turbopack 下会报 Native module not found）。
+ * Web Crypto 是异步 API，所以相关函数都是 async。
  */
 
 const COOKIE_NAME = "cw_admin";
@@ -27,8 +31,28 @@ function getSecret(): string {
   return process.env.ADMIN_COOKIE_SECRET ?? "";
 }
 
-function hashPassword(password: string): string {
-  return createHash("sha256").update(password + getSecret()).digest("hex");
+/** 把字符串编码为 Uint8Array（TextEncoder 在所有 runtime 都可用）。 */
+function encode(input: string): Uint8Array {
+  return new TextEncoder().encode(input);
+}
+
+/** 把 Uint8Array 转成 hex 字符串。 */
+function toHex(bytes: Uint8Array): string {
+  return Array.from(bytes)
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("");
+}
+
+/** 用 Web Crypto 计算 sha256 hex。Edge Runtime / Node Runtime 都支持。 */
+async function hashPassword(password: string): Promise<string> {
+  const data = encode(password + getSecret());
+  // TS 对 Uint8Array 泛型的定义与 crypto.subtle 期望的 BufferSource 不完全一致
+  //（TS 5.7+ 起 Uint8Array 带 ArrayBufferLike 泛型），这里强制断言为 BufferSource。
+  const digest = await crypto.subtle.digest(
+    "SHA-256",
+    data as BufferSource
+  );
+  return toHex(new Uint8Array(digest));
 }
 
 /** 后台是否已启用（ADMIN_PASSWORD 已配置）。未启用时不允许登录也不允许访问。 */
@@ -43,7 +67,7 @@ export async function signInWithPassword(password: string): Promise<boolean> {
   if (password !== configured) return false;
 
   const expiresAt = Date.now() + SESSION_TTL_MS;
-  const token = `${hashPassword(configured)}.${expiresAt}`;
+  const token = `${await hashPassword(configured)}.${expiresAt}`;
   const cookieStore = await cookies();
   cookieStore.set(COOKIE_NAME, token, {
     httpOnly: true,
@@ -79,10 +103,16 @@ export async function isSignedIn(): Promise<boolean> {
 export const ADMIN_COOKIE_NAME = COOKIE_NAME;
 
 /**
- * 供 middleware.ts 使用的同步校验（middleware 里 next/headers 的 cookies() 行为受限，
- * 改用 request 的 cookie 值直接校验）。返回 true 表示有效会话。
+ * 供 middleware.ts 使用的会话 token 校验。返回 true 表示有效会话。
+ *
+ * 异步原因：Web Crypto API（crypto.subtle.digest）是异步的，而本模块需要在
+ * Edge Runtime（middleware）中运行，无法使用 node:crypto。
+ *
+ * 在 token 格式/过期时间的预检上保持同步快速失败，只有通过了预检才会真正算 hash。
  */
-export function isValidSessionToken(token: string | undefined): boolean {
+export async function isValidSessionToken(
+  token: string | undefined
+): Promise<boolean> {
   const configured = getPassword();
   if (!configured || !token) return false;
 
@@ -94,5 +124,5 @@ export function isValidSessionToken(token: string | undefined): boolean {
   const expiresAt = Number(expiresPart);
   if (!Number.isFinite(expiresAt) || expiresAt < Date.now()) return false;
 
-  return hashPart === hashPassword(configured);
+  return hashPart === (await hashPassword(configured));
 }

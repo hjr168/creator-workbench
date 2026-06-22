@@ -12,5 +12,15 @@ module.exports = {
         PORT: "3000",
       },
     },
+    {
+      name: "creator-workbench-scheduler",
+      cwd: "/opt/creator-workbench",
+      script: "scripts/aihot-scheduler.mjs",
+      instances: 1,
+      exec_mode: "fork",
+      autorestart: true,
+      restart_delay: 60_000,
+      max_memory_restart: "128M",
+    },
   ],
 };

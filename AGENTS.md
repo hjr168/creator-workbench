@@ -40,7 +40,8 @@ CI 流水线执行顺序：`lint → typecheck → build`（见 `.github/workflo
 - `src/lib/topic-radar/` — 选题雷达核心：AIHOT 拉取适配器、HKR 评分算法、选题卡生成、日报生成、存储读写
 - `src/lib/storage/` — 双模式存储层（见下方）
 - `src/lib/aihot.ts` — AIHOT API 客户端（带内存缓存和请求间隔限制）
-- `src/lib/auth/admin-session.ts` — 管理员会话（零依赖，基于 `ADMIN_PASSWORD` + httpOnly cookie；`src/middleware.ts` 在边缘层保护 `/admin`）
+- `scripts/aihot-scheduler.mjs` — PM2 托管的 AIHOT 定时调度器，默认北京时间 09:00 / 18:00 调用受保护任务接口
+- `src/lib/auth/admin-session.ts` — 管理员会话（零依赖，基于 `ADMIN_PASSWORD` + httpOnly cookie；`src/middleware.ts` 在边缘层保护 `/admin`）。**注意**：本模块被 middleware 导入，运行在 Edge Runtime，**不能用 `node:crypto`**（Next.js 16 + Turbopack 下会报 `Native module not found`）。哈希用 Web Crypto API（`crypto.subtle.digest`），相关函数为 async；middleware 调用时需 `await`。
 
 ### Storage: Dual Mode
 
@@ -77,6 +78,7 @@ CI 流水线执行顺序：`lint → typecheck → build`（见 `.github/workflo
 ## Deployment
 
 - `output: "standalone"` 模式，构建后通过 PM2（`ecosystem.config.cjs`）部署到阿里云 ECS
+- PM2 同时管理 Web 进程和单实例 `creator-workbench-scheduler` 调度进程
 - CI：push to main → GitHub Actions → SSH 部署到 `/opt/creator-workbench`
 - 域名：`workbench.huangjiarong.top`
 - Node 22
@@ -97,7 +99,8 @@ CI 流水线执行顺序：`lint → typecheck → build`（见 `.github/workflo
 
 - `DATABASE_URL` — 为空则用本地 JSON，有值则用 Postgres
 - `OPENAI_API_KEY` — 可选，启用 LLM 选题卡生成
-- `TOPIC_RADAR_JOB_SECRET` — 保护 `/api/jobs/fetch-aihot` 端点
+- `TOPIC_RADAR_JOB_SECRET` — 保护 `/api/jobs/fetch-aihot` 端点，也是生产调度器的必需配置
+- `AIHOT_SCHEDULE_TIMES` / `AIHOT_SCHEDULE_TIME_ZONE` — 可选覆盖定时时刻与时区，默认 `09:00,18:00` / `Asia/Shanghai`
 - `AIHOT_BASE_URL` — AIHOT API 地址，有默认值
 - `ADMIN_PASSWORD` — 为空则后台锁定（登录始终失败）；公开部署前必须设置
 - `ADMIN_COOKIE_SECRET` — 可选，混入管理员会话 cookie 的哈希盐，更换它会让所有已登录会话失效
