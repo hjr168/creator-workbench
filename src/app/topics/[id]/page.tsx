@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { findTopicRadarItem } from "@/lib/topic-radar/storage";
 import { SiteSidebar } from "@/app/_components/site-sidebar";
+import { CopyTopicActions } from "./copy-topic-actions";
 
 export const dynamic = "force-dynamic";
 
@@ -28,6 +29,10 @@ export default async function TopicDetailPage({ params }: { params: Promise<{ id
 
           <div className="mb-5 rounded-md border border-[var(--red)] bg-[#fff6f2] p-4 text-sm leading-6 text-[var(--red)]">
             正式写作前请打开原文链接核对事实、发布时间、数据和上下文；本页选题卡是二次分析，不应直接复制上游摘要。
+          </div>
+
+          <div className="mb-5">
+            <CopyTopicActions item={item} />
           </div>
 
           <section className="grid gap-5 xl:grid-cols-[1.1fr_0.9fr]">

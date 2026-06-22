@@ -86,17 +86,34 @@ curl -X POST http://localhost:3000/api/jobs/fetch-aihot \
 
 ## Data
 
-当前 MVP 不依赖外部数据库，运行数据保存在：
+本地开发默认可使用 `src/data/topic-radar.json` 作为 fallback（无需配置 `DATABASE_URL`）。
 
-```text
-src/data/topic-radar.json
-```
+公开线上部署**必须配置 `DATABASE_URL`**，避免 Vercel / Serverless 环境下本地文件写入不稳定或丢失。生产环境（`NODE_ENV=production`）未配置 `DATABASE_URL` 时，后台写操作会被拒绝并抛错。
+
+存储层（`src/lib/storage/json-document-store.ts`）是双模式的：
+
+- **无 `DATABASE_URL`**：读写 `src/data/` 下的本地 JSON 文件（仅本地开发）
+- **有 `DATABASE_URL`**：读写 Postgres `app_json_documents` 表（key/jsonb）
 
 后续迁移数据库可参考：
 
 ```text
 docs/database-schema.sql
 ```
+
+### 部署环境变量
+
+本地开发：
+
+- 可不配置 `DATABASE_URL`，使用 `src/data/topic-radar.json`。
+
+公开线上部署必须配置：
+
+- `DATABASE_URL` — 后台写操作依赖它；缺失会被拒绝
+- `TOPIC_RADAR_JOB_SECRET` — 保护 `/api/jobs/fetch-aihot`，缺失返回 500
+- `ADMIN_PASSWORD` — 保护 `/admin`，缺失则后台锁定
+- `ADMIN_COOKIE_SECRET` — 管理员会话 cookie 哈希盐，更换它会让所有已登录会话失效
+
 
 ## LLM Generation
 

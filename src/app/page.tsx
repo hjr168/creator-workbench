@@ -3,7 +3,9 @@ import Link from "next/link";
 import { HkrScoreDialog } from "@/app/hkr-score-dialog";
 import { MarkdownDailyReport } from "@/app/markdown-daily-report";
 import { SiteSidebar } from "@/app/_components/site-sidebar";
+import { AccountTypeMemory } from "@/app/_components/account-type-memory";
 import { accountTypeOptions, scoreForAccount } from "@/lib/topic-radar/hkr";
+import { formatUpdatedAt, getLatestDataUpdatedAt } from "@/lib/topic-radar/metadata";
 import { getTopicRadarData, getTopicRadarItems } from "@/lib/topic-radar/storage";
 import type { AccountType, TopicRadarItem } from "@/types/topic-radar";
 
@@ -20,6 +22,11 @@ export default async function Home({
     : "AI科普号";
   const data = await getTopicRadarData();
   const items = await getTopicRadarItems();
+  const updatedAt = getLatestDataUpdatedAt(data);
+
+  const strongCount = items.filter((item) => item.score.level === "强烈推荐").length;
+  const hotCount = items.filter((item) => item.score.level === "适合追热点").length;
+
   const sortedItems = [...items]
     .sort((a, b) => scoreForAccount(b.score, account) - scoreForAccount(a.score, account))
     .slice(0, 8);
@@ -27,30 +34,35 @@ export default async function Home({
 
   return (
     <main className="min-h-screen px-5 py-5 text-[var(--foreground)] md:px-8">
+      <AccountTypeMemory currentAccount={account} />
       <div className="mx-auto flex w-full max-w-7xl gap-5">
         <SiteSidebar activeHref="/" />
         <section className="min-w-0 flex-1">
-          <header className="mb-5 flex flex-col gap-4 border-b border-[var(--line)] pb-5">
-            <div>
-              <p className="mb-2 text-sm font-semibold text-[var(--green)]">AI 选题雷达 · MVP</p>
-              <h1 className="max-w-3xl text-3xl font-semibold md:text-4xl">今日可写</h1>
-              <p className="mt-3 max-w-2xl text-sm leading-6 text-[var(--muted)]">
-                从 AIHOT 拉取 AI 热点，去重入库后进行 HKR 评分，并生成公众号选题卡。
-              </p>
-            </div>
+          {/* Hero */}
+          <header className="mb-5 border-b border-[var(--line)] pb-5">
+            <p className="mb-2 text-sm font-semibold text-[var(--green)]">AI 选题雷达 · MVP</p>
+            <h1 className="max-w-3xl text-3xl font-semibold md:text-4xl">今日可写</h1>
+            <p className="mt-3 max-w-2xl text-sm leading-6 text-[var(--muted)]">
+              每天帮你判断：今天 AI 圈什么最值得写、为什么值得写、怎么写。
+            </p>
+            <p className="mt-2 max-w-2xl text-sm leading-6 text-[var(--muted)]">
+              基于公开 AI 热点进行 HKR 评分，按不同账号类型重排，输出标题、角度和文章大纲。
+            </p>
           </header>
 
-          <section className="mb-5 grid gap-3 md:grid-cols-4">
-            <Stat label="入库内容" value={data.sourceItems.length} />
-            <Stat label="选题卡" value={data.topicCards.length} />
-            <Stat label="抓取日志" value={data.fetchLogs.length} />
-            <Stat label="日报" value={data.dailyReports.length} />
+          {/* 信息条 */}
+          <section className="mb-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            <Stat label="数据更新时间" value={formatUpdatedAt(updatedAt)} />
+            <Stat label="当前选题池" value={`${items.length} 条`} />
+            <Stat label="强烈推荐" value={`${strongCount} 条`} />
+            <Stat label="适合追热点" value={`${hotCount} 条`} />
           </section>
 
+          {/* 今日最值得写 */}
           <section className="mb-5 rounded-md border border-[var(--line)] bg-[var(--panel)] p-5">
             <div className="mb-4 flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
               <div>
-                <h2 className="text-lg font-semibold">今日高分选题</h2>
+                <h2 className="text-lg font-semibold">今日最值得写</h2>
                 <p className="text-sm text-[var(--muted)]">按账号类型重新加权排序，帮助判断今天最值得写什么。</p>
               </div>
               <form className="flex items-center gap-2">
@@ -78,22 +90,24 @@ export default async function Home({
                 暂无选题数据。稍后在每日更新后会出现今天的选题。
               </div>
             )}
+
+            <p className="mt-4 rounded-md bg-[#fff6f2] px-3 py-2 text-xs leading-5 text-[var(--red)]">
+              本页内容由系统基于公开来源二次分析生成，正式写作前请回源核对事实、时间和上下文。
+            </p>
           </section>
 
-          {latestReport ? (
-            <MarkdownDailyReport markdown={latestReport.markdown} />
-          ) : null}
+          {latestReport ? <MarkdownDailyReport markdown={latestReport.markdown} /> : null}
         </section>
       </div>
     </main>
   );
 }
 
-function Stat({ label, value }: { label: string; value: number }) {
+function Stat({ label, value }: { label: string; value: string }) {
   return (
     <div className="rounded-md border border-[var(--line)] bg-[var(--panel)] p-4">
       <p className="text-sm text-[var(--muted)]">{label}</p>
-      <p className="mt-2 text-3xl font-semibold text-[var(--green)]">{value}</p>
+      <p className="mt-2 text-xl font-semibold text-[var(--green)] md:text-2xl">{value}</p>
     </div>
   );
 }
