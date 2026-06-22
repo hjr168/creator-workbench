@@ -51,6 +51,7 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.ALIYUN_SSH_PRIVATE_KEY }}
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           TOPIC_RADAR_JOB_SECRET: ${{ secrets.TOPIC_RADAR_JOB_SECRET }}
+          ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
         run: |
           set -euo pipefail
           test -n "$ALIYUN_HOST"
@@ -58,6 +59,8 @@ jobs:
           test -n "$SSH_PRIVATE_KEY"
           test -n "$DATABASE_URL"
           test -n "$TOPIC_RADAR_JOB_SECRET"
+          # 公开部署必须设置管理员密码，否则 /admin 处于锁定状态
+          test -n "$ADMIN_PASSWORD"
 
       - name: Configure SSH
         env:
@@ -101,6 +104,8 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           TOPIC_RADAR_LLM_MODEL: ${{ secrets.TOPIC_RADAR_LLM_MODEL }}
           TOPIC_RADAR_JOB_SECRET: ${{ secrets.TOPIC_RADAR_JOB_SECRET }}
+          ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
+          ADMIN_COOKIE_SECRET: ${{ secrets.ADMIN_COOKIE_SECRET }}
         run: |
           set -euo pipefail
           env_file="$(mktemp)"
@@ -113,6 +118,8 @@ jobs:
             printf 'OPENAI_API_KEY=%q\n' "${OPENAI_API_KEY:-}"
             printf 'TOPIC_RADAR_LLM_MODEL=%q\n' "${TOPIC_RADAR_LLM_MODEL:-gpt-4o-mini}"
             printf 'TOPIC_RADAR_JOB_SECRET=%q\n' "${TOPIC_RADAR_JOB_SECRET:-}"
+            printf 'ADMIN_PASSWORD=%q\n' "$ADMIN_PASSWORD"
+            printf 'ADMIN_COOKIE_SECRET=%q\n' "${ADMIN_COOKIE_SECRET:-}"
             printf 'AIHOT_SCHEDULE_TIMES=%q\n' '09:00,18:00'
             printf 'AIHOT_SCHEDULE_TIME_ZONE=%q\n' 'Asia/Shanghai'
             printf 'AIHOT_JOB_URL=%q\n' 'http://127.0.0.1:3000/api/jobs/fetch-aihot'
