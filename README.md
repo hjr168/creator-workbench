@@ -11,7 +11,9 @@ MVP: Next.js App Router + TypeScript + Tailwind CSS + 本地 JSON 持久化。
 - `/` 今日高分选题，支持按账号类型重排。
 - `/topics` 选题列表，支持账号类型和推荐级别筛选。
 - `/topics/[id]` 完整选题卡，包含原文链接、来源、发布时间和事实核对提示。
-- `/admin` 受密码保护的管理后台（手动拉取 AIHOT、查看拉取日志、重新评分、生成 Markdown 日报），入口 `/admin-login`，不在普通用户导航中暴露。
+- `/hkr` HKR 评分方法说明页。
+- `/admin-login` 管理后台登录入口（普通用户导航中不暴露）。
+- `/admin` 受密码保护的管理后台（手动拉取 AIHOT、查看拉取日志、重新评分、生成 Markdown 日报），未登录访问会跳转到 `/admin-login`。
 
 ## Development
 
