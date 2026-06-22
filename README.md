@@ -11,7 +11,7 @@ MVP: Next.js App Router + TypeScript + Tailwind CSS + 本地 JSON 持久化。
 - `/` 今日高分选题，支持按账号类型重排。
 - `/topics` 选题列表，支持账号类型和推荐级别筛选。
 - `/topics/[id]` 完整选题卡，包含原文链接、来源、发布时间和事实核对提示。
-- `/admin` 手动拉取 AIHOT、查看拉取日志、重新评分、生成 Markdown 日报。
+- `/admin` 受密码保护的管理后台（手动拉取 AIHOT、查看拉取日志、重新评分、生成 Markdown 日报），入口 `/admin-login`，不在普通用户导航中暴露。
 
 ## Development
 
@@ -22,6 +22,41 @@ npm run dev
 ```
 
 Open `http://localhost:3000`.
+
+## Miniapp MVP
+
+The WeChat mini program lives in `miniapp/`. It is a read-only mobile MVP for:
+
+- 今日可写
+- 选题库
+- 选题详情
+- 选题日报
+
+Run the Next backend first, then build the miniapp:
+
+```bash
+npm run dev
+npm run miniapp:install
+npm run miniapp:dev
+```
+
+Open `miniapp/` in WeChat DevTools. The default API base is `http://127.0.0.1:3000`; override it with `TARO_APP_API_BASE` when building for another backend.
+
+Miniapp API endpoints:
+
+- `GET /api/miniapp/topics?account=&level=&limit=`
+- `GET /api/miniapp/topics/:id?account=`
+- `GET /api/miniapp/daily-report/latest`
+
+## Admin Access
+
+The `/admin` panel is password-protected and hidden from regular users.
+
+1. Set `ADMIN_PASSWORD` (and optionally `ADMIN_COOKIE_SECRET`) in `.env.local`.
+2. Visit `/admin-login` and sign in.
+3. Unauthenticated visits to `/admin` are redirected to `/admin-login`.
+
+Without `ADMIN_PASSWORD`, the admin panel is effectively locked (login always fails). Configure it before exposing the app publicly.
 
 ## AIHOT Fetch
 
