@@ -70,9 +70,14 @@ Without `ADMIN_PASSWORD`, the admin panel is effectively locked (login always fa
 - `since`: ISO-8601 时间窗口
 - `limit`: 拉取数量
 
-也可以通过接口触发：
+也可以通过接口触发。该接口**强制校验** `TOPIC_RADAR_JOB_SECRET`：
+
+- 未配置 `TOPIC_RADAR_JOB_SECRET` 时接口返回 `500`，拒绝执行（避免公网裸奔）。
+- 请求头 `x-job-secret` 不匹配时返回 `401`。
+- 本地开发如需调用，也必须在 `.env.local` 配置 `TOPIC_RADAR_JOB_SECRET`。
 
 ```bash
+# 必须带 x-job-secret，且值与 TOPIC_RADAR_JOB_SECRET 一致，否则 401
 curl -X POST http://localhost:3000/api/jobs/fetch-aihot \
   -H 'content-type: application/json' \
   -H 'x-job-secret: <TOPIC_RADAR_JOB_SECRET>' \
